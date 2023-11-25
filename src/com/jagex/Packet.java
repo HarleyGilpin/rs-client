@@ -36,23 +36,27 @@ public class Packet extends Buffer
 		anInt9398++;
 	}
 	
-	final int method2256(byte b, int i) {
+	final int readBits(int numBits) {
 		anInt9388++;
-		int i_0_ = anInt9400 >> 3;
-		int i_1_ = 8 + -(anInt9400 & 0x7);
-		int i_2_ = 0;
-		anInt9400 += i;
-		int i_3_ = -33 / ((b - -66) / 57);
-		for (/**/; i_1_ < i; i_1_ = 8) {
-			i_2_ += (CacheNode_Sub17.anIntArray8846[i_1_] & aByteArray7019[i_0_++]) << -i_1_ + i;
-			i -= i_1_;
+		int bytePos = anInt9400 >> 3;
+		int bitOffset = 8 - (anInt9400 & 7);
+		int result = 0;
+		anInt9400 += numBits;
+
+		// Loop to handle the case where the bits being read span more than one byte.
+		for (/**/; bitOffset < numBits; bitOffset = 8) {
+			result += (CacheNode_Sub17.anIntArray8846[bitOffset] & aByteArray7019[bytePos++]) << -bitOffset + numBits;
+			numBits -= bitOffset;
 		}
-		if (i != i_1_) {
-			i_2_ += aByteArray7019[i_0_] >> i_1_ + -i & CacheNode_Sub17.anIntArray8846[i];
+
+		//Handle the remaining bits
+		if (numBits != bitOffset) {
+			result += aByteArray7019[bytePos] >> bitOffset + -numBits & CacheNode_Sub17.anIntArray8846[numBits];
 		} else {
-			i_2_ += aByteArray7019[i_0_] & CacheNode_Sub17.anIntArray8846[i_1_];
+			result += aByteArray7019[bytePos] & CacheNode_Sub17.anIntArray8846[bitOffset];
 		}
-		return i_2_;
+
+		return result;
 	}
 	
 	Packet(int i) {
@@ -101,7 +105,7 @@ public class Packet extends Buffer
 		}
 	}
 	
-	final void method2261(int i) {
+	final void initBitAccess(int i) {
 		anInt9400 = 8 * anInt7002;
 		if (i != 107347906) {
 			anInt9386 = 5;
