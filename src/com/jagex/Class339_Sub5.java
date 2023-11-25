@@ -21,14 +21,14 @@ public class Class339_Sub5 extends Class339
 			method3937((byte) 38, -89, -42);
 		}
 		anInt8681++;
-		int i_1_ = packet.method2256((byte) -9, 2);
+		int i_1_ = packet.readBits(2);
 		if ((i_1_ ^ 0xffffffff) == -1) {
-			if ((packet.method2256((byte) -128, 1) ^ 0xffffffff) != -1) {
+			if ((packet.readBits(1) ^ 0xffffffff) != -1) {
 				method3935(i, packet, 28460);
 			}
-			int i_2_ = packet.method2256((byte) -127, 6);
-			int i_3_ = packet.method2256((byte) 81, 6);
-			boolean bool = (packet.method2256((byte) 125, 1) ^ 0xffffffff) == -2;
+			int i_2_ = packet.readBits(6);
+			int i_3_ = packet.readBits(6);
+			boolean bool = (packet.readBits(1) ^ 0xffffffff) == -2;
 			if (bool) {
 				Node_Sub23_Sub1.anIntArray9928[Node_Sub9_Sub4.anInt9733++] = i;
 			}
@@ -62,13 +62,13 @@ public class Class339_Sub5 extends Class339
 			return true;
 		}
 		if ((i_1_ ^ 0xffffffff) == -2) {
-			int i_10_ = packet.method2256((byte) -126, 2);
+			int i_10_ = packet.readBits(2);
 			int i_11_ = Class320_Sub10.aClass323Array8296[i].anInt4077;
 			Class320_Sub10.aClass323Array8296[i].anInt4077 = ((0x3 & (i_11_ >> 28) + i_10_) << 28) + (i_11_ & 0xfffffff);
 			return false;
 		}
 		if (i_1_ == 2) {
-			int i_12_ = packet.method2256((byte) -124, 5);
+			int i_12_ = packet.readBits(5);
 			int i_13_ = i_12_ >> 3;
 			int i_14_ = i_12_ & 0x7;
 			int i_15_ = Class320_Sub10.aClass323Array8296[i].anInt4077;
@@ -106,7 +106,7 @@ public class Class339_Sub5 extends Class339
 			Class320_Sub10.aClass323Array8296[i].anInt4077 = i_18_ + ((i_17_ << 14) + (i_16_ << 28));
 			return false;
 		}
-		int i_19_ = packet.method2256((byte) -127, 18);
+		int i_19_ = packet.readBits(18);
 		int i_20_ = i_19_ >> 16;
 		int i_21_ = i_19_ >> 8 & 0xff;
 		int i_22_ = 0xff & i_19_;

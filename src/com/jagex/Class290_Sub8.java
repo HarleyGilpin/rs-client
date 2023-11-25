@@ -47,14 +47,14 @@ public class Class290_Sub8 extends Class290
 		}
 	}
 	
-	Class290_Sub8(D3DToolkit d3dtoolkit, Class302 class302) {
+	Class290_Sub8(D3DToolkit d3dtoolkit, CacheArchive cacheArchive) {
 		super(d3dtoolkit);
 		aD3DToolkit8147 = d3dtoolkit;
-		if (null != class302 && (0xffff & aD3DToolkit8147.aD3DCAPS9188.VertexShaderVersion) >= 257) {
-			anIDirect3DVertexShader8142 = aD3DToolkit8147.anIDirect3DDevice9199.b(class302.method3529("dx", "uw_ground_unlit", 1));
-			anIDirect3DVertexShader8143 = aD3DToolkit8147.anIDirect3DDevice9199.b(class302.method3529("dx", "uw_ground_lit", 1));
-			anIDirect3DVertexShader8146 = aD3DToolkit8147.anIDirect3DDevice9199.b(class302.method3529("dx", "uw_model_unlit", 1));
-			anIDirect3DVertexShader8137 = aD3DToolkit8147.anIDirect3DDevice9199.b(class302.method3529("dx", "uw_model_lit", 1));
+		if (null != cacheArchive && (0xffff & aD3DToolkit8147.aD3DCAPS9188.VertexShaderVersion) >= 257) {
+			anIDirect3DVertexShader8142 = aD3DToolkit8147.anIDirect3DDevice9199.b(cacheArchive.method3529("dx", "uw_ground_unlit", 1));
+			anIDirect3DVertexShader8143 = aD3DToolkit8147.anIDirect3DDevice9199.b(cacheArchive.method3529("dx", "uw_ground_lit", 1));
+			anIDirect3DVertexShader8146 = aD3DToolkit8147.anIDirect3DDevice9199.b(cacheArchive.method3529("dx", "uw_model_unlit", 1));
+			anIDirect3DVertexShader8137 = aD3DToolkit8147.anIDirect3DDevice9199.b(cacheArchive.method3529("dx", "uw_model_lit", 1));
 			if (!(anIDirect3DVertexShader8137 != null & (anIDirect3DVertexShader8146 != null & (anIDirect3DVertexShader8143 != null & anIDirect3DVertexShader8142 != null)))) {
 				aBoolean8141 = false;
 			} else {

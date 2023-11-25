@@ -38,10 +38,10 @@ public class Node_Sub30 extends Node
 		int i = 0;
 		for (int i_4_ = 0; i_4_ < Class291.anIntArray3665.length; i_4_++) {
 			int i_5_ = Class291.anIntArray3665[i_4_];
-			if (Class294.aClass302_3690.method3510(i_5_, (byte) 63)) {
+			if (Class294.aCacheArchive_3690.method3510(i_5_, (byte) 63)) {
 				i++;
 			}
-			if (Class188_Sub1.aClass302_6849.method3510(i_5_, (byte) 63)) {
+			if (Class188_Sub1.aCacheArchive_6849.method3510(i_5_, (byte) 63)) {
 				i++;
 			}
 		}

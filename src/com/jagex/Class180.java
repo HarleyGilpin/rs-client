@@ -9,7 +9,7 @@ public class Class180
 	static int anInt2137;
 	static int anInt2138;
 	private Class61 aClass61_2139 = new Class61(256);
-	private Class302 aClass302_2140;
+	private CacheArchive aCacheArchive_2140;
 	static int anInt2141;
 	static int anInt2142;
 	static Class377_Sub1[] aClass377_Sub1Array2143 = new Class377_Sub1[0];
@@ -52,8 +52,8 @@ public class Class180
 			return cachenode_sub1;
 		}
 		byte[] bs;
-		synchronized (aClass302_2140) {
-			bs = aClass302_2140.method3524(false, i_6_, 26);
+		synchronized (aCacheArchive_2140) {
+			bs = aCacheArchive_2140.method3524(false, i_6_, 26);
 			int i_7_ = 105 / ((i - -65) / 43);
 		}
 		cachenode_sub1 = new CacheNode_Sub1();
@@ -83,8 +83,8 @@ public class Class180
 		anInt2137++;
 	}
 	
-	Class180(Class353 class353, int i, Class302 class302) {
-		aClass302_2140 = class302;
-		aClass302_2140.method3537(-2, 26);
+	Class180(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_2140 = cacheArchive;
+		aCacheArchive_2140.method3537(-2, 26);
 	}
 }

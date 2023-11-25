@@ -5,7 +5,7 @@ public class Class205 implements Interface7
 	static int anInt5101;
 	protected boolean aBoolean5102;
 	protected int anInt5103;
-	static Class302 aClass302_5104;
+	static CacheArchive aCacheArchive_5104;
 	protected int anInt5105;
 	protected Class77 aClass77_5106;
 	protected int anInt5107;
@@ -19,7 +19,7 @@ public class Class205 implements Interface7
 	static int anInt5115;
 	
 	public static void method2032(byte b) {
-		aClass302_5104 = null;
+		aCacheArchive_5104 = null;
 		if (b <= 31) {
 			method2032((byte) -86);
 		}

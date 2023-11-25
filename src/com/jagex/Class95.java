@@ -17,9 +17,9 @@ public class Class95
 		if (Class61.anInt898 != -1 && Node_Sub38_Sub7.anInt10153 != -1) {
 			int i_0_ = 127 % ((i - -58) / 50);
 			if (Class61.anInt898 == 1 || Class61.anInt898 == 3 || (Class61.anInt898 ^ 0xffffffff) != (Node_Sub38_Sub7.anInt10153 ^ 0xffffffff) && (Class61.anInt898 == 0 || (Node_Sub38_Sub7.anInt10153 ^ 0xffffffff) == -1)) {
-				Node_Sub25_Sub3.anInt9987 = 0;
+				Node_Sub25_Sub3.NPC_UPDATE_INDEX = 0;
 				Node_Sub32.anInt7380 = 0;
-				Class12.aHashTable187.method1517(false);
+				Class12.NPC_MAP.method1517(false);
 			}
 			Node_Sub38_Sub7.anInt10153 = Class61.anInt898;
 		}

@@ -10,7 +10,7 @@ public class Class54
 	static Image anImage813;
 	protected int[] anIntArray814;
 	protected short aShort815;
-	static int[] anIntArray816 = new int[1024];
+	static int[] NPC_UPDATE_INDICES = new int[1024];
 	static boolean aBoolean817 = false;
 	protected short aShort818;
 	protected short aShort819;
@@ -22,10 +22,10 @@ public class Class54
 	
 	public static void method557(boolean bool) {
 		anImage813 = null;
-		anIntArray816 = null;
+		NPC_UPDATE_INDICES = null;
 		aClass56_823 = null;
 		if (bool != true) {
-			anIntArray816 = null;
+			NPC_UPDATE_INDICES = null;
 		}
 	}
 	

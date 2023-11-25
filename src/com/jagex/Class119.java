@@ -190,11 +190,11 @@ public class Class119
 			method1223(-82, null);
 		}
 		try {
-			Class302 class302 = Class188_Sub2_Sub2.aClass302_9361;
-			boolean bool = class302.method3536(i ^ 0xffffffff, anInt1501);
+			CacheArchive cacheArchive = Class188_Sub2_Sub2.aCacheArchive_9361;
+			boolean bool = cacheArchive.method3536(i ^ 0xffffffff, anInt1501);
 			if (bool) {
 				graphicstoolkit.ZA(16777215, 0.0F, 0.0F, 1.0F, 0.0F, 0.0F);
-				Model model = Renderer.method3448(anInt1501, i + 7, 0, Class188_Sub2_Sub2.aClass302_9361);
+				Model model = Renderer.method3448(anInt1501, i + 7, 0, Class188_Sub2_Sub2.aCacheArchive_9361);
 				aDrawableModel1504 = graphicstoolkit.a(model, 1099776, 0, 255, 1);
 				byte[] bs = aDrawableModel1504.method627();
 				if (bs != null) {

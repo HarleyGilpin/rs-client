@@ -37,7 +37,7 @@ public class Node_Sub25_Sub3 extends Node_Sub25
 	static int anInt9984;
 	static int anInt9985;
 	private Frame aFrame9986;
-	static int anInt9987 = 0;
+	static int NPC_UPDATE_INDEX = 0;
 	static int anInt9988;
 	private GranulePos aGranulePos9989;
 	static Widget aWidget9990 = null;
@@ -246,7 +246,7 @@ public class Node_Sub25_Sub3 extends Node_Sub25
 	
 	final long method2675(int i) {
 		if (i != -3744) {
-			anInt9987 = -126;
+			NPC_UPDATE_INDEX = -126;
 		}
 		anInt9984++;
 		return aLong9973;

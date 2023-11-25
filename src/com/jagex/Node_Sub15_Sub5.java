@@ -4,7 +4,7 @@ public class Node_Sub15_Sub5 extends Node_Sub15
 {
 	private int anInt9803 = -1;
 	static int anInt9804;
-	static Class302 aClass302_9805;
+	static CacheArchive aCacheArchive_9805;
 	static int anInt9806;
 	static int anInt9807;
 	static int anInt9808;
@@ -29,7 +29,7 @@ public class Node_Sub15_Sub5 extends Node_Sub15
 	
 	final void method2554(int i, Buffer buffer) {
 		if (i != 29147) {
-			aClass302_9805 = null;
+			aCacheArchive_9805 = null;
 		}
 		anInt9803 = buffer.method2219(-130546744);
 		anInt9804++;
@@ -43,12 +43,12 @@ public class Node_Sub15_Sub5 extends Node_Sub15
 		for (Node_Sub19 node_sub19 = (Node_Sub19) Class262_Sub8.aClass312_7755.method3613(b + 65263); node_sub19 != null; node_sub19 = (Node_Sub19) Class262_Sub8.aClass312_7755.method3620(16776960))
 			Class287.method3401(node_sub19, true, -1);
 		if (b != 17) {
-			aClass302_9805 = null;
+			aCacheArchive_9805 = null;
 		}
 	}
 	
 	public static void method2570(int i) {
-		aClass302_9805 = null;
+		aCacheArchive_9805 = null;
 		if (i >= -24) {
 			anInt9806 = 108;
 		}

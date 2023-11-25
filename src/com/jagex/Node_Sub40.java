@@ -107,7 +107,7 @@ public class Node_Sub40 extends Node
 		anInt7509++;
 		if (Class56.aHashTable839.method1518(3512, (long) i_24_) == null) {
 			if (Class235_Sub1.aBoolean8975) {
-				Node_Sub3 node_sub3 = new Node_Sub3(i_24_, new Class189_Sub1(4096, Node_Sub38_Sub38.aClass302_10484, i_24_), i_25_, bool);
+				Node_Sub3 node_sub3 = new Node_Sub3(i_24_, new Class189_Sub1(4096, Node_Sub38_Sub38.aCacheArchive_10484, i_24_), i_25_, bool);
 				node_sub3.aClass189_Sub1_6943.method1926(16, "");
 				Class56.aHashTable839.method1515((long) i_24_, node_sub3, -127);
 			} else {

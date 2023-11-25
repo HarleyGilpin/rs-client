@@ -290,7 +290,7 @@ public class Player extends Actor
 				Class223 class223 = Class320_Sub24.aClass223Array8438[i_33_];
 				if (class223 != null && (class223.anInt2666 ^ 0xffffffff) != 0) {
 					if (class223.anInt2654 == 1) {
-						Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) class223.anInt2658);
+						Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) class223.anInt2658);
 						if (node_sub41 != null) {
 							Npc npc = node_sub41.aNpc7518;
 							int i_34_ = -Class295.aPlayer3692.anInt5934 + npc.anInt5934;

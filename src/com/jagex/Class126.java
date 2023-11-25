@@ -533,8 +533,8 @@ public class Class126
 					return;
 				}
 				if (string.equalsIgnoreCase("resetminimap")) {
-					Node_Sub38_Sub39.aClass302_10500.method3523((byte) -46);
-					Node_Sub38_Sub39.aClass302_10500.method3521((byte) -18);
+					Node_Sub38_Sub39.aCacheArchive_10500.method3523((byte) -46);
+					Node_Sub38_Sub39.aCacheArchive_10500.method3521((byte) -18);
 					Node_Sub54.aClass338_7671.method3908(-32478);
 					Class304.aClass215_3834.method2071(7);
 					Node_Sub18.method2606(126);

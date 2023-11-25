@@ -8,7 +8,7 @@ public class Class229
 	static boolean aBoolean2725;
 	private Class61 aClass61_2726 = new Class61(64);
 	static int anInt2727;
-	private Class302 aClass302_2728;
+	private CacheArchive aCacheArchive_2728;
 	static int anInt2729;
 	static Class329 aClass329_2730 = new Class329("WTWIP", "office", "_wip", 3);
 	static Class318 aClass318_2731 = new Class318(41, -1);
@@ -35,8 +35,8 @@ public class Class229
 			return class293;
 		}
 		byte[] bs;
-		synchronized (aClass302_2728) {
-			bs = aClass302_2728.method3524(false, i_0_, i);
+		synchronized (aCacheArchive_2728) {
+			bs = aCacheArchive_2728.method3524(false, i_0_, i);
 		}
 		class293 = new Class293();
 		if (bs != null) {
@@ -77,12 +77,12 @@ public class Class229
 		}
 	}
 	
-	Class229(Class353 class353, int i, Class302 class302) {
-		aClass302_2728 = class302;
-		if (aClass302_2728 == null) {
+	Class229(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_2728 = cacheArchive;
+		if (aCacheArchive_2728 == null) {
 			anInt2723 = 0;
 		} else {
-			anInt2723 = aClass302_2728.method3537(-2, 16);
+			anInt2723 = aCacheArchive_2728.method3537(-2, 16);
 		}
 	}
 }

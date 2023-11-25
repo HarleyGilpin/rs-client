@@ -69,12 +69,12 @@ public class Class290_Sub1 extends Class290
 		anAbstractToolkit3654.method1304(0, 0, Class200_Sub1.aClass135_5139);
 	}
 	
-	Class290_Sub1(GLXToolkit glxtoolkit, Class302 class302, Class5 class5) {
+	Class290_Sub1(GLXToolkit glxtoolkit, CacheArchive cacheArchive, Class5 class5) {
 		super(glxtoolkit);
 		aGLXToolkit8058 = glxtoolkit;
 		aClass5_8057 = class5;
-		if (class302 != null && aClass5_8057.method173(4) && aGLXToolkit8058.aBoolean9326) {
-			aClass106_8063 = Class157.method1709(aGLXToolkit8058, 34336, -99, class302.method3529("gl", "transparent_water", 1));
+		if (cacheArchive != null && aClass5_8057.method173(4) && aGLXToolkit8058.aBoolean9326) {
+			aClass106_8063 = Class157.method1709(aGLXToolkit8058, 34336, -99, cacheArchive.method3529("gl", "transparent_water", 1));
 		} else {
 			aClass106_8063 = null;
 		}

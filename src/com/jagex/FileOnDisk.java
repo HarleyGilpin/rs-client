@@ -11,7 +11,7 @@ public class FileOnDisk
 	static boolean aBoolean1319;
 	static int anInt1320;
 	static int anInt1321;
-	static int[] anIntArray1322 = new int[1000];
+	static int[] removedNPCIndices = new int[1000];
 	static int anInt1323;
 	static int anInt1324;
 	private RandomAccessFile aRandomAccessFile1325;
@@ -43,7 +43,7 @@ public class FileOnDisk
 		aByteArrayArray1331 = null;
 		aBooleanArray1332 = null;
 		anIntArray1329 = null;
-		anIntArray1322 = null;
+		removedNPCIndices = null;
 	}
 	
 	final void method1100(boolean bool, long l) throws IOException {

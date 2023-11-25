@@ -29,7 +29,7 @@ abstract class Class201
 					Buffer buffer = new Buffer(Class194.aByteArrayArray2373[i_1_]);
 					int i_4_ = 0;
 					while (Class194.aByteArrayArray2373[i_1_].length > buffer.anInt7002) {
-						if (i_4_ >= 511 || (Node_Sub25_Sub3.anInt9987 ^ 0xffffffff) <= -1024) {
+						if (i_4_ >= 511 || (Node_Sub25_Sub3.NPC_UPDATE_INDEX ^ 0xffffffff) <= -1024) {
 							break;
 						}
 						int i_5_ = i_2_ | i_4_++ << 6;
@@ -40,15 +40,15 @@ abstract class Class201
 						int i_10_ = i_8_ + -Node_Sub53.anInt7668 + (Class262_Sub1.anIntArray7704[i_1_] >> 8) * 64;
 						int i_11_ = 64 * (Class262_Sub1.anIntArray7704[i_1_] & 0xff) + -Class320_Sub4.anInt8243 - -i_9_;
 						NpcDefinition npcdefinition = Class366.aClass279_4526.method3376(buffer.method2219(-130546744), (byte) 107);
-						Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) i_5_);
+						Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) i_5_);
 						if (node_sub41 == null && (0x1 & npcdefinition.aByte2816) > 0 && i_7_ == Class94.anInt1249 && i_10_ >= 0 && (npcdefinition.anInt2811 + i_10_ ^ 0xffffffff) > (Node_Sub54.anInt7675 ^ 0xffffffff) && i_11_ >= 0 && (i_11_ + npcdefinition.anInt2811 ^ 0xffffffff) > (Class377_Sub1.anInt8774 ^ 0xffffffff)) {
 							Npc npc = new Npc();
 							npc.anInt10858 = i_5_;
 							Node_Sub41 node_sub41_12_ = new Node_Sub41(npc);
-							Class12.aHashTable187.method1515((long) i_5_, node_sub41_12_, -127);
+							Class12.NPC_MAP.method1515((long) i_5_, node_sub41_12_, -127);
 							Class314.aNode_Sub41Array4017[Node_Sub32.anInt7380++] = node_sub41_12_;
-							Class54.anIntArray816[Node_Sub25_Sub3.anInt9987++] = i_5_;
-							npc.anInt10880 = Class174.anInt2092;
+							Class54.NPC_UPDATE_INDICES[Node_Sub25_Sub3.NPC_UPDATE_INDEX++] = i_5_;
+							npc.lastUpdate = Class174.anInt2092;
 							npc.method879(npcdefinition, true);
 							npc.method861(-1000, npc.aNpcDefinition11122.anInt2811);
 							npc.anInt10890 = npc.aNpcDefinition11122.anInt2876 << 3;
@@ -83,8 +83,8 @@ abstract class Class201
 				if (Class88.aGraphicsToolkit5280 == null) {
 					java.awt.Canvas canvas = new java.awt.Canvas();
 					canvas.setSize(36, 32);
-					Class88.aGraphicsToolkit5280 = Class262_Sub9.method3171(Class262_Sub2.aClass302_7707, (byte) 96, Class38.aD565, 0, canvas, 0);
-					Class337.aClass52_4181 = Class88.aGraphicsToolkit5280.a(Class44.method461(0, 124, Node_Sub50.anInt7625, AnimableAnimator_Sub1.aClass302_9091), Class383.method4187(Node_Sub38_Sub39.aClass302_10500, Node_Sub50.anInt7625, 0), true);
+					Class88.aGraphicsToolkit5280 = Class262_Sub9.method3171(Class262_Sub2.aCacheArchive_7707, (byte) 96, Class38.aD565, 0, canvas, 0);
+					Class337.aClass52_4181 = Class88.aGraphicsToolkit5280.a(Class44.method461(0, 124, Node_Sub50.anInt7625, AnimableAnimator_Sub1.aCacheArchive_9091), Class383.method4187(Node_Sub38_Sub39.aCacheArchive_10500, Node_Sub50.anInt7625, 0), true);
 				}
 				for (Node_Sub30 node_sub30 = (Node_Sub30) Class69.aClass312_940.method3613(65280); node_sub30 != null; node_sub30 = (Node_Sub30) Class69.aClass312_940.method3620(i + 16799840)) {
 					EntityNode_Sub3_Sub1.aClass86_9166.method1002(node_sub30.anInt7358, Class88.aGraphicsToolkit5280, graphicstoolkit, !node_sub30.aBoolean7355 ? null : Class295.aPlayer3692.aPlayerDefinition11137, false, node_sub30.anInt7356, node_sub30.anInt7352, false, node_sub30.anInt7354, Class337.aClass52_4181, node_sub30.anInt7361, i ^ 0x6655);

@@ -7,7 +7,7 @@ public class Class186
 	static int anInt2248;
 	static Class239 aClass239_2249;
 	static int anInt2250;
-	private Class302 aClass302_2251;
+	private CacheArchive aCacheArchive_2251;
 	static int anInt2252;
 	static int anInt2253;
 	static int anInt2254;
@@ -16,7 +16,7 @@ public class Class186
 	static Widget aWidget2257 = null;
 	protected Class61 aClass61_2258 = new Class61(20);
 	static boolean aBoolean2259 = false;
-	protected Class302 aClass302_2260;
+	protected CacheArchive aCacheArchive_2260;
 	static int anInt2261;
 	private Class61 aClass61_2262 = new Class61(64);
 	
@@ -67,7 +67,7 @@ public class Class186
 	final void method1872(int i) {
 		synchronized (aClass61_2262) {
 			if (i != 512) {
-				aClass302_2251 = null;
+				aCacheArchive_2251 = null;
 			}
 			aClass61_2262.method602((byte) -119);
 		}
@@ -83,7 +83,7 @@ public class Class186
 			aClass61_2262.method598(i_5_, -11819);
 		}
 		if (i >= -68) {
-			aClass302_2251 = null;
+			aCacheArchive_2251 = null;
 		}
 		synchronized (aClass61_2258) {
 			aClass61_2258.method598(i_5_, -11819);
@@ -109,8 +109,8 @@ public class Class186
 			return class255;
 		}
 		byte[] bs;
-		synchronized (aClass302_2251) {
-			bs = aClass302_2251.method3524(false, i, 46);
+		synchronized (aCacheArchive_2251) {
+			bs = aCacheArchive_2251.method3524(false, i, 46);
 		}
 		class255 = new Class255();
 		class255.aClass186_3217 = this;
@@ -126,10 +126,10 @@ public class Class186
 		return class255;
 	}
 	
-	Class186(Class353 class353, int i, Class302 class302, Class302 class302_7_) {
-		aClass302_2251 = class302;
-		aClass302_2260 = class302_7_;
-		aClass302_2251.method3537(-2, 46);
+	Class186(Class353 class353, int i, CacheArchive cacheArchive, CacheArchive cacheArchive_7_) {
+		aCacheArchive_2251 = cacheArchive;
+		aCacheArchive_2260 = cacheArchive_7_;
+		aCacheArchive_2251.method3537(-2, 46);
 	}
 	
 	static {

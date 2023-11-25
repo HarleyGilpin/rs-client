@@ -276,44 +276,44 @@ public class Class91
 	
 	static final void method1035(int i) {
 		anInt1219++;
-		Packet packet = Class218.worldResponseBuffer.aPacket1570;
+		Packet packet = Class218.worldResponseBuffer.recievedBuffer;
 		while ((packet.method2264(Class218.worldResponseBuffer.anInt1581, -92) ^ 0xffffffff) <= -16) {
-			int i_51_ = packet.method2256((byte) -124, 15);
+			int i_51_ = packet.readBits(15);
 			if ((i_51_ ^ 0xffffffff) == -32768) {
 				break;
 			}
 			boolean bool = false;
-			Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) i_51_);
+			Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) i_51_);
 			if (node_sub41 == null) {
 				Npc npc = new Npc();
 				npc.anInt10858 = i_51_;
 				node_sub41 = new Node_Sub41(npc);
-				Class12.aHashTable187.method1515((long) i_51_, node_sub41, -123);
+				Class12.NPC_MAP.method1515((long) i_51_, node_sub41, -123);
 				Class314.aNode_Sub41Array4017[Node_Sub32.anInt7380++] = node_sub41;
 				bool = true;
 			}
 			Npc npc = node_sub41.aNpc7518;
-			Class54.anIntArray816[Node_Sub25_Sub3.anInt9987++] = i_51_;
-			npc.anInt10880 = Plane.anInt3423;
+			Class54.NPC_UPDATE_INDICES[Node_Sub25_Sub3.NPC_UPDATE_INDEX++] = i_51_;
+			npc.lastUpdate = Plane.anInt3423;
 			if (npc.aNpcDefinition11122 != null && npc.aNpcDefinition11122.method2998((byte) 91)) {
 				Node_Sub38_Sub4.method2799(i + -107, npc);
 			}
-			int i_52_ = 0x3a6e & 4 + packet.method2256((byte) -125, 3) << 11;
-			int i_53_ = packet.method2256((byte) -126, 1);
+			int i_52_ = 0x3a6e & 4 + packet.readBits(3) << 11;
+			int i_53_ = packet.readBits(1);
 			if (i_53_ == 1) {
 				Class194_Sub1_Sub1.anIntArray9370[Node_Sub38_Sub6.anInt10132++] = i_51_;
 			}
-			int i_54_ = packet.method2256((byte) -6, 5);
+			int i_54_ = packet.readBits(5);
 			if ((i_54_ ^ 0xffffffff) < -16) {
 				i_54_ -= 32;
 			}
-			int i_55_ = packet.method2256((byte) -125, 2);
-			npc.method879(Class366.aClass279_4526.method3376(packet.method2256((byte) 28, 15), (byte) 107), true);
-			int i_56_ = packet.method2256((byte) -125, 5);
+			int i_55_ = packet.readBits(2);
+			npc.method879(Class366.aClass279_4526.method3376(packet.readBits(15), (byte) 107), true);
+			int i_56_ = packet.readBits(5);
 			if (i_56_ > 15) {
 				i_56_ -= 32;
 			}
-			int i_57_ = packet.method2256((byte) 46, 1);
+			int i_57_ = packet.readBits(1);
 			npc.method861(-1000, npc.aNpcDefinition11122.anInt2811);
 			npc.anInt10890 = npc.aNpcDefinition11122.anInt2876 << 3;
 			if (bool) {

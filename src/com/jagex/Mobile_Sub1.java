@@ -166,7 +166,7 @@ public class Mobile_Sub1 extends Mobile
 						}
 					} else {
 						int i = anInt10934 + -1;
-						Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) i);
+						Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) i);
 						if (node_sub41 != null) {
 							actor = node_sub41.aNpc7518;
 						}

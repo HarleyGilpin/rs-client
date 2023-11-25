@@ -11,7 +11,7 @@ public class Class218
 	static Class123 lobbyResponseBuffer = new Class123();
 	protected Class218 aClass218_2561;
 	protected Class336 aClass336_2562;
-	static Class302 aClass302_2563;
+	static CacheArchive aCacheArchive_2563;
 	static int anInt2564;
 	static int anInt2565;
 	static Class123 worldResponseBuffer = new Class123();
@@ -31,19 +31,19 @@ public class Class218
 	public static void method2076(byte b) {
 		int i = 34 / ((22 - b) / 54);
 		aClass123Array2567 = null;
-		aClass302_2563 = null;
+		aCacheArchive_2563 = null;
 		aClass318_2570 = null;
 		aNode_Sub50_2568 = null;
 		lobbyResponseBuffer = null;
 		worldResponseBuffer = null;
 	}
 	
-	static final void method2077(d var_d, Class302 class302, boolean bool) {
+	static final void method2077(d var_d, CacheArchive cacheArchive, boolean bool) {
 		anInt2565++;
 		Class376.aD4661 = var_d;
-		Class188_Sub2_Sub2.aClass302_9361 = class302;
+		Class188_Sub2_Sub2.aCacheArchive_9361 = cacheArchive;
 		if (bool != false) {
-			aClass302_2563 = null;
+			aCacheArchive_2563 = null;
 		}
 	}
 	

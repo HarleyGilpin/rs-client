@@ -8,7 +8,7 @@ public class Node_Sub38_Sub39 extends Node_Sub38
 	static int anInt10497;
 	private int anInt10498 = 1;
 	static Class192 aClass192_10499 = new Class192(122, 10);
-	static Class302 aClass302_10500;
+	static CacheArchive aCacheArchive_10500;
 	
 	final void method2780(boolean bool, Buffer buffer, int i) {
 		int i_0_ = i;
@@ -39,7 +39,7 @@ public class Node_Sub38_Sub39 extends Node_Sub38
 	
 	public static void method2917(int i) {
 		aClass192_10499 = null;
-		aClass302_10500 = null;
+		aCacheArchive_10500 = null;
 		if (i != 0) {
 			method2917(-110);
 		}

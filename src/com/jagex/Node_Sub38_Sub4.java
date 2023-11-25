@@ -10,7 +10,7 @@ public class Node_Sub38_Sub4 extends Node_Sub38
 	private int anInt10113;
 	private int anInt10114 = 0;
 	static int anInt10115;
-	static Class302 aClass302_10116;
+	static CacheArchive aCacheArchive_10116;
 	static int anInt10117;
 	static int anInt10118 = 1400;
 	
@@ -26,7 +26,7 @@ public class Node_Sub38_Sub4 extends Node_Sub38
 	}
 	
 	public static void method2798(byte b) {
-		aClass302_10116 = null;
+		aCacheArchive_10116 = null;
 		if (b != -113) {
 			anInt10118 = 33;
 		}
@@ -34,7 +34,7 @@ public class Node_Sub38_Sub4 extends Node_Sub38
 	
 	static final void method2799(int i, Npc npc) {
 		if (i >= -83) {
-			aClass302_10116 = null;
+			aCacheArchive_10116 = null;
 		}
 		anInt10111++;
 		for (Node_Sub47 node_sub47 = (Node_Sub47) Class200_Sub2.aClass312_4942.method3613(65280); node_sub47 != null; node_sub47 = (Node_Sub47) Class200_Sub2.aClass312_4942.method3620(16776960)) {

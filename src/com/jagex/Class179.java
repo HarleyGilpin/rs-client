@@ -11,7 +11,7 @@ public class Class179
 	static int anInt2129;
 	protected boolean aBoolean2130 = false;
 	static int anInt2131;
-	static Class302 aClass302_2132;
+	static CacheArchive aCacheArchive_2132;
 	
 	final void method1813(int i, EntityNode_Sub6 entitynode_sub6) {
 		anInt2128++;
@@ -44,7 +44,7 @@ public class Class179
 	}
 	
 	public static void method1814(int i) {
-		aClass302_2132 = null;
+		aCacheArchive_2132 = null;
 		if (i != 14398) {
 			aString2123 = null;
 		}

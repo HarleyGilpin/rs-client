@@ -101,7 +101,7 @@ public class Node_Sub9_Sub4 extends Node_Sub9
 		return node_sub10.aNode_Sub9_Sub2_7095;
 	}
 	
-	static final GLSprite method2523(byte b, int i, Class302 class302) {
+	static final GLSprite method2523(byte b, int i, CacheArchive cacheArchive) {
 		if (b < 89) {
 			return null;
 		}
@@ -109,9 +109,9 @@ public class Node_Sub9_Sub4 extends Node_Sub9
 		GLSprite glsprite = (GLSprite) Class315.aClass61_4031.method607((long) i, 0);
 		if (glsprite == null) {
 			if (Class320_Sub13.aBoolean8335) {
-				glsprite = Class93.aGraphicsToolkit1241.a(Class383.method4191(class302, i), true);
+				glsprite = Class93.aGraphicsToolkit1241.a(Class383.method4191(cacheArchive, i), true);
 			} else {
-				glsprite = Class97.method1077(-127, class302.method3518((byte) -126, i));
+				glsprite = Class97.method1077(-127, cacheArchive.method3518((byte) -126, i));
 			}
 			Class315.aClass61_4031.method601(glsprite, 25566, (long) i);
 		}

@@ -3,14 +3,14 @@ package com.jagex;
 public class Class109
 {
 	static int anInt1367 = -1;
-	private Class302 aClass302_1368;
+	private CacheArchive aCacheArchive_1368;
 	protected int anInt1369 = 0;
 	private Class61 aClass61_1370;
 	static int anInt1371;
 	static int anInt1372;
 	protected int anInt1373 = 0;
 	static int anInt1374;
-	private Class302 aClass302_1375;
+	private CacheArchive aCacheArchive_1375;
 	private Interface14 anInterface14_1376;
 	
 	final String method1126(Class151 class151, long l, int[] is, int i) {
@@ -58,9 +58,9 @@ public class Class109
 		}
 		byte[] bs;
 		if (i >= 32768) {
-			bs = aClass302_1375.method3524(false, 0x7fff & i, 1);
+			bs = aCacheArchive_1375.method3524(false, 0x7fff & i, 1);
 		} else {
-			bs = aClass302_1368.method3524(false, i, 1);
+			bs = aCacheArchive_1368.method3524(false, i, 1);
 		}
 		cachenode_sub10 = new CacheNode_Sub10();
 		cachenode_sub10.aClass109_9516 = this;
@@ -77,17 +77,17 @@ public class Class109
 		return cachenode_sub10;
 	}
 	
-	Class109(int i, Class302 class302, Class302 class302_0_, Interface14 interface14) {
+	Class109(int i, CacheArchive cacheArchive, CacheArchive cacheArchive_0_, Interface14 interface14) {
 		aClass61_1370 = new Class61(64);
 		anInterface14_1376 = null;
 		anInterface14_1376 = interface14;
-		aClass302_1368 = class302;
-		aClass302_1375 = class302_0_;
-		if (aClass302_1368 != null) {
-			anInt1373 = aClass302_1368.method3537(-2, 1);
+		aCacheArchive_1368 = cacheArchive;
+		aCacheArchive_1375 = cacheArchive_0_;
+		if (aCacheArchive_1368 != null) {
+			anInt1373 = aCacheArchive_1368.method3537(-2, 1);
 		}
-		if (aClass302_1375 != null) {
-			anInt1369 = aClass302_1375.method3537(-2, 1);
+		if (aCacheArchive_1375 != null) {
+			anInt1369 = aCacheArchive_1375.method3537(-2, 1);
 		}
 	}
 }

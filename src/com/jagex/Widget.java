@@ -198,7 +198,7 @@ public class Widget
 		if (glsprite != null) {
 			return glsprite;
 		}
-		Class383 class383 = Class383.method4194(Class262_Sub10.aClass302_7776, anInt4820, 0);
+		Class383 class383 = Class383.method4194(NPCUpdate.npcCacheArchive, anInt4820, 0);
 		if (class383 == null) {
 			Class287.aBoolean3606 = true;
 			return null;
@@ -304,7 +304,7 @@ public class Widget
 							}
 						}
 					} else {
-						Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) (int) cachenode_sub13.aLong9563);
+						Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) (int) cachenode_sub13.aLong9563);
 						if (node_sub41 != null) {
 							Npc npc = node_sub41.aNpc7518;
 							NpcDefinition npcdefinition = npc.aNpcDefinition11122;
@@ -639,7 +639,7 @@ public class Widget
 					Class307.aNode_Sub9_Sub1_3902.method2450((byte) 117);
 					Class10.aClass96_176 = null;
 					Player.aNode_Sub4_11155 = null;
-					if (Class93_Sub2.aClass302_6049 == null) {
+					if (Class93_Sub2.aCacheArchive_6049 == null) {
 						Class52.anInt800 = 0;
 					} else {
 						Class52.anInt800 = 2;
@@ -665,7 +665,7 @@ public class Widget
 				Class61.aNode_Sub9_Sub1_885 = null;
 				Player.aNode_Sub4_11155 = null;
 				Class52.anInt800 = 0;
-				Class93_Sub2.aClass302_6049 = null;
+				Class93_Sub2.aCacheArchive_6049 = null;
 				Class10.aClass96_176 = null;
 				break;
 			}
@@ -686,7 +686,7 @@ public class Widget
 				return class127;
 			}
 		}
-		Class383 class383 = Class383.method4194(Class262_Sub10.aClass302_7776, anInt4820, 0);
+		Class383 class383 = Class383.method4194(NPCUpdate.npcCacheArchive, anInt4820, 0);
 		if (class383 == null) {
 			return null;
 		}
@@ -898,7 +898,7 @@ public class Widget
 				if (drawablemodel != null) {
 					i = graphicstoolkit.c(i, drawablemodel.ua());
 				}
-				Model model = Renderer.method3448(anInt4864, 7, 0, GLXToolkit.aClass302_9274);
+				Model model = Renderer.method3448(anInt4864, 7, 0, GLXToolkit.aCacheArchive_9274);
 				if (model == null) {
 					Class287.aBoolean3606 = true;
 					return null;

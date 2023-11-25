@@ -67,7 +67,7 @@ abstract class Actor extends Mobile
 	protected int anInt10877;
 	protected byte aByte10878;
 	protected int anInt10879;
-	protected int anInt10880;
+	protected int lastUpdate;
 	protected int[] anIntArray10881;
 	protected int anInt10882;
 	protected int anInt10883;
@@ -713,7 +713,7 @@ abstract class Actor extends Mobile
 		anInt10877 = 0;
 		anInt10890 = 256;
 		anInt10882 = -1;
-		anInt10880 = 0;
+		lastUpdate = 0;
 		aByte10888 = (byte) 0;
 		anInt10895 = -1;
 		aClass99_10893 = new Class99();

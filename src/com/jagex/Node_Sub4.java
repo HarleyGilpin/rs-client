@@ -5,8 +5,8 @@ public class Node_Sub4 extends Node
 	protected HashTable aHashTable6950;
 	protected byte[] aByteArray6951;
 	
-	static final Node_Sub4 method2173(Class302 class302, int i, int i_0_) {
-		byte[] bs = class302.method3524(false, i_0_, i);
+	static final Node_Sub4 method2173(CacheArchive cacheArchive, int i, int i_0_) {
+		byte[] bs = cacheArchive.method3524(false, i_0_, i);
 		if (bs == null) {
 			return null;
 		}

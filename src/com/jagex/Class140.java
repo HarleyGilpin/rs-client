@@ -20,10 +20,10 @@ public class Class140
 		if (glsprite != null) {
 			return glsprite;
 		}
-		if (!aClass338_1733.aClass302_4193.method3510(anInt1740, (byte) 63)) {
+		if (!aClass338_1733.aCacheArchive_4193.method3510(anInt1740, (byte) 63)) {
 			return null;
 		}
-		Class383 class383 = Class383.method4194(aClass338_1733.aClass302_4193, anInt1740, i_0_);
+		Class383 class383 = Class383.method4194(aClass338_1733.aCacheArchive_4193, anInt1740, i_0_);
 		if (class383 != null) {
 			class383.anInt4899 = class383.anInt4902 = class383.anInt4901 = class383.anInt4898 = 0;
 			if (bool) {
@@ -44,7 +44,7 @@ public class Class140
 			return true;
 		}
 		anInt1738++;
-		return aClass338_1733.aClass302_4193.method3510(anInt1740, (byte) 63);
+		return aClass338_1733.aCacheArchive_4193.method3510(anInt1740, (byte) 63);
 	}
 	
 	private final void method1608(int i, int i_2_, Buffer buffer) {

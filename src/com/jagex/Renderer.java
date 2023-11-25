@@ -31,9 +31,9 @@ public class Renderer
 		}
 	}
 	
-	static final Model method3448(int i, int i_1_, int i_2_, Class302 class302) {
+	static final Model method3448(int i, int i_1_, int i_2_, CacheArchive cacheArchive) {
 		anInt3659++;
-		byte[] bs = class302.method3524(false, i_2_, i);
+		byte[] bs = cacheArchive.method3524(false, i_2_, i);
 		if (bs == null) {
 			return null;
 		}

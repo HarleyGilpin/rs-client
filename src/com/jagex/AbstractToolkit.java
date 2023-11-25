@@ -105,7 +105,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 	static int anInt6164;
 	static int anInt6165;
 	static int anInt6166;
-	protected Class302 aClass302_6167;
+	protected CacheArchive aCacheArchive_6167;
 	static int anInt6168;
 	static int anInt6169;
 	static int anInt6170;
@@ -2426,7 +2426,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		return new Class52_Sub1(this, class357, class383s, bool);
 	}
 	
-	AbstractToolkit(java.awt.Canvas canvas, Object object, d var_d, Class302 class302, int i, int i_229_) {
+	AbstractToolkit(java.awt.Canvas canvas, Object object, d var_d, CacheArchive cacheArchive, int i, int i_229_) {
 		super(var_d);
 		aBoolean6275 = true;
 		aFloat6272 = -1.0F;
@@ -2496,7 +2496,7 @@ abstract class AbstractToolkit extends GraphicsToolkit
 		aStandardDrawableModelArray6380 = new StandardDrawableModel[7];
 		aClass336_Sub1_6378 = new Class336_Sub1();
 		try {
-			aClass302_6167 = class302;
+			aCacheArchive_6167 = cacheArchive;
 			anObject6117 = anObject6119 = object;
 			anInt6319 = i;
 			aCanvas6236 = aCanvas6251 = canvas;

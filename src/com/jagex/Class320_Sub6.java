@@ -7,7 +7,7 @@ public class Class320_Sub6 extends Class320
 	static int anInt8258;
 	static int anInt8259;
 	static int anInt8260;
-	static Class302 aClass302_8261;
+	static CacheArchive aCacheArchive_8261;
 	static double aDouble8262;
 	static byte[][] aByteArrayArray8263;
 	static int anInt8264;
@@ -138,7 +138,7 @@ public class Class320_Sub6 extends Class320
 	public static void method3704(int i) {
 		int i_17_ = -14 / ((i - 61) / 58);
 		aByteArrayArray8263 = null;
-		aClass302_8261 = null;
+		aCacheArchive_8261 = null;
 		anObject8265 = null;
 		aClass124_8267 = null;
 	}

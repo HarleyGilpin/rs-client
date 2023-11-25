@@ -45,7 +45,7 @@ public class Class339_Sub7 extends Class339
 		int[] is = Class66_Sub1.anIntArray8987;
 		int i_7_;
 		if ((aa.anInt101 ^ 0xffffffff) != -4) {
-			i_7_ = Node_Sub25_Sub3.anInt9987 + i_6_;
+			i_7_ = Node_Sub25_Sub3.NPC_UPDATE_INDEX + i_6_;
 		} else {
 			i_7_ = Class121.aClass206Array1529.length;
 		}
@@ -56,7 +56,7 @@ public class Class339_Sub7 extends Class339
 				if ((i_8_ ^ 0xffffffff) > (i_6_ ^ 0xffffffff)) {
 					actor = Class270_Sub2.aPlayerArray8038[is[i_8_]];
 				} else {
-					actor = ((Node_Sub41) Class12.aHashTable187.method1518(3512, (long) Class54.anIntArray816[-i_6_ + i_8_])).aNpc7518;
+					actor = ((Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) Class54.NPC_UPDATE_INDICES[-i_6_ + i_8_])).aNpc7518;
 					npcdefinition = ((Npc) actor).aNpcDefinition11122;
 					if (npcdefinition.anIntArray2827 != null) {
 						npcdefinition = npcdefinition.method2999(65535, Class24.aClass275_442);
@@ -121,7 +121,7 @@ public class Class339_Sub7 extends Class339
 					if ((i_10_ ^ 0xffffffff) != 0) {
 						GLSprite[] glsprites_12_ = (GLSprite[]) Class125.aClass61_1609.method607((long) i_10_, 0);
 						if (glsprites_12_ == null) {
-							Class383[] class383s = Class383.method4187(Node_Sub38_Sub39.aClass302_10500, i_10_, 0);
+							Class383[] class383s = Class383.method4187(Node_Sub38_Sub39.aCacheArchive_10500, i_10_, 0);
 							if (class383s != null) {
 								glsprites_12_ = new GLSprite[class383s.length];
 								for (int i_13_ = 0; (class383s.length ^ 0xffffffff) < (i_13_ ^ 0xffffffff); i_13_++)
@@ -168,7 +168,7 @@ public class Class339_Sub7 extends Class339
 						if (i_19_ != -1) {
 							GLSprite[] glsprites = (GLSprite[]) Node_Sub51.aClass61_7628.method607((long) i_19_, 0);
 							if (glsprites == null) {
-								Class383[] class383s = Class383.method4187(Node_Sub38_Sub39.aClass302_10500, i_19_, 0);
+								Class383[] class383s = Class383.method4187(Node_Sub38_Sub39.aCacheArchive_10500, i_19_, 0);
 								if (class383s != null) {
 									glsprites = new GLSprite[class383s.length];
 									for (int i_20_ = 0; (class383s.length ^ 0xffffffff) < (i_20_ ^ 0xffffffff); i_20_++)
@@ -248,7 +248,7 @@ public class Class339_Sub7 extends Class339
 					Class223[] class223s = Class320_Sub24.aClass223Array8438;
 					for (int i_29_ = 0; (i_29_ ^ 0xffffffff) > (class223s.length ^ 0xffffffff); i_29_++) {
 						Class223 class223 = class223s[i_29_];
-						if (class223 != null && class223.anInt2654 == 1 && (Class54.anIntArray816[-i_6_ + i_8_] ^ 0xffffffff) == (class223.anInt2658 ^ 0xffffffff)) {
+						if (class223 != null && class223.anInt2654 == 1 && (Class54.NPC_UPDATE_INDICES[-i_6_ + i_8_] ^ 0xffffffff) == (class223.anInt2658 ^ 0xffffffff)) {
 							GLSprite glsprite = Class19.aGLSpriteArray312[class223.anInt2659];
 							if ((glsprite.method1176() ^ 0xffffffff) < (i_28_ ^ 0xffffffff)) {
 								i_28_ = glsprite.method1176();
@@ -621,14 +621,14 @@ public class Class339_Sub7 extends Class339
 			if (i_123_ < 2048) {
 				actor = Class270_Sub2.aPlayerArray8038[i_123_];
 			} else {
-				actor = ((Node_Sub41) Class12.aHashTable187.method1518(3512, (long) (-2048 + i_123_))).aNpc7518;
+				actor = ((Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) (-2048 + i_123_))).aNpc7518;
 			}
 			int i_124_ = Node_Sub15_Sub4.anIntArray9802[i_122_];
 			Actor actor_125_;
 			if (i_124_ < 2048) {
 				actor_125_ = Class270_Sub2.aPlayerArray8038[i_124_];
 			} else {
-				actor_125_ = ((Node_Sub41) Class12.aHashTable187.method1518(3512, (long) (i_124_ - 2048))).aNpc7518;
+				actor_125_ = ((Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) (i_124_ - 2048))).aNpc7518;
 			}
 			Class212.method2054((byte) -124, i_4_, actor, i_3_, actor_125_, i_5_, i_1_, i_2_, i, --actor.anInt10853);
 		}

@@ -34,7 +34,7 @@ public class Class166 implements Interface7
 	static final void method1746(int i, int i_0_) {
 		anInt5094++;
 		Class61.aNode_Sub9_Sub1_885 = null;
-		Class93_Sub2.aClass302_6049 = null;
+		Class93_Sub2.aCacheArchive_6049 = null;
 		Class107.anInt1362 = i;
 		Class266.aBoolean3385 = false;
 		Class17.anInt282 = 0;

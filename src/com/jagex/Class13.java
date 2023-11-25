@@ -4,7 +4,7 @@ public class Class13
 {
 	static int anInt200;
 	static int anInt201;
-	private Class302 aClass302_202;
+	private CacheArchive aCacheArchive_202;
 	static Class192 aClass192_203 = new Class192(106, 8);
 	static int anInt204;
 	static int anInt205;
@@ -36,8 +36,8 @@ public class Class13
 			return class314;
 		}
 		byte[] bs;
-		synchronized (aClass302_202) {
-			bs = aClass302_202.method3524(false, i, 54);
+		synchronized (aCacheArchive_202) {
+			bs = aCacheArchive_202.method3524(false, i, 54);
 		}
 		class314 = new Class314();
 		if (bs != null) {
@@ -105,10 +105,10 @@ public class Class13
 		}
 	}
 	
-	Class13(Class353 class353, int i, Class302 class302) {
-		aClass302_202 = class302;
-		if (aClass302_202 != null) {
-			aClass302_202.method3537(-2, 54);
+	Class13(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_202 = cacheArchive;
+		if (aCacheArchive_202 != null) {
+			aCacheArchive_202.method3537(-2, 54);
 		}
 	}
 }

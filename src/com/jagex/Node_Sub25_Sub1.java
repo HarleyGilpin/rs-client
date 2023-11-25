@@ -66,8 +66,8 @@ public class Node_Sub25_Sub1 extends Node_Sub25
 		return aNode_Sub9_Sub5_9930;
 	}
 	
-	static final void method2659(Node_Sub9_Sub1 node_sub9_sub1, boolean bool, int i, int i_2_, Class302 class302, int i_3_, int i_4_) {
-		Class339_Sub8.method3946(i_2_, i_4_, i_3_, class302, bool, i + -8613);
+	static final void method2659(Node_Sub9_Sub1 node_sub9_sub1, boolean bool, int i, int i_2_, CacheArchive cacheArchive, int i_3_, int i_4_) {
+		Class339_Sub8.method3946(i_2_, i_4_, i_3_, cacheArchive, bool, i + -8613);
 		anInt9933++;
 		Class61.aNode_Sub9_Sub1_885 = node_sub9_sub1;
 		if (i != 32345) {

@@ -39,7 +39,7 @@ public class Class364
 			int i_5_ = Class320_Sub4.anInt8243 - i_3_;
 			if ((i_0_ ^ 0xffffffff) != -13) {
 				boolean bool_6_ = false;
-				Node_Sub25_Sub3.anInt9987 = 0;
+				Node_Sub25_Sub3.NPC_UPDATE_INDEX = 0;
 				int i_7_ = (-1 + Node_Sub54.anInt7675) * 512;
 				int i_8_ = Class377_Sub1.anInt8774 * 512 + -512;
 				for (int i_9_ = 0; (Node_Sub32.anInt7380 ^ 0xffffffff) < (i_9_ ^ 0xffffffff); i_9_++) {
@@ -62,7 +62,7 @@ public class Class364
 								bool_6_ = true;
 								node_sub41.method2160((byte) 29);
 							} else {
-								Class54.anIntArray816[Node_Sub25_Sub3.anInt9987++] = npc.anInt10858;
+								Class54.NPC_UPDATE_INDICES[Node_Sub25_Sub3.NPC_UPDATE_INDEX++] = npc.anInt10858;
 							}
 						} else {
 							npc.method879(null, true);
@@ -72,8 +72,8 @@ public class Class364
 					}
 				}
 				if (bool_6_) {
-					Node_Sub32.anInt7380 = Class12.aHashTable187.method1519((byte) -90);
-					Class12.aHashTable187.method1523((byte) -125, Class314.aNode_Sub41Array4017);
+					Node_Sub32.anInt7380 = Class12.NPC_MAP.method1519((byte) -90);
+					Class12.NPC_MAP.method1523((byte) -125, Class314.aNode_Sub41Array4017);
 				}
 			} else {
 				for (int i_12_ = 0; (i_12_ ^ 0xffffffff) > (Node_Sub32.anInt7380 ^ 0xffffffff); i_12_++) {
@@ -200,7 +200,7 @@ public class Class364
 		if (b <= 68) {
 			anInt4519 = 105;
 		}
-		class383 = Class383.method4194(aClass239_4516.aClass302_2918, anInt4515, 0);
+		class383 = Class383.method4194(aClass239_4516.aCacheArchive_2918, anInt4515, 0);
 		if (class383 != null) {
 			aClass239_4516.aClass61_2925.method601(class383, 25566, (long) anInt4515);
 		}

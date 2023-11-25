@@ -69,7 +69,7 @@ public class Class320_Sub1 extends Class320
 		if (class249 != null) {
 			return class249;
 		}
-		byte[] bs = Class165.aClass302_2029.method3524(false, i_0_, i);
+		byte[] bs = Class165.aCacheArchive_2029.method3524(false, i_0_, i);
 		class249 = new Class249();
 		class249.anInt3158 = i_0_;
 		if (bs != null) {

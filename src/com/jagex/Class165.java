@@ -6,7 +6,7 @@ public class Class165
 	protected Animator anAnimator2026;
 	protected int anInt2027;
 	static double aDouble2028;
-	static Class302 aClass302_2029;
+	static CacheArchive aCacheArchive_2029;
 	protected int anInt2030 = -1;
 	protected int anInt2031;
 	static Class192 aClass192_2032 = new Class192(56, 28);
@@ -20,6 +20,6 @@ public class Class165
 		if (b != 107) {
 			method1744((byte) 102);
 		}
-		aClass302_2029 = null;
+		aCacheArchive_2029 = null;
 	}
 }

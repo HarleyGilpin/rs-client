@@ -11,7 +11,7 @@ public class Node_Sub20 extends Node
 	static int anInt7179;
 	static int anInt7180;
 	
-	static final GraphicsToolkit method2613(int i, int i_0_, Class302 class302, d var_d, java.awt.Canvas canvas) {
+	static final GraphicsToolkit method2613(int i, int i_0_, CacheArchive cacheArchive, d var_d, java.awt.Canvas canvas) {
 		anInt7176++;
 		if (!Class352.method4012(80)) {
 			throw new RuntimeException("");
@@ -24,7 +24,7 @@ public class Node_Sub20 extends Node
 		if (l == 0L) {
 			throw new RuntimeException("");
 		}
-		GLXToolkit glxtoolkit = new GLXToolkit(opengl, canvas, l, var_d, class302, i);
+		GLXToolkit glxtoolkit = new GLXToolkit(opengl, canvas, l, var_d, cacheArchive, i);
 		glxtoolkit.method1358(i_0_ ^ 0x43);
 		return glxtoolkit;
 	}

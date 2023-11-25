@@ -12,7 +12,7 @@ public class CacheNode_Sub5 extends CacheNode
 	static int anInt9474;
 	protected int anInt9475;
 	protected Class218 aClass218_9476;
-	static Class302 aClass302_9477;
+	static CacheArchive aCacheArchive_9477;
 	
 	static final boolean method2307(int i, int i_0_, int i_1_) {
 		anInt9469++;
@@ -54,7 +54,7 @@ public class CacheNode_Sub5 extends CacheNode
 	}
 	
 	public static void method2310(boolean bool) {
-		aClass302_9477 = null;
+		aCacheArchive_9477 = null;
 		if (bool != true) {
 			method2310(false);
 		}

@@ -4,7 +4,7 @@ public class Class148
 {
 	static int anInt1825;
 	static int anInt1826;
-	static Class302 aClass302_1827;
+	static CacheArchive aCacheArchive_1827;
 	static int anInt1828;
 	
 	static final void method1650(int i, EntityNode_Sub6 entitynode_sub6) {
@@ -23,7 +23,7 @@ public class Class148
 	
 	public static void method1651(int i) {
 		if (i >= 86) {
-			aClass302_1827 = null;
+			aCacheArchive_1827 = null;
 		}
 	}
 }

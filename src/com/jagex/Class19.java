@@ -73,8 +73,8 @@ public class Class19
 						Class4.method171((byte) -116, i, var_aa, Node_Sub38_Sub24.aGLSpriteArray10356[0], i_20_, i_19_, widget, i_1_);
 					}
 				}
-				for (int i_21_ = 0; i_21_ < Node_Sub25_Sub3.anInt9987; i_21_++) {
-					Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) Class54.anIntArray816[i_21_]);
+				for (int i_21_ = 0; i_21_ < Node_Sub25_Sub3.NPC_UPDATE_INDEX; i_21_++) {
+					Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) Class54.NPC_UPDATE_INDICES[i_21_]);
 					if (node_sub41 != null) {
 						Npc npc = node_sub41.aNpc7518;
 						if (npc.method873((byte) -107) && npc.aByte5933 == Class295.aPlayer3692.aByte5933) {
@@ -141,7 +141,7 @@ public class Class19
 					Class223 class223 = class223s[i_32_];
 					if (class223 != null && class223.anInt2654 != 0 && (Class174.anInt2092 % 20 ^ 0xffffffff) > -11) {
 						if ((class223.anInt2654 ^ 0xffffffff) == -2) {
-							Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) class223.anInt2658);
+							Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) class223.anInt2658);
 							if (node_sub41 != null) {
 								Npc npc = node_sub41.aNpc7518;
 								int i_33_ = -(i_5_ / 128) + npc.anInt5934 / 128;

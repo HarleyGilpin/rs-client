@@ -18,7 +18,7 @@ public class Node_Sub28 extends Node
 	protected int anInt7332;
 	static int anInt7333;
 	
-	static final void method2701(int i, int i_0_, Class302 class302, int i_1_, boolean bool, int i_2_, long l, byte b) {
+	static final void method2701(int i, int i_0_, CacheArchive cacheArchive, int i_1_, boolean bool, int i_2_, long l, byte b) {
 		Class17.anInt282 = i_1_;
 		anInt7322++;
 		Class52.anInt800 = 1;
@@ -30,7 +30,7 @@ public class Node_Sub28 extends Node
 		Class61.aNode_Sub9_Sub1_885 = null;
 		Class101.anInt1306 = i;
 		Class77.aLong1018 = l;
-		Class93_Sub2.aClass302_6049 = class302;
+		Class93_Sub2.aCacheArchive_6049 = cacheArchive;
 	}
 	
 	public static void method2702(int i) {

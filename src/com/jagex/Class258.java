@@ -4,7 +4,7 @@ import jaggl.OpenGL;
 public class Class258 implements Interface12
 {
 	private String aString5286;
-	private Class302 aClass302_5287;
+	private CacheArchive aCacheArchive_5287;
 	static int anInt5288;
 	static int[] anIntArray5289 = new int[50];
 	static int anInt5290;
@@ -19,7 +19,7 @@ public class Class258 implements Interface12
 		if (i >= -4) {
 			method3126(-59, null, null, -95);
 		}
-		if (aClass302_5287.method3507((byte) -126, aString5286)) {
+		if (aCacheArchive_5287.method3507((byte) -126, aString5286)) {
 			return 100;
 		}
 		return 0;
@@ -180,8 +180,8 @@ public class Class258 implements Interface12
 		return Class172.aClass172_2078;
 	}
 	
-	Class258(Class302 class302, String string) {
-		aClass302_5287 = class302;
+	Class258(CacheArchive cacheArchive, String string) {
+		aCacheArchive_5287 = cacheArchive;
 		aString5286 = string;
 	}
 }

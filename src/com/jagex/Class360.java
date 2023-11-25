@@ -118,9 +118,9 @@ public class Class360 implements Runnable
 		}
 	}
 	
-	static final Node_Sub6 method4043(Class302 class302, int i, boolean bool) {
+	static final Node_Sub6 method4043(CacheArchive cacheArchive, int i, boolean bool) {
 		anInt4473++;
-		byte[] bs = class302.method3518((byte) -124, i);
+		byte[] bs = cacheArchive.method3518((byte) -124, i);
 		if (bool != false) {
 			return null;
 		}

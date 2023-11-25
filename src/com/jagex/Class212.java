@@ -119,7 +119,7 @@ public class Class212 implements Interface8
 			if (b == -124) {
 				GLSprite glsprite = (GLSprite) Class262_Sub18.aClass61_7842.method607((long) i_43_, 0);
 				if (glsprite == null) {
-					Class383[] class383s = Class383.method4187(Node_Sub38_Sub39.aClass302_10500, i_43_, 0);
+					Class383[] class383s = Class383.method4187(Node_Sub38_Sub39.aCacheArchive_10500, i_43_, 0);
 					if (class383s == null) {
 						return;
 					}

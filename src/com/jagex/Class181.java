@@ -11,12 +11,12 @@ public class Class181
 	static int anInt2150;
 	static int anInt2151;
 	static int anInt2152;
-	private Class302 aClass302_2153;
+	private CacheArchive aCacheArchive_2153;
 	static int anInt2154;
 	static Class197 aClass197_2155;
-	protected Class302 aClass302_2156;
+	protected CacheArchive aCacheArchive_2156;
 	static long aLong2157 = 0L;
-	static Class302 aClass302_2158;
+	static CacheArchive aCacheArchive_2158;
 	static int anInt2159;
 	
 	final void method1824(int i) {
@@ -25,7 +25,7 @@ public class Class181
 			aClass61_2146.method602((byte) -122);
 		}
 		if (i != 64) {
-			aClass302_2156 = null;
+			aCacheArchive_2156 = null;
 		}
 	}
 	
@@ -42,8 +42,8 @@ public class Class181
 			return class264;
 		}
 		byte[] bs;
-		synchronized (aClass302_2153) {
-			bs = aClass302_2153.method3524(false, i, 3);
+		synchronized (aCacheArchive_2153) {
+			bs = aCacheArchive_2153.method3524(false, i, 3);
 		}
 		class264 = new Class264();
 		class264.aClass181_3360 = this;
@@ -114,16 +114,16 @@ public class Class181
 	
 	public static void method1831(int i) {
 		aClass192_2144 = null;
-		aClass302_2158 = null;
+		aCacheArchive_2158 = null;
 		if (i == -50) {
 			aClass197_2155 = null;
 		}
 	}
 	
-	Class181(Class353 class353, int i, Class302 class302, Class302 class302_7_) {
-		aClass302_2156 = class302_7_;
-		aClass302_2153 = class302;
-		aClass302_2153.method3537(-2, 3);
+	Class181(Class353 class353, int i, CacheArchive cacheArchive, CacheArchive cacheArchive_7_) {
+		aCacheArchive_2156 = cacheArchive_7_;
+		aCacheArchive_2153 = cacheArchive;
+		aCacheArchive_2153.method3537(-2, 3);
 	}
 	
 	static {

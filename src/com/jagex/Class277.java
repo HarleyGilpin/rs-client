@@ -288,7 +288,7 @@ class Class277
 						int i_87_ = Class382.method4179(class289_85_, (byte) -125, graphicstoolkit);
 						if (GLPlane.aBooleanArrayArray7950[b][i_86_]) {
 							Class188_Sub1_Sub1.anIntArray9339[0] = class289_85_.anInt3631;
-							Class262_Sub10.anIntArray7773[0] = i_87_;
+							NPCUpdate.localNPCIndices[0] = i_87_;
 							Class84.anIntArray1136[0] = class289_85_.anInt3640;
 							Class385.anIntArray4914[0] = class289_85_.anInt3632;
 							Class327.anIntArray5348[0] = class289_85_.anInt3633;
@@ -307,7 +307,7 @@ class Class277
 						int i_91_ = Class382.method4179(class289_89_, (byte) -120, graphicstoolkit);
 						if (GLPlane.aBooleanArrayArray7950[b][i_90_]) {
 							Class188_Sub1_Sub1.anIntArray9339[2] = class289_89_.anInt3631;
-							Class262_Sub10.anIntArray7773[2] = i_91_;
+							NPCUpdate.localNPCIndices[2] = i_91_;
 							Class84.anIntArray1136[2] = class289_89_.anInt3640;
 							Class385.anIntArray4914[2] = class289_89_.anInt3632;
 							Class327.anIntArray5348[2] = class289_89_.anInt3633;
@@ -328,7 +328,7 @@ class Class277
 						int i_95_ = Class382.method4179(class289_93_, (byte) -15, graphicstoolkit);
 						if (GLPlane.aBooleanArrayArray7950[b][i_94_]) {
 							Class188_Sub1_Sub1.anIntArray9339[6] = class289_93_.anInt3631;
-							Class262_Sub10.anIntArray7773[6] = i_95_;
+							NPCUpdate.localNPCIndices[6] = i_95_;
 							Class84.anIntArray1136[6] = class289_93_.anInt3640;
 							Class385.anIntArray4914[6] = class289_93_.anInt3632;
 							Class327.anIntArray5348[6] = class289_93_.anInt3633;
@@ -347,7 +347,7 @@ class Class277
 						int i_99_ = Class382.method4179(class289_97_, (byte) -128, graphicstoolkit);
 						if (GLPlane.aBooleanArrayArray7950[b][i_98_]) {
 							Class188_Sub1_Sub1.anIntArray9339[4] = class289_97_.anInt3631;
-							Class262_Sub10.anIntArray7773[4] = i_99_;
+							NPCUpdate.localNPCIndices[4] = i_99_;
 							Class84.anIntArray1136[4] = class289_97_.anInt3640;
 							Class385.anIntArray4914[4] = class289_97_.anInt3632;
 							Class327.anIntArray5348[4] = class289_97_.anInt3633;
@@ -373,7 +373,7 @@ class Class277
 							i_104_ &= 0x7;
 							if (GLPlane.aBooleanArrayArray7950[b][i_104_] && (class289_101_.anInt3633 ^ 0xffffffff) <= (Class327.anIntArray5348[i_103_] ^ 0xffffffff)) {
 								Class188_Sub1_Sub1.anIntArray9339[i_103_] = class289_101_.anInt3631;
-								Class262_Sub10.anIntArray7773[i_103_] = i_105_;
+								NPCUpdate.localNPCIndices[i_103_] = i_105_;
 								Class84.anIntArray1136[i_103_] = class289_101_.anInt3640;
 								Class385.anIntArray4914[i_103_] = class289_101_.anInt3632;
 								if ((Class327.anIntArray5348[i_103_] ^ 0xffffffff) != (class289_101_.anInt3633 ^ 0xffffffff)) {
@@ -411,7 +411,7 @@ class Class277
 							i_111_ = 0x7 & i_111_;
 							if (GLPlane.aBooleanArrayArray7950[b][i_111_] && Class327.anIntArray5348[i_110_] <= class289_108_.anInt3633) {
 								Class188_Sub1_Sub1.anIntArray9339[i_110_] = class289_108_.anInt3631;
-								Class262_Sub10.anIntArray7773[i_110_] = i_112_;
+								NPCUpdate.localNPCIndices[i_110_] = i_112_;
 								Class84.anIntArray1136[i_110_] = class289_108_.anInt3640;
 								Class385.anIntArray4914[i_110_] = class289_108_.anInt3632;
 								if ((Class327.anIntArray5348[i_110_] ^ 0xffffffff) != (class289_108_.anInt3633 ^ 0xffffffff)) {
@@ -449,7 +449,7 @@ class Class277
 							i_118_ = 0x7 & i_118_;
 							if (GLPlane.aBooleanArrayArray7950[b][i_118_] && Class327.anIntArray5348[i_117_] <= class289_115_.anInt3633) {
 								Class188_Sub1_Sub1.anIntArray9339[i_117_] = class289_115_.anInt3631;
-								Class262_Sub10.anIntArray7773[i_117_] = i_119_;
+								NPCUpdate.localNPCIndices[i_117_] = i_119_;
 								Class84.anIntArray1136[i_117_] = class289_115_.anInt3640;
 								Class385.anIntArray4914[i_117_] = class289_115_.anInt3632;
 								if ((class289_115_.anInt3633 ^ 0xffffffff) == (Class327.anIntArray5348[i_117_] ^ 0xffffffff)) {
@@ -490,7 +490,7 @@ class Class277
 							i_124_ = 0x7 & i_124_;
 							if (GLPlane.aBooleanArrayArray7950[b][i_125_] && (class289_122_.anInt3633 ^ 0xffffffff) <= (Class327.anIntArray5348[i_124_] ^ 0xffffffff)) {
 								Class188_Sub1_Sub1.anIntArray9339[i_124_] = class289_122_.anInt3631;
-								Class262_Sub10.anIntArray7773[i_124_] = i_126_;
+								NPCUpdate.localNPCIndices[i_124_] = i_126_;
 								Class84.anIntArray1136[i_124_] = class289_122_.anInt3640;
 								Class385.anIntArray4914[i_124_] = class289_122_.anInt3632;
 								if (Class327.anIntArray5348[i_124_] != class289_122_.anInt3633) {
@@ -519,7 +519,7 @@ class Class277
 					int i_130_ = -(i_78_ * 2) + i_129_ & 0x7;
 					if (GLPlane.aBooleanArrayArray7950[i][i_129_] && (class289.anInt3633 ^ 0xffffffff) <= (Class327.anIntArray5348[i_130_] ^ 0xffffffff)) {
 						Class188_Sub1_Sub1.anIntArray9339[i_130_] = class289.anInt3631;
-						Class262_Sub10.anIntArray7773[i_130_] = i_128_;
+						NPCUpdate.localNPCIndices[i_130_] = i_128_;
 						Class84.anIntArray1136[i_130_] = class289.anInt3640;
 						Class385.anIntArray4914[i_130_] = class289.anInt3632;
 						if (class289.anInt3633 == Class327.anIntArray5348[i_130_]) {
@@ -910,7 +910,7 @@ class Class277
 						boolean bool_198_ = class289 != null && (class289.anInt3631 ^ 0xffffffff) != (class289.anInt3629 ^ 0xffffffff);
 						if (!bool_198_) {
 							for (int i_199_ = 0; i_199_ < 8; i_199_++) {
-								if (Class327.anIntArray5348[i_199_] >= 0 && (Class262_Sub10.anIntArray7773[i_199_] ^ 0xffffffff) != (Class188_Sub1_Sub1.anIntArray9339[i_199_] ^ 0xffffffff)) {
+								if (Class327.anIntArray5348[i_199_] >= 0 && (NPCUpdate.localNPCIndices[i_199_] ^ 0xffffffff) != (Class188_Sub1_Sub1.anIntArray9339[i_199_] ^ 0xffffffff)) {
 									bool_198_ = true;
 									break;
 								}
@@ -1113,7 +1113,7 @@ class Class277
 										}
 										if (i_227_ < 8 && Class327.anIntArray5348[i_228_] > class289.anInt3633) {
 											if (is_211_ != null) {
-												is_211_[i_209_] = Class262_Sub10.anIntArray7773[i_228_];
+												is_211_[i_209_] = NPCUpdate.localNPCIndices[i_228_];
 											}
 											is_216_[i_209_] = Class385.anIntArray4914[i_228_];
 											is_215_[i_209_] = Class84.anIntArray1136[i_228_];
@@ -1287,7 +1287,7 @@ class Class277
 											}
 										} else {
 											if (is_211_ != null) {
-												is_211_[i_209_] = Class262_Sub10.anIntArray7773[i_248_];
+												is_211_[i_209_] = NPCUpdate.localNPCIndices[i_248_];
 											}
 											is_216_[i_209_] = Class385.anIntArray4914[i_248_];
 											is_215_[i_209_] = Class84.anIntArray1136[i_248_];

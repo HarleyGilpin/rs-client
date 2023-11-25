@@ -15,7 +15,7 @@ public class SeekableFile
 	private long aLong3878;
 	private long aLong3879;
 	private int anInt3880 = 0;
-	static Class302 aClass302_3881;
+	static CacheArchive aCacheArchive_3881;
 	static int anInt3882;
 	static double aDouble3883;
 	static Animable[] anAnimableArray3884;
@@ -321,7 +321,7 @@ public class SeekableFile
 	
 	public static void method3578(int i) {
 		anAnimableArray3884 = null;
-		aClass302_3881 = null;
+		aCacheArchive_3881 = null;
 		if (i != 65280) {
 			method3571((byte) 4, 23, 116);
 		}

@@ -161,7 +161,7 @@ public class Class259
 				Node_Sub9_Sub1 node_sub9_sub1 = Class32.method359(EntityNode_Sub1.aNode_Sub9_Sub1_5929, -9293);
 				AnimableAnimator_Sub1.method256(true, 1405, node_sub9_sub1);
 			}
-			Class339_Sub8.method3946(i_9_, 0, i, Class179.aClass302_2132, false, 23732);
+			Class339_Sub8.method3946(i_9_, 0, i, Class179.aCacheArchive_2132, false, 23732);
 			Class304.method3544(255, -1, b ^ 0x1c);
 			Class377_Sub1.aBoolean8775 = true;
 		}

@@ -143,12 +143,12 @@ public class Node_Sub38_Sub28 extends Node_Sub38
 		super(0, true);
 	}
 	
-	static final void method2888(byte b, Class302 class302) {
-		Node_Sub50.anInt7625 = class302.method3519("p11_full", (byte) 46);
+	static final void method2888(byte b, CacheArchive cacheArchive) {
+		Node_Sub50.anInt7625 = cacheArchive.method3519("p11_full", (byte) 46);
 		anInt10394++;
 		if (b >= 53) {
-			Class285.anInt3600 = class302.method3519("p12_full", (byte) 26);
-			Class340.anInt4220 = class302.method3519("b12_full", (byte) 54);
+			Class285.anInt3600 = cacheArchive.method3519("p12_full", (byte) 26);
+			Class340.anInt4220 = cacheArchive.method3519("b12_full", (byte) 54);
 		}
 	}
 	

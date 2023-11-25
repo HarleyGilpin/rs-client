@@ -269,7 +269,7 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 					if (class78.aByte1027 != 1 || class78.aClass65_1039 != null) {
 						if (class78.method777((byte) -9) && (class78.aNode_Sub49_1035 == null || class78.aNode_Sub45_Sub1_1023 == null)) {
 							if (class78.aNode_Sub49_1035 == null) {
-								class78.aNode_Sub49_1035 = Node_Sub49.method2954(Class78.aClass302_1033, class78.anInt1038);
+								class78.aNode_Sub49_1035 = Node_Sub49.method2954(Class78.aCacheArchive_1033, class78.anInt1038);
 							}
 							if (class78.aNode_Sub49_1035 == null) {
 								continue;
@@ -282,7 +282,7 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 							}
 						}
 					} else {
-						class78.aClass65_1039 = Class65.method714(Class148.aClass302_1827, class78.anInt1038, 0);
+						class78.aClass65_1039 = Class65.method714(Class148.aCacheArchive_1827, class78.anInt1038, 0);
 						if (class78.aClass65_1039 == null) {
 							continue;
 						}
@@ -361,9 +361,9 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 		if (Class377_Sub1.aBoolean8775 && !Class36.method390(126)) {
 			if (Class213.aNode_Sub27_2512.aClass320_Sub25_7274.method3776(false) != 0 && (Class313.anInt4013 ^ 0xffffffff) != 0) {
 				if (EntityNode_Sub1.aNode_Sub9_Sub1_5929 == null) {
-					Class339_Sub8.method3946(Class313.anInt4013, 0, Class213.aNode_Sub27_2512.aClass320_Sub25_7274.method3776(false), SeekableFile.aClass302_3881, false, 23732);
+					Class339_Sub8.method3946(Class313.anInt4013, 0, Class213.aNode_Sub27_2512.aClass320_Sub25_7274.method3776(false), SeekableFile.aCacheArchive_3881, false, 23732);
 				} else {
-					Node_Sub25_Sub1.method2659(EntityNode_Sub1.aNode_Sub9_Sub1_5929, false, 32345, Class313.anInt4013, SeekableFile.aClass302_3881, Class213.aNode_Sub27_2512.aClass320_Sub25_7274.method3776(false), 0);
+					Node_Sub25_Sub1.method2659(EntityNode_Sub1.aNode_Sub9_Sub1_5929, false, 32345, Class313.anInt4013, SeekableFile.aCacheArchive_3881, Class213.aNode_Sub27_2512.aClass320_Sub25_7274.method3776(false), 0);
 				}
 			}
 			EntityNode_Sub1.aNode_Sub9_Sub1_5929 = null;
@@ -951,7 +951,7 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 		}
 	}
 	
-	final synchronized boolean method2467(Class96 class96, Class302 class302, int i, int i_101_, Node_Sub4 node_sub4) {
+	final synchronized boolean method2467(Class96 class96, CacheArchive cacheArchive, int i, int i_101_, Node_Sub4 node_sub4) {
 		int i_102_ = -90 / ((i - 12) / 45);
 		anInt9670++;
 		node_sub4.method2174();
@@ -964,7 +964,7 @@ public class Node_Sub9_Sub1 extends Node_Sub9
 			int i_103_ = (int) node_sub51.aLong2797;
 			Node_Sub6 node_sub6 = (Node_Sub6) aHashTable9636.method1518(3512, (long) i_103_);
 			if (node_sub6 == null) {
-				node_sub6 = Class360.method4043(class302, i_103_, false);
+				node_sub6 = Class360.method4043(cacheArchive, i_103_, false);
 				if (node_sub6 == null) {
 					bool = false;
 					continue;

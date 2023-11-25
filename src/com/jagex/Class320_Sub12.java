@@ -12,7 +12,7 @@ public class Class320_Sub12 extends Class320
 	static int anInt8323;
 	static Class251 aClass251_8324 = new Class251(2);
 	static boolean aBoolean8325 = false;
-	static Class302 aClass302_8326;
+	static CacheArchive aCacheArchive_8326;
 	static int anInt8327 = 0;
 	
 	final boolean method3726(byte b) {
@@ -102,7 +102,7 @@ public class Class320_Sub12 extends Class320
 			method3727(null, (byte) 13, -123, 102, -91, -121);
 		}
 		aClass251_8324 = null;
-		aClass302_8326 = null;
+		aCacheArchive_8326 = null;
 	}
 	
 	final int method3730(boolean bool) {

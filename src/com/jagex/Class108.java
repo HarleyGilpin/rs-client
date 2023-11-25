@@ -5,17 +5,17 @@ public class Class108 implements Interface12
 	static int anInt5282;
 	static int anInt5283 = 0;
 	static int anInt5284;
-	private Class302 aClass302_5285;
+	private CacheArchive aCacheArchive_5285;
 	
 	public final int method35(int i) {
 		anInt5282++;
-		if (aClass302_5285.method3520((byte) 15)) {
+		if (aCacheArchive_5285.method3520((byte) 15)) {
 			return 100;
 		}
 		if (i >= -4) {
 			method35(-87);
 		}
-		return aClass302_5285.method3511(19492);
+		return aCacheArchive_5285.method3511(19492);
 	}
 	
 	public final Class172 method34(byte b) {
@@ -24,7 +24,7 @@ public class Class108 implements Interface12
 		return Class172.aClass172_2077;
 	}
 	
-	Class108(Class302 class302) {
-		aClass302_5285 = class302;
+	Class108(CacheArchive cacheArchive) {
+		aCacheArchive_5285 = cacheArchive;
 	}
 }

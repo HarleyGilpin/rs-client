@@ -4,7 +4,7 @@ public class Class315
 {
 	protected int anInt4024;
 	static int anInt4025;
-	private Class302 aClass302_4026;
+	private CacheArchive aCacheArchive_4026;
 	private Class61 aClass61_4027 = new Class61(64);
 	static int anInt4028;
 	static int anInt4029;
@@ -54,8 +54,8 @@ public class Class315
 			return class95;
 		}
 		byte[] bs;
-		synchronized (aClass302_4026) {
-			bs = aClass302_4026.method3524(false, i, 47);
+		synchronized (aCacheArchive_4026) {
+			bs = aCacheArchive_4026.method3524(false, i, 47);
 		}
 		class95 = new Class95();
 		if (bs != null) {
@@ -87,10 +87,10 @@ public class Class315
 		anInt4028++;
 	}
 	
-	Class315(Class353 class353, int i, Class302 class302) {
-		aClass302_4026 = class302;
-		if (aClass302_4026 != null) {
-			anInt4024 = aClass302_4026.method3537(-2, 47);
+	Class315(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_4026 = cacheArchive;
+		if (aCacheArchive_4026 != null) {
+			anInt4024 = aCacheArchive_4026.method3537(-2, 47);
 		} else {
 			anInt4024 = 0;
 		}

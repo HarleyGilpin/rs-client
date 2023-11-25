@@ -7,13 +7,13 @@ public class Class294
 	static int anInt3687 = 2;
 	static int anInt3688;
 	static Class379 aClass379_3689 = new Class379();
-	static Class302 aClass302_3690;
+	static CacheArchive aCacheArchive_3690;
 	
 	public static void method3465(byte b) {
 		if (b != 116) {
 			method3467(-103, -96, 110, -100);
 		}
-		aClass302_3690 = null;
+		aCacheArchive_3690 = null;
 		aClass379_3689 = null;
 		aClass318_3685 = null;
 	}

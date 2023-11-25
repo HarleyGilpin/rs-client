@@ -16,7 +16,7 @@ public class Class262_Sub23 extends Class262
 	static Class257 aClass257_7883;
 	static Class197 aClass197_7884;
 	private int anInt7885;
-	static Class302 aClass302_7886;
+	static CacheArchive aCacheArchive_7886;
 	static int anInt7887;
 	private int anInt7888;
 	private int anInt7889;
@@ -242,7 +242,7 @@ public class Class262_Sub23 extends Class262
 			anIntArrayArray7892 = null;
 		}
 		anIntArrayArray7892 = null;
-		aClass302_7886 = null;
+		aCacheArchive_7886 = null;
 		aClass257_7883 = null;
 		aClass197_7884 = null;
 	}

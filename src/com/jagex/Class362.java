@@ -5,7 +5,7 @@ public class Class362
 	static int anInt4490;
 	private Class61 aClass61_4491 = new Class61(128);
 	static int anInt4492;
-	private Class302 aClass302_4493;
+	private CacheArchive aCacheArchive_4493;
 	static Class124 aClass124_4494 = new Class124(61);
 	static int anInt4495;
 	static int anInt4496;
@@ -42,7 +42,7 @@ public class Class362
 		if (class39 != null) {
 			return class39;
 		}
-		byte[] bs = aClass302_4493.method3524(false, ObjectDefinition.method3050((byte) -128, i), Class200_Sub1.method2014(i_2_ + -29692, i));
+		byte[] bs = aCacheArchive_4493.method3524(false, ObjectDefinition.method3050((byte) -128, i), Class200_Sub1.method2014(i_2_ + -29692, i));
 		if (i_2_ != -752) {
 			method4052(-68, -125);
 		}
@@ -63,11 +63,11 @@ public class Class362
 		cachenode_sub2.method2291((byte) 121);
 	}
 	
-	Class362(Class353 class353, int i, Class302 class302) {
-		aClass302_4493 = class302;
-		if (aClass302_4493 != null) {
-			int i_5_ = aClass302_4493.method3526(-20871) - 1;
-			aClass302_4493.method3537(-2, i_5_);
+	Class362(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_4493 = cacheArchive;
+		if (aCacheArchive_4493 != null) {
+			int i_5_ = aCacheArchive_4493.method3526(-20871) - 1;
+			aCacheArchive_4493.method3537(-2, i_5_);
 		}
 	}
 	

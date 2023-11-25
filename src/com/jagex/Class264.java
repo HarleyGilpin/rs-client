@@ -82,10 +82,10 @@ public class Class264
 		if (b < 6) {
 			aShortArray3356 = null;
 		}
-		synchronized (aClass181_3360.aClass302_2156) {
+		synchronized (aClass181_3360.aCacheArchive_2156) {
 			for (int i_6_ = 0; i_6_ < 5; i_6_++) {
 				if (anIntArray3362[i_6_] != -1) {
-					models[i++] = Renderer.method3448(anIntArray3362[i_6_], 7, 0, aClass181_3360.aClass302_2156);
+					models[i++] = Renderer.method3448(anIntArray3362[i_6_], 7, 0, aClass181_3360.aCacheArchive_2156);
 				}
 			}
 		}
@@ -109,9 +109,9 @@ public class Class264
 	final boolean method3228(boolean bool) {
 		anInt3354++;
 		boolean bool_10_ = bool;
-		synchronized (aClass181_3360.aClass302_2156) {
+		synchronized (aClass181_3360.aCacheArchive_2156) {
 			for (int i = 0; (i ^ 0xffffffff) > -6; i++) {
-				if ((anIntArray3362[i] ^ 0xffffffff) != 0 && !aClass181_3360.aClass302_2156.method3515(0, anIntArray3362[i], 0)) {
+				if ((anIntArray3362[i] ^ 0xffffffff) != 0 && !aClass181_3360.aCacheArchive_2156.method3515(0, anIntArray3362[i], 0)) {
 					bool_10_ = false;
 				}
 			}
@@ -125,9 +125,9 @@ public class Class264
 			return true;
 		}
 		boolean bool = true;
-		synchronized (aClass181_3360.aClass302_2156) {
+		synchronized (aClass181_3360.aCacheArchive_2156) {
 			for (int i_11_ = i; (anIntArray3357.length ^ 0xffffffff) < (i_11_ ^ 0xffffffff); i_11_++) {
-				if (!aClass181_3360.aClass302_2156.method3515(0, anIntArray3357[i_11_], 0)) {
+				if (!aClass181_3360.aCacheArchive_2156.method3515(0, anIntArray3357[i_11_], 0)) {
 					bool = false;
 				}
 			}
@@ -148,9 +148,9 @@ public class Class264
 			return null;
 		}
 		Model[] models = new Model[anIntArray3357.length];
-		synchronized (aClass181_3360.aClass302_2156) {
+		synchronized (aClass181_3360.aCacheArchive_2156) {
 			for (int i_12_ = i; (i_12_ ^ 0xffffffff) > (anIntArray3357.length ^ 0xffffffff); i_12_++)
-				models[i_12_] = Renderer.method3448(anIntArray3357[i_12_], i + 7, 0, aClass181_3360.aClass302_2156);
+				models[i_12_] = Renderer.method3448(anIntArray3357[i_12_], i + 7, 0, aClass181_3360.aCacheArchive_2156);
 		}
 		for (int i_13_ = 0; (i_13_ ^ 0xffffffff) > (anIntArray3357.length ^ 0xffffffff); i_13_++) {
 			if ((models[i_13_].anInt2614 ^ 0xffffffff) > -14) {

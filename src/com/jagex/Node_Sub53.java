@@ -25,7 +25,7 @@ public class Node_Sub53 extends Node
 		DrawableModel drawablemodel = (DrawableModel) Class105.aClass61_5202.method607(l, 0);
 		int i_5_ = 2055;
 		if (drawablemodel == null) {
-			Model model = Renderer.method3448(i_2_, 7, 0, Class107.aClass302_1364);
+			Model model = Renderer.method3448(i_2_, 7, 0, Class107.aCacheArchive_1364);
 			if (model == null) {
 				return null;
 			}

@@ -3,7 +3,7 @@ package com.jagex;
 public class Class293
 {
 	static int anInt3680;
-	static Class302 aClass302_3681;
+	static CacheArchive aCacheArchive_3681;
 	protected int anInt3682 = 0;
 	static int anInt3683;
 	static int anInt3684;
@@ -37,7 +37,7 @@ public class Class293
 	}
 	
 	public static void method3464(int i) {
-		aClass302_3681 = null;
+		aCacheArchive_3681 = null;
 		if (i != 10196) {
 			method3464(-116);
 		}

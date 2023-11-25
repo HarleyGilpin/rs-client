@@ -4,7 +4,7 @@ public class Class282
 {
 	static int anInt3581;
 	static int anInt3582;
-	static Class302 aClass302_3583;
+	static CacheArchive aCacheArchive_3583;
 	static int anInt3584;
 	static double aDouble3585;
 	static int anInt3586;
@@ -81,7 +81,7 @@ public class Class282
 	}
 	
 	public static void method3388(int i) {
-		aClass302_3583 = null;
+		aCacheArchive_3583 = null;
 		if (i == 1) {
 			aByteArrayArray3588 = null;
 		}

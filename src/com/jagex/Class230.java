@@ -9,7 +9,7 @@ class Class230 implements Interface10
 	static int anInt5209;
 	static int anInt5210 = 0;
 	protected GLSprite aGLSprite5211;
-	private Class302 aClass302_5212;
+	private CacheArchive aCacheArchive_5212;
 	protected Class235 aClass235_5213;
 	static boolean aBoolean5214;
 	static int anInt5215;
@@ -47,16 +47,16 @@ class Class230 implements Interface10
 	}
 	
 	public final void method26(int i) {
-		aGLSprite5211 = Node_Sub9_Sub4.method2523((byte) 117, aClass235_5213.anInt5125, aClass302_5212);
+		aGLSprite5211 = Node_Sub9_Sub4.method2523((byte) 117, aClass235_5213.anInt5125, aCacheArchive_5212);
 		anInt5207++;
 		if (i != 99) {
 			anInt5210 = -31;
 		}
 	}
 	
-	Class230(Class302 class302, Class235 class235) {
+	Class230(CacheArchive cacheArchive, Class235 class235) {
 		aClass235_5213 = class235;
-		aClass302_5212 = class302;
+		aCacheArchive_5212 = cacheArchive;
 	}
 	
 	public static void method2130(byte b) {
@@ -81,7 +81,7 @@ class Class230 implements Interface10
 			return false;
 		}
 		anInt5205++;
-		return aClass302_5212.method3510(aClass235_5213.anInt5125, (byte) 63);
+		return aCacheArchive_5212.method3510(aClass235_5213.anInt5125, (byte) 63);
 	}
 	
 	static {

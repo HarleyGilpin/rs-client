@@ -12,9 +12,9 @@ public class Class129
 	static int anInt1668;
 	static int[] anIntArray1669 = new int[4];
 	
-	static final Class357 method1553(int i, int i_0_, Class302 class302) {
+	static final Class357 method1553(int i, int i_0_, CacheArchive cacheArchive) {
 		anInt1667++;
-		byte[] bs = class302.method3518((byte) 118, i_0_);
+		byte[] bs = cacheArchive.method3518((byte) 118, i_0_);
 		if (bs == null) {
 			return null;
 		}

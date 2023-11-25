@@ -39,7 +39,7 @@ public class Node_Sub15_Sub6 extends Node_Sub15
 	static final void method2571(int i, boolean bool) {
 		anInt9813++;
 		if ((i ^ 0xffffffff) != 0 && Class169_Sub1.aBooleanArray8788[i]) {
-			Node_Sub38_Sub31.aClass302_10422.method3534((byte) 73, i);
+			Node_Sub38_Sub31.aCacheArchive_10422.method3534((byte) 73, i);
 			Class134_Sub3.aWidgetArrayArray9035[i] = null;
 			Class79.aWidgetArrayArray1082[i] = null;
 			Class169_Sub1.aBooleanArray8788[i] = bool;

@@ -27,30 +27,30 @@ public class Node_Sub38_Sub27 extends Node_Sub38
 		Class94.method1065(-81);
 		anInt10379++;
 		if ((i_0_ ^ 0xffffffff) == -1) {
-			Class93.aGraphicsToolkit1241 = Class262_Sub9.method3171(Class262_Sub2.aClass302_7707, (byte) 55, Class38.aD565, 0, Node_Sub38_Sub20.aCanvas10309, 2 * Class213.aNode_Sub27_2512.aClass320_Sub13_7283.method3734(false));
+			Class93.aGraphicsToolkit1241 = Class262_Sub9.method3171(Class262_Sub2.aCacheArchive_7707, (byte) 55, Class38.aD565, 0, Node_Sub38_Sub20.aCanvas10309, 2 * Class213.aNode_Sub27_2512.aClass320_Sub13_7283.method3734(false));
 			if (string != null) {
 				Class93.aGraphicsToolkit1241.GA(0);
-				Class357 class357 = Class44.method461(0, 125, Class285.anInt3600, AnimableAnimator_Sub1.aClass302_9091);
-				Class52 class52 = Class93.aGraphicsToolkit1241.a(class357, Class383.method4187(Node_Sub38_Sub39.aClass302_10500, Class285.anInt3600, 0), true);
+				Class357 class357 = Class44.method461(0, 125, Class285.anInt3600, AnimableAnimator_Sub1.aCacheArchive_9091);
+				Class52 class52 = Class93.aGraphicsToolkit1241.a(class357, Class383.method4187(Node_Sub38_Sub39.aCacheArchive_10500, Class285.anInt3600, 0), true);
 				Node_Sub36_Sub1.method2758(-80);
 				Class169_Sub3.method1779(Class93.aGraphicsToolkit1241, string, true, class357, class52, -16777216);
 			}
 		} else {
 			GraphicsToolkit graphicstoolkit = null;
 			if (string != null) {
-				graphicstoolkit = Class262_Sub9.method3171(Class262_Sub2.aClass302_7707, (byte) -82, Class38.aD565, 0, Node_Sub38_Sub20.aCanvas10309, 0);
+				graphicstoolkit = Class262_Sub9.method3171(Class262_Sub2.aCacheArchive_7707, (byte) -82, Class38.aD565, 0, Node_Sub38_Sub20.aCanvas10309, 0);
 				graphicstoolkit.GA(0);
-				Class357 class357 = Class44.method461(0, -30, Class285.anInt3600, AnimableAnimator_Sub1.aClass302_9091);
-				Class52 class52 = graphicstoolkit.a(class357, Class383.method4187(Node_Sub38_Sub39.aClass302_10500, Class285.anInt3600, 0), true);
+				Class357 class357 = Class44.method461(0, -30, Class285.anInt3600, AnimableAnimator_Sub1.aCacheArchive_9091);
+				Class52 class52 = graphicstoolkit.a(class357, Class383.method4187(Node_Sub38_Sub39.aCacheArchive_10500, Class285.anInt3600, 0), true);
 				Node_Sub36_Sub1.method2758(109);
 				Class169_Sub3.method1779(graphicstoolkit, string, true, class357, class52, -16777216);
 			}
 			try {
-				Class93.aGraphicsToolkit1241 = Class262_Sub9.method3171(Class262_Sub2.aClass302_7707, (byte) -113, Class38.aD565, i_0_, Node_Sub38_Sub20.aCanvas10309, 2 * Class213.aNode_Sub27_2512.aClass320_Sub13_7283.method3734(false));
+				Class93.aGraphicsToolkit1241 = Class262_Sub9.method3171(Class262_Sub2.aCacheArchive_7707, (byte) -113, Class38.aD565, i_0_, Node_Sub38_Sub20.aCanvas10309, 2 * Class213.aNode_Sub27_2512.aClass320_Sub13_7283.method3734(false));
 				if (string != null) {
 					graphicstoolkit.GA(0);
-					Class357 class357 = Class44.method461(0, -5, Class285.anInt3600, AnimableAnimator_Sub1.aClass302_9091);
-					Class52 class52 = graphicstoolkit.a(class357, Class383.method4187(Node_Sub38_Sub39.aClass302_10500, Class285.anInt3600, 0), true);
+					Class357 class357 = Class44.method461(0, -5, Class285.anInt3600, AnimableAnimator_Sub1.aCacheArchive_9091);
+					Class52 class52 = graphicstoolkit.a(class357, Class383.method4187(Node_Sub38_Sub39.aCacheArchive_10500, Class285.anInt3600, 0), true);
 					Node_Sub36_Sub1.method2758(-50);
 					Class169_Sub3.method1779(graphicstoolkit, string, true, class357, class52, -16777216);
 				}

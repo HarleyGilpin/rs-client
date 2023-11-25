@@ -86,7 +86,7 @@ public class Class320_Sub24 extends Class320
 									mobile_sub1.method895(Node_Sub38_Sub7.method2809(mobile_sub1.aByte5933, -29754, actor.anInt5940, actor.anInt5934) + -mobile_sub1.anInt10938, false, Class174.anInt2092, actor.anInt5940, actor.anInt5934);
 								}
 							} else {
-								Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) (-1 + mobile_sub1.anInt10942));
+								Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) (-1 + mobile_sub1.anInt10942));
 								if (node_sub41 != null) {
 									Npc npc = node_sub41.aNpc7518;
 									if (npc.anInt5934 >= 0 && npc.anInt5934 < Node_Sub54.anInt7675 * 512 && npc.anInt5940 >= 0 && (npc.anInt5940 ^ 0xffffffff) > (512 * Class377_Sub1.anInt8774 ^ 0xffffffff)) {

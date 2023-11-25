@@ -28,7 +28,7 @@ public class Class262_Sub9 extends Class262
 		aClass318_7765 = null;
 	}
 	
-	static final GraphicsToolkit method3171(Class302 class302, byte b, d var_d, int i, java.awt.Canvas canvas, int i_0_) {
+	static final GraphicsToolkit method3171(CacheArchive cacheArchive, byte b, d var_d, int i, java.awt.Canvas canvas, int i_0_) {
 		anInt7760++;
 		int i_1_ = -11 % ((-31 - b) / 47);
 		int i_2_ = 0;
@@ -38,7 +38,7 @@ public class Class262_Sub9 extends Class262
 			i_2_ = dimension.width;
 			i_3_ = dimension.height;
 		}
-		return GraphicsToolkit.method1240(-106, canvas, i_3_, i_0_, var_d, i, class302, i_2_);
+		return GraphicsToolkit.method1240(-106, canvas, i_3_, i_0_, var_d, i, cacheArchive, i_2_);
 	}
 	
 	Class262_Sub9(Buffer buffer) {

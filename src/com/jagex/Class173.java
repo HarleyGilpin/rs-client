@@ -11,7 +11,7 @@ public class Class173
 	static int anInt2087;
 	static Class192 aClass192_2088;
 	static int anInt2089;
-	static Class302 aClass302_2090;
+	static CacheArchive aCacheArchive_2090;
 	static int[] anIntArray2091 = new int[5];
 	
 	public static void method1798(int i) {
@@ -21,7 +21,7 @@ public class Class173
 		if (i != 10675) {
 			aString2085 = null;
 		}
-		aClass302_2090 = null;
+		aCacheArchive_2090 = null;
 		aClass192_2088 = null;
 	}
 	

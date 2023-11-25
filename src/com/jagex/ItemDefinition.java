@@ -466,7 +466,7 @@ public class ItemDefinition
 	
 	final int[] method1682(int i, GraphicsToolkit graphicstoolkit, int i_31_, byte b, int i_32_, boolean bool, PlayerDefinition playerdefinition, GraphicsToolkit graphicstoolkit_33_, Class52 class52, int i_34_) {
 		anInt1854++;
-		Model model = Renderer.method3448(anInt1898, 7, 0, aClass86_1868.aClass302_1168);
+		Model model = Renderer.method3448(anInt1898, 7, 0, aClass86_1868.aCacheArchive_1168);
 		if (model == null) {
 			return null;
 		}
@@ -614,7 +614,7 @@ public class ItemDefinition
 		if (i_47_ == -1) {
 			return null;
 		}
-		Model model = Renderer.method3448(i_47_, 7, 0, aClass86_1868.aClass302_1168);
+		Model model = Renderer.method3448(i_47_, 7, 0, aClass86_1868.aCacheArchive_1168);
 		if (model == null) {
 			return null;
 		}
@@ -622,12 +622,12 @@ public class ItemDefinition
 			model.method2081(2, 0);
 		}
 		if ((i_48_ ^ 0xffffffff) != 0) {
-			Model model_50_ = Renderer.method3448(i_48_, 7, 0, aClass86_1868.aClass302_1168);
+			Model model_50_ = Renderer.method3448(i_48_, 7, 0, aClass86_1868.aCacheArchive_1168);
 			if ((model_50_.anInt2614 ^ 0xffffffff) > -14) {
 				model_50_.method2081(2, 0);
 			}
 			if ((i_49_ ^ 0xffffffff) != 0) {
-				Model model_51_ = Renderer.method3448(i_49_, 7, 0, aClass86_1868.aClass302_1168);
+				Model model_51_ = Renderer.method3448(i_49_, 7, 0, aClass86_1868.aCacheArchive_1168);
 				if (model_51_.anInt2614 < 13) {
 					model_51_.method2081(2, 0);
 				}
@@ -710,12 +710,12 @@ public class ItemDefinition
 		if (i > -33) {
 			return null;
 		}
-		Model model = Renderer.method3448(i_55_, 7, 0, aClass86_1868.aClass302_1168);
+		Model model = Renderer.method3448(i_55_, 7, 0, aClass86_1868.aCacheArchive_1168);
 		if (model.anInt2614 < 13) {
 			model.method2081(2, 0);
 		}
 		if (i_56_ != -1) {
-			Model model_57_ = Renderer.method3448(i_56_, 7, 0, aClass86_1868.aClass302_1168);
+			Model model_57_ = Renderer.method3448(i_56_, 7, 0, aClass86_1868.aCacheArchive_1168);
 			if ((model_57_.anInt2614 ^ 0xffffffff) > -14) {
 				model_57_.method2081(2, 0);
 			}
@@ -774,13 +774,13 @@ public class ItemDefinition
 			return true;
 		}
 		boolean bool_64_ = true;
-		if (!aClass86_1868.aClass302_1168.method3515(0, i_61_, 0)) {
+		if (!aClass86_1868.aCacheArchive_1168.method3515(0, i_61_, 0)) {
 			bool_64_ = false;
 		}
-		if (i_62_ != -1 && !aClass86_1868.aClass302_1168.method3515(0, i_62_, 0)) {
+		if (i_62_ != -1 && !aClass86_1868.aCacheArchive_1168.method3515(0, i_62_, 0)) {
 			bool_64_ = false;
 		}
-		if (i_60_ != -1 && !aClass86_1868.aClass302_1168.method3515(0, i_60_, 0)) {
+		if (i_60_ != -1 && !aClass86_1868.aCacheArchive_1168.method3515(0, i_60_, 0)) {
 			bool_64_ = false;
 		}
 		return bool_64_;
@@ -859,7 +859,7 @@ public class ItemDefinition
 			if (anInt1904 != 128) {
 				i_75_ |= 0x4;
 			}
-			Model model = Renderer.method3448(anInt1898, 7, 0, aClass86_1868.aClass302_1168);
+			Model model = Renderer.method3448(anInt1898, 7, 0, aClass86_1868.aCacheArchive_1168);
 			if (model == null) {
 				return null;
 			}
@@ -949,10 +949,10 @@ public class ItemDefinition
 			return true;
 		}
 		boolean bool_82_ = true;
-		if (!aClass86_1868.aClass302_1168.method3515(i, i_81_, 0)) {
+		if (!aClass86_1868.aCacheArchive_1168.method3515(i, i_81_, 0)) {
 			bool_82_ = false;
 		}
-		if ((i_80_ ^ 0xffffffff) != 0 && !aClass86_1868.aClass302_1168.method3515(0, i_80_, 0)) {
+		if ((i_80_ ^ 0xffffffff) != 0 && !aClass86_1868.aCacheArchive_1168.method3515(0, i_80_, 0)) {
 			bool_82_ = false;
 		}
 		return bool_82_;

@@ -13,7 +13,7 @@ public class Class127
 	static int anInt1643;
 	static Class192 aClass192_1644 = new Class192(115, 8);
 	protected int anInt1645;
-	static Class302 aClass302_1646;
+	static CacheArchive aCacheArchive_1646;
 	
 	static final void method1540(int i, int i_0_, int i_1_, int i_2_, int i_3_, int i_4_, int i_5_) {
 		anInt1640++;
@@ -39,7 +39,7 @@ public class Class127
 	public static void method1541(int i) {
 		anIntArrayArray1642 = null;
 		aClass124_1638 = null;
-		aClass302_1646 = null;
+		aCacheArchive_1646 = null;
 		int i_9_ = -40 % ((-62 - i) / 38);
 		aClass192_1644 = null;
 	}

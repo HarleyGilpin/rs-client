@@ -145,7 +145,7 @@ public class Class182
 	}
 	
 	private final void method1837(GraphicsToolkit graphicstoolkit, Class182 class182_26_) {
-		Model model = Renderer.method3448(anInt2169, 7, 0, Class188_Sub2_Sub2.aClass302_9361);
+		Model model = Renderer.method3448(anInt2169, 7, 0, Class188_Sub2_Sub2.aCacheArchive_9361);
 		if (model != null) {
 			graphicstoolkit.K(anIntArray2160);
 			graphicstoolkit.KA(0, 0, anInt2177, anInt2177);

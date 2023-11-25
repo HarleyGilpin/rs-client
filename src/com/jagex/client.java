@@ -40,7 +40,7 @@ public class client extends GameStub
 		if (aa.anInt101 == 3) {
 			i_0_ = Class121.aClass206Array1529.length;
 		} else {
-			i_0_ = Node_Sub29.aBoolean7338 ? i : i + Node_Sub25_Sub3.anInt9987;
+			i_0_ = Node_Sub29.aBoolean7338 ? i : i + Node_Sub25_Sub3.NPC_UPDATE_INDEX;
 		}
 		for (int i_1_ = 0; i_1_ < i_0_; i_1_++) {
 			Actor actor;
@@ -54,7 +54,7 @@ public class client extends GameStub
 				if (i_1_ < i) {
 					actor = Class270_Sub2.aPlayerArray8038[is[i_1_]];
 				} else {
-					actor = ((Node_Sub41) Class12.aHashTable187.method1518(3512, (long) Class54.anIntArray816[i_1_ - i])).aNpc7518;
+					actor = ((Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) Class54.NPC_UPDATE_INDICES[i_1_ - i])).aNpc7518;
 				}
 				if (actor.anInt10857 < 0) {
 					continue;
@@ -88,7 +88,7 @@ public class client extends GameStub
 		if (aa.anInt101 == 3) {
 			i_4_ = Class121.aClass206Array1529.length;
 		} else {
-			i_4_ = Node_Sub29.aBoolean7338 ? i_3_ : i_3_ + Node_Sub25_Sub3.anInt9987;
+			i_4_ = Node_Sub29.aBoolean7338 ? i_3_ : i_3_ + Node_Sub25_Sub3.NPC_UPDATE_INDEX;
 		}
 		for (int i_5_ = 0; i_5_ < i_4_; i_5_++) {
 			Actor actor;
@@ -102,7 +102,7 @@ public class client extends GameStub
 				if (i_5_ < i_3_) {
 					actor = Class270_Sub2.aPlayerArray8038[is[i_5_]];
 				} else {
-					actor = ((Node_Sub41) Class12.aHashTable187.method1518(3512, (long) Class54.anIntArray816[i_5_ - i_3_])).aNpc7518;
+					actor = ((Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) Class54.NPC_UPDATE_INDICES[i_5_ - i_3_])).aNpc7518;
 				}
 				if (actor.aByte5933 != i) {
 					continue;
@@ -292,8 +292,8 @@ public class client extends GameStub
 				}
 			}
 		}
-		for (int i_20_ = 0; i_20_ < Node_Sub25_Sub3.anInt9987; i_20_++) {
-			Npc npc = ((Node_Sub41) Class12.aHashTable187.method1518(3512, (long) Class54.anIntArray816[i_20_])).aNpc7518;
+		for (int i_20_ = 0; i_20_ < Node_Sub25_Sub3.NPC_UPDATE_INDEX; i_20_++) {
+			Npc npc = ((Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) Class54.NPC_UPDATE_INDICES[i_20_])).aNpc7518;
 			if (!npc.method873((byte) 66) || !npc.aNpcDefinition11122.method3010((byte) 96, Class24.aClass275_442)) {
 				npc.anInt10857 = -1;
 			} else {
@@ -335,7 +335,7 @@ public class client extends GameStub
 			Class223 class223 = Class320_Sub24.aClass223Array8438[i_22_];
 			if (class223 != null) {
 				if (class223.anInt2654 == 1) {
-					Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) class223.anInt2658);
+					Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) class223.anInt2658);
 					if (node_sub41 != null) {
 						Npc npc = node_sub41.aNpc7518;
 						if (npc.anInt10857 >= 0) {
@@ -1080,7 +1080,7 @@ public class client extends GameStub
 		Class262_Sub5.method3162(0);
 		Class262_Sub4.method3161(-94);
 		Class262_Sub18.method3199((byte) 93);
-		Class262_Sub10.method3172(true);
+		NPCUpdate.clearCache();
 		Class262_Sub3.method3158(1);
 		Class262_Sub21.method3205((byte) 40);
 		Class262_Sub1.method3149((byte) 96);
@@ -1374,8 +1374,8 @@ public class client extends GameStub
 	
 	static final void method116() {
 		Class99.anInt1286 = 0;
-		for (int i = 0; i < Node_Sub25_Sub3.anInt9987; i++) {
-			Npc npc = ((Node_Sub41) Class12.aHashTable187.method1518(3512, (long) Class54.anIntArray816[i])).aNpc7518;
+		for (int i = 0; i < Node_Sub25_Sub3.NPC_UPDATE_INDEX; i++) {
+			Npc npc = ((Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) Class54.NPC_UPDATE_INDICES[i])).aNpc7518;
 			if (npc.aBoolean10826 && npc.method855((byte) -123) != -1) {
 				int i_45_ = (npc.method853((byte) 63) - 1) * 256 + 252;
 				int i_46_ = npc.anInt5934 - i_45_ >> 9;
@@ -2420,7 +2420,7 @@ public class client extends GameStub
 		if (aa.anInt101 == 3) {
 			i_126_ = Class121.aClass206Array1529.length;
 		} else {
-			i_126_ = i_125_ + Node_Sub25_Sub3.anInt9987;
+			i_126_ = i_125_ + Node_Sub25_Sub3.NPC_UPDATE_INDEX;
 		}
 		for (int i_127_ = 0; i_127_ < i_126_; i_127_++) {
 			Actor actor;
@@ -2434,7 +2434,7 @@ public class client extends GameStub
 				if (i_127_ < i_125_) {
 					actor = Class270_Sub2.aPlayerArray8038[is[i_127_]];
 				} else {
-					actor = ((Node_Sub41) Class12.aHashTable187.method1518(3512, (long) Class54.anIntArray816[i_127_ - i_125_])).aNpc7518;
+					actor = ((Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) Class54.NPC_UPDATE_INDICES[i_127_ - i_125_])).aNpc7518;
 				}
 				if (actor.aByte5933 != i || actor.anInt10857 < 0) {
 					continue;

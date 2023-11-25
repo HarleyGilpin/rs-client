@@ -3,7 +3,7 @@ package com.jagex;
 public class Class57
 {
 	static int anInt842;
-	private Class302 aClass302_843;
+	private CacheArchive aCacheArchive_843;
 	static int anInt844;
 	static int anInt845;
 	private Class61 aClass61_846 = new Class61(16);
@@ -28,8 +28,8 @@ public class Class57
 			return class7;
 		}
 		byte[] bs;
-		synchronized (aClass302_843) {
-			bs = aClass302_843.method3524(false, i_1_, 30);
+		synchronized (aCacheArchive_843) {
+			bs = aCacheArchive_843.method3524(false, i_1_, 30);
 		}
 		class7 = new Class7();
 		if (bs != null) {
@@ -43,7 +43,7 @@ public class Class57
 	
 	final void method569(int i) {
 		if (i != 24895) {
-			aClass302_843 = null;
+			aCacheArchive_843 = null;
 		}
 		anInt844++;
 		synchronized (aClass61_846) {
@@ -94,8 +94,8 @@ public class Class57
 		anInt847++;
 	}
 	
-	Class57(Class353 class353, int i, Class302 class302) {
-		aClass302_843 = class302;
-		aClass302_843.method3537(-2, 30);
+	Class57(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_843 = cacheArchive;
+		aCacheArchive_843.method3537(-2, 30);
 	}
 }

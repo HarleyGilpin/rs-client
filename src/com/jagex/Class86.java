@@ -10,12 +10,12 @@ public class Class86
 	static int anInt1165;
 	static int anInt1166;
 	static int anInt1167;
-	protected Class302 aClass302_1168;
+	protected CacheArchive aCacheArchive_1168;
 	static int anInt1169;
 	static int anInt1170;
 	static int anInt1171;
 	static int anInt1172;
-	private Class302 aClass302_1173;
+	private CacheArchive aCacheArchive_1173;
 	private Class61 aClass61_1174 = new Class61(64);
 	protected int anInt1175;
 	protected Class61 aClass61_1176 = new Class61(50);
@@ -196,8 +196,8 @@ public class Class86
 			return itemdefinition;
 		}
 		byte[] bs;
-		synchronized (aClass302_1173) {
-			bs = aClass302_1173.method3524(false, Animator.method236(false, i), Node_Sub29_Sub2.method2716(0, i));
+		synchronized (aCacheArchive_1173) {
+			bs = aCacheArchive_1173.method3524(false, Animator.method236(false, i), Node_Sub29_Sub2.method2716(0, i));
 		}
 		itemdefinition = new ItemDefinition();
 		itemdefinition.anInt1914 = i;
@@ -245,16 +245,16 @@ public class Class86
 		return itemdefinition;
 	}
 	
-	Class86(Class353 class353, int i, boolean bool, Class36 class36, Class302 class302, Class302 class302_17_) {
+	Class86(Class353 class353, int i, boolean bool, Class36 class36, CacheArchive cacheArchive, CacheArchive cacheArchive_17_) {
 		anInt1161 = i;
 		aClass353_1164 = class353;
-		aClass302_1168 = class302_17_;
+		aCacheArchive_1168 = cacheArchive_17_;
 		aClass36_1182 = class36;
-		aClass302_1173 = class302;
+		aCacheArchive_1173 = cacheArchive;
 		aBoolean1162 = bool;
-		if (aClass302_1173 != null) {
-			int i_18_ = aClass302_1173.method3526(-20871) - 1;
-			anInt1175 = aClass302_1173.method3537(-2, i_18_) + i_18_ * 256;
+		if (aCacheArchive_1173 != null) {
+			int i_18_ = aCacheArchive_1173.method3526(-20871) - 1;
+			anInt1175 = aCacheArchive_1173.method3537(-2, i_18_) + i_18_ * 256;
 		} else {
 			anInt1175 = 0;
 		}

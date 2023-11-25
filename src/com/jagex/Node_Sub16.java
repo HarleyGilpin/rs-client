@@ -132,26 +132,26 @@ public class Node_Sub16 extends Node
 		return drawablemodel_22_;
 	}
 	
-	static final void method2589(Class302 class302, int i) {
-		Class89.anInt1197 = class302.method3519("hitbar_default", (byte) 39);
+	static final void method2589(CacheArchive cacheArchive, int i) {
+		Class89.anInt1197 = cacheArchive.method3519("hitbar_default", (byte) 39);
 		anInt7131++;
-		Node_Sub38_Sub20.anInt10313 = class302.method3519("timerbar_default", (byte) 46);
-		Class41.anInt626 = class302.method3519("headicons_pk", (byte) 19);
-		Class162.anInt2004 = class302.method3519("headicons_prayer", (byte) 19);
-		Class347.anInt4281 = class302.method3519("hint_headicons", (byte) 45);
-		Node_Sub9_Sub5.anInt9767 = class302.method3519("hint_mapmarkers", (byte) 5);
-		Class169_Sub1.anInt8787 = class302.method3519("mapflag", (byte) 97);
-		Node_Sub21.anInt7186 = class302.method3519("cross", (byte) 98);
-		Class318.anInt4045 = class302.method3519("mapdots", (byte) 127);
-		Class163.anInt2019 = class302.method3519("scrollbar", (byte) 117);
+		Node_Sub38_Sub20.anInt10313 = cacheArchive.method3519("timerbar_default", (byte) 46);
+		Class41.anInt626 = cacheArchive.method3519("headicons_pk", (byte) 19);
+		Class162.anInt2004 = cacheArchive.method3519("headicons_prayer", (byte) 19);
+		Class347.anInt4281 = cacheArchive.method3519("hint_headicons", (byte) 45);
+		Node_Sub9_Sub5.anInt9767 = cacheArchive.method3519("hint_mapmarkers", (byte) 5);
+		Class169_Sub1.anInt8787 = cacheArchive.method3519("mapflag", (byte) 97);
+		Node_Sub21.anInt7186 = cacheArchive.method3519("cross", (byte) 98);
+		Class318.anInt4045 = cacheArchive.method3519("mapdots", (byte) 127);
+		Class163.anInt2019 = cacheArchive.method3519("scrollbar", (byte) 117);
 		if (i != 1) {
 			method2589(null, 94);
 		}
-		Class289.anInt3645 = class302.method3519("name_icons", (byte) 103);
-		Class320_Sub3.anInt8225 = class302.method3519("floorshadows", (byte) 100);
-		Node_Sub38_Sub32.anInt10436 = class302.method3519("compass", (byte) 61);
-		Class153.anInt1943 = class302.method3519("otherlevel", (byte) 34);
-		CacheNode_Sub18.anInt9603 = class302.method3519("hint_mapedge", (byte) 20);
+		Class289.anInt3645 = cacheArchive.method3519("name_icons", (byte) 103);
+		Class320_Sub3.anInt8225 = cacheArchive.method3519("floorshadows", (byte) 100);
+		Node_Sub38_Sub32.anInt10436 = cacheArchive.method3519("compass", (byte) 61);
+		Class153.anInt1943 = cacheArchive.method3519("otherlevel", (byte) 34);
+		CacheNode_Sub18.anInt9603 = cacheArchive.method3519("hint_mapedge", (byte) 20);
 	}
 	
 	static int method2590(int i, int i_23_) {

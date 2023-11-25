@@ -9,7 +9,7 @@ public class Class12
 	static int anInt184;
 	private int anInt185;
 	static int anInt186;
-	static HashTable aHashTable187;
+	static HashTable NPC_MAP;
 	private Class158 aClass158_188 = new Class158();
 	static int anInt189;
 	private HashTable aHashTable190;
@@ -113,7 +113,7 @@ public class Class12
 		aClass192_197 = null;
 		aClass257_198 = null;
 		int i_1_ = -8 % ((i - -59) / 57);
-		aHashTable187 = null;
+		NPC_MAP = null;
 	}
 	
 	private final void method203(boolean bool, int i, Object object, Interface18 interface18) {
@@ -187,7 +187,7 @@ public class Class12
 	
 	static {
 		anInt193 = 0;
-		aHashTable187 = new HashTable(64);
+		NPC_MAP = new HashTable(64);
 		aClass192_197 = new Class192(48, 5);
 		aClass257_198 = new Class257(14, 5);
 	}

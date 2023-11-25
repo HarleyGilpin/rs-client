@@ -1,7 +1,7 @@
 package com.jagex;
 import java.awt.Dimension;
 
-public class Class302
+public class CacheArchive
 {
 	static int anInt3781;
 	static int anInt3782;
@@ -697,7 +697,7 @@ public class Class302
 		return anArchive3797.anIntArray285[i_67_];
 	}
 	
-	Class302(Class34 class34, boolean bool, int i) {
+	CacheArchive(Class34 class34, boolean bool, int i) {
 		if (i < 0 || (i ^ 0xffffffff) < -3) {
 			throw new IllegalArgumentException("js5: Invalid value " + i + " supplied for discardunpacked");
 		}

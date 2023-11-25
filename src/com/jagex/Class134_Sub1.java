@@ -235,7 +235,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					class318_9_ = Class320_Sub13.aClass318_8334;
 				}
 				if (class318_9_ != null) {
-					Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) i_7_);
+					Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) i_7_);
 					if (node_sub41 != null) {
 						Class93_Sub2.anInt6067 = i_3_;
 						Npc npc = node_sub41.aNpc7518;
@@ -322,7 +322,7 @@ public class Class134_Sub1 extends Class134 implements Interface13_Impl3
 					Class223.method2104(0, i_5_, i_4_);
 				}
 				if ((i_6_ ^ 0xffffffff) == -24) {
-					Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) i_7_);
+					Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) i_7_);
 					if (node_sub41 != null) {
 						Npc npc = node_sub41.aNpc7518;
 						Node_Sub37.anInt7431 = 0;

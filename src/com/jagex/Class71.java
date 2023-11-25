@@ -3,7 +3,7 @@ import java.util.Hashtable;
 
 public class Class71
 {
-	private Class302 aClass302_951;
+	private CacheArchive aCacheArchive_951;
 	static int anInt952;
 	static int anInt953;
 	static int anInt954;
@@ -65,8 +65,8 @@ public class Class71
 			return class289;
 		}
 		byte[] bs;
-		synchronized (aClass302_951) {
-			bs = aClass302_951.method3524(false, i, 4);
+		synchronized (aCacheArchive_951) {
+			bs = aCacheArchive_951.method3524(false, i, 4);
 		}
 		class289 = new Class289();
 		class289.aClass71_3635 = this;
@@ -111,8 +111,8 @@ public class Class71
 		anInt955++;
 	}
 	
-	Class71(Class353 class353, int i, Class302 class302) {
-		aClass302_951 = class302;
-		anInt956 = aClass302_951.method3537(-2, 4);
+	Class71(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_951 = cacheArchive;
+		anInt956 = aCacheArchive_951.method3537(-2, 4);
 	}
 }

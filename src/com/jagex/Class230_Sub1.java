@@ -26,8 +26,8 @@ public class Class230_Sub1 extends Class230
 		return i_2_;
 	}
 	
-	Class230_Sub1(Class302 class302, Class235_Sub1 class235_sub1) {
-		super(class302, (Class235) class235_sub1);
+	Class230_Sub1(CacheArchive cacheArchive, Class235_Sub1 class235_sub1) {
+		super(cacheArchive, (Class235) class235_sub1);
 	}
 	
 	public static void method2132(int i) {

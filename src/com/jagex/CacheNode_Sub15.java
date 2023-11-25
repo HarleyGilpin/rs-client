@@ -21,14 +21,14 @@ public class CacheNode_Sub15 extends CacheNode
 			return true;
 		}
 		if (aByteArrayArray9596 == null) {
-			synchronized (Node_Sub15_Sub11.aClass302_9859) {
-				if (!Node_Sub15_Sub11.aClass302_9859.method3536(-1, anInt9591)) {
+			synchronized (Node_Sub15_Sub11.aCacheArchive_9859) {
+				if (!Node_Sub15_Sub11.aCacheArchive_9859.method3536(-1, anInt9591)) {
 					return false;
 				}
-				int[] is = Node_Sub15_Sub11.aClass302_9859.method3532(anInt9591, i ^ ~0x1a2);
+				int[] is = Node_Sub15_Sub11.aCacheArchive_9859.method3532(anInt9591, i ^ ~0x1a2);
 				aByteArrayArray9596 = new byte[is.length][];
 				for (int i_0_ = 0; is.length > i_0_; i_0_++)
-					aByteArrayArray9596[i_0_] = Node_Sub15_Sub11.aClass302_9859.method3524(false, is[i_0_], anInt9591);
+					aByteArrayArray9596[i_0_] = Node_Sub15_Sub11.aCacheArchive_9859.method3524(false, is[i_0_], anInt9591);
 			}
 		}
 		boolean bool = true;
@@ -37,8 +37,8 @@ public class CacheNode_Sub15 extends CacheNode
 			Buffer buffer = new Buffer(bs);
 			buffer.anInt7002 = 1;
 			int i_2_ = buffer.method2219(-130546744);
-			synchronized (Class145.aClass302_1799) {
-				bool &= Class145.aClass302_1799.method3510(i_2_, (byte) 63);
+			synchronized (Class145.aCacheArchive_1799) {
+				bool &= Class145.aCacheArchive_1799.method3510(i_2_, (byte) 63);
 			}
 		}
 		if (!bool) {
@@ -46,13 +46,13 @@ public class CacheNode_Sub15 extends CacheNode
 		}
 		Class312 class312 = new Class312();
 		int[] is;
-		synchronized (Node_Sub15_Sub11.aClass302_9859) {
-			int i_3_ = Node_Sub15_Sub11.aClass302_9859.method3537(-2, anInt9591);
+		synchronized (Node_Sub15_Sub11.aCacheArchive_9859) {
+			int i_3_ = Node_Sub15_Sub11.aCacheArchive_9859.method3537(-2, anInt9591);
 			aClass222Array9595 = new Class222[i_3_];
 			if (i != -419) {
 				method2381((byte) 47, -27);
 			}
-			is = Node_Sub15_Sub11.aClass302_9859.method3532(anInt9591, 0);
+			is = Node_Sub15_Sub11.aCacheArchive_9859.method3532(anInt9591, 0);
 		}
 		for (int i_4_ = 0; is.length > i_4_; i_4_++) {
 			byte[] bs = aByteArrayArray9596[i_4_];
@@ -67,8 +67,8 @@ public class CacheNode_Sub15 extends CacheNode
 				}
 			}
 			if (node_sub40 == null) {
-				synchronized (Class145.aClass302_1799) {
-					node_sub40 = new Node_Sub40(i_5_, Class145.aClass302_1799.method3518((byte) -126, i_5_));
+				synchronized (Class145.aCacheArchive_1799) {
+					node_sub40 = new Node_Sub40(i_5_, Class145.aCacheArchive_1799.method3518((byte) -126, i_5_));
 				}
 				class312.method3625((byte) -54, node_sub40);
 			}
@@ -83,10 +83,10 @@ public class CacheNode_Sub15 extends CacheNode
 		if (Class169_Sub1.aBooleanArray8788[i_7_]) {
 			return true;
 		}
-		if (!Node_Sub38_Sub31.aClass302_10422.method3536(-1, i_7_)) {
+		if (!Node_Sub38_Sub31.aCacheArchive_10422.method3536(-1, i_7_)) {
 			return false;
 		}
-		int i_8_ = Node_Sub38_Sub31.aClass302_10422.method3537(i + -7017, i_7_);
+		int i_8_ = Node_Sub38_Sub31.aCacheArchive_10422.method3537(i + -7017, i_7_);
 		if (i_8_ == 0) {
 			Class169_Sub1.aBooleanArray8788[i_7_] = true;
 			return true;
@@ -99,7 +99,7 @@ public class CacheNode_Sub15 extends CacheNode
 		}
 		for (int i_9_ = 0; i_8_ > i_9_; i_9_++) {
 			if (Class134_Sub3.aWidgetArrayArray9035[i_7_][i_9_] == null) {
-				byte[] bs = Node_Sub38_Sub31.aClass302_10422.method3524(false, i_9_, i_7_);
+				byte[] bs = Node_Sub38_Sub31.aCacheArchive_10422.method3524(false, i_9_, i_7_);
 				if (bs != null) {
 					Widget widget = Class134_Sub3.aWidgetArrayArray9035[i_7_][i_9_] = new Widget();
 					widget.anInt4822 = i_9_ + (i_7_ << 16);

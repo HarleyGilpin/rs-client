@@ -7,11 +7,11 @@ public class Class105 implements Interface10
 	static int anInt5193;
 	static GLSprite[] aGLSpriteArray5194;
 	static int anInt5195;
-	private Class302 aClass302_5196;
+	private CacheArchive aCacheArchive_5196;
 	static int anInt5197;
 	static int anInt5198;
 	static int anInt5199;
-	private Class302 aClass302_5200;
+	private CacheArchive aCacheArchive_5200;
 	private Class52 aClass52_5201;
 	static Class61 aClass61_5202 = new Class61(4);
 	static Object anObject5203;
@@ -22,8 +22,8 @@ public class Class105 implements Interface10
 			method1116(54, -63, -111, (byte) 24, -8, -127, false);
 		}
 		anInt5195++;
-		Class357 class357 = Class129.method1553(-1, aClass98_5192.anInt5054, aClass302_5196);
-		aClass52_5201 = Class93.aGraphicsToolkit1241.a(class357, Class383.method4199(aClass302_5200, aClass98_5192.anInt5054), true);
+		Class357 class357 = Class129.method1553(-1, aClass98_5192.anInt5054, aCacheArchive_5196);
+		aClass52_5201 = Class93.aGraphicsToolkit1241.a(class357, Class383.method4199(aCacheArchive_5200, aClass98_5192.anInt5054), true);
 	}
 	
 	static final void method1116(int i, int i_0_, int i_1_, byte b, int i_2_, int i_3_, boolean bool) {
@@ -67,19 +67,19 @@ public class Class105 implements Interface10
 			return true;
 		}
 		boolean bool = true;
-		if (!aClass302_5200.method3510(aClass98_5192.anInt5054, (byte) 63)) {
+		if (!aCacheArchive_5200.method3510(aClass98_5192.anInt5054, (byte) 63)) {
 			bool = false;
 		}
-		if (!aClass302_5196.method3510(aClass98_5192.anInt5054, (byte) 63)) {
+		if (!aCacheArchive_5196.method3510(aClass98_5192.anInt5054, (byte) 63)) {
 			bool = false;
 		}
 		return bool;
 	}
 	
-	Class105(Class302 class302, Class302 class302_8_, Class98 class98) {
+	Class105(CacheArchive cacheArchive, CacheArchive cacheArchive_8_, Class98 class98) {
 		aClass98_5192 = class98;
-		aClass302_5196 = class302_8_;
-		aClass302_5200 = class302;
+		aCacheArchive_5196 = cacheArchive_8_;
+		aCacheArchive_5200 = cacheArchive;
 	}
 	
 	static final void method1119(int i, int i_9_, int i_10_) {

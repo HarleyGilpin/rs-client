@@ -34,8 +34,8 @@ public class IOException_Sub1 extends IOException
 		aClass128_85 = null;
 	}
 	
-	static final void method133(int i, Class302 class302, SignLink signlink) {
-		Class239.aClass302_2931 = class302;
+	static final void method133(int i, CacheArchive cacheArchive, SignLink signlink) {
+		Class239.aCacheArchive_2931 = cacheArchive;
 		anInt87++;
 		Class117_Sub1.aString4931 = "";
 		Animable_Sub1_Sub1.aSignLink10616 = signlink;

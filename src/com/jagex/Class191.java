@@ -25,7 +25,7 @@ public class Class191
 		}
 		int i_1_ = 73 % ((-6 - i_0_) / 63);
 		if (Class216.aClass216_2546 == CacheNode_Sub9.aClass216_9498) {
-			byte[] bs = Node_Sub15_Sub10.aClass302_9853.method3518((byte) 113, i);
+			byte[] bs = Node_Sub15_Sub10.aCacheArchive_9853.method3518((byte) 113, i);
 			if (bs == null) {
 				return false;
 			}

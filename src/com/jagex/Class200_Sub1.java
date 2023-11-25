@@ -266,52 +266,52 @@ public class Class200_Sub1 extends Class200 implements Interface9
 		anInt5144 = i;
 	}
 	
-	static final int method2017(int i, Class302 class302) {
+	static final int method2017(int i, CacheArchive cacheArchive) {
 		anInt5135++;
 		int i_57_ = i;
-		if (class302.method3510(Class89.anInt1197, (byte) 63)) {
+		if (cacheArchive.method3510(Class89.anInt1197, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(Node_Sub38_Sub20.anInt10313, (byte) 63)) {
+		if (cacheArchive.method3510(Node_Sub38_Sub20.anInt10313, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(Class41.anInt626, (byte) 63)) {
+		if (cacheArchive.method3510(Class41.anInt626, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(Class162.anInt2004, (byte) 63)) {
+		if (cacheArchive.method3510(Class162.anInt2004, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(Class347.anInt4281, (byte) 63)) {
+		if (cacheArchive.method3510(Class347.anInt4281, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(Node_Sub9_Sub5.anInt9767, (byte) 63)) {
+		if (cacheArchive.method3510(Node_Sub9_Sub5.anInt9767, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(Class169_Sub1.anInt8787, (byte) 63)) {
+		if (cacheArchive.method3510(Class169_Sub1.anInt8787, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(Node_Sub21.anInt7186, (byte) 63)) {
+		if (cacheArchive.method3510(Node_Sub21.anInt7186, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(Class318.anInt4045, (byte) 63)) {
+		if (cacheArchive.method3510(Class318.anInt4045, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(Class163.anInt2019, (byte) 63)) {
+		if (cacheArchive.method3510(Class163.anInt2019, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(Class289.anInt3645, (byte) 63)) {
+		if (cacheArchive.method3510(Class289.anInt3645, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(Class320_Sub3.anInt8225, (byte) 63)) {
+		if (cacheArchive.method3510(Class320_Sub3.anInt8225, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(Node_Sub38_Sub32.anInt10436, (byte) 63)) {
+		if (cacheArchive.method3510(Node_Sub38_Sub32.anInt10436, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(Class153.anInt1943, (byte) 63)) {
+		if (cacheArchive.method3510(Class153.anInt1943, (byte) 63)) {
 			i_57_++;
 		}
-		if (class302.method3510(CacheNode_Sub18.anInt9603, (byte) 63)) {
+		if (cacheArchive.method3510(CacheNode_Sub18.anInt9603, (byte) 63)) {
 			i_57_++;
 		}
 		return i_57_;

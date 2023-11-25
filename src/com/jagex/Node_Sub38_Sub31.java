@@ -8,7 +8,7 @@ public class Node_Sub38_Sub31 extends Node_Sub38
 	static int anInt10419;
 	static long aLong10420;
 	static int anInt10421;
-	static Class302 aClass302_10422;
+	static CacheArchive aCacheArchive_10422;
 	static int anInt10423;
 	
 	public Node_Sub38_Sub31() {
@@ -21,7 +21,7 @@ public class Node_Sub38_Sub31 extends Node_Sub38
 		}
 		anInt10417++;
 		if (bool != false) {
-			aClass302_10422 = null;
+			aCacheArchive_10422 = null;
 		}
 	}
 	
@@ -74,7 +74,7 @@ public class Node_Sub38_Sub31 extends Node_Sub38
 		if (i > -86) {
 			method2893(3);
 		}
-		aClass302_10422 = null;
+		aCacheArchive_10422 = null;
 	}
 	
 	final int[][] method2778(int i, boolean bool) {

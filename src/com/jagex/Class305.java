@@ -2764,7 +2764,7 @@ public class Class305
 					anInt3846 -= 2;
 					int i_227_ = anIntArray3840[anInt3846];
 					int i_228_ = anIntArray3840[anInt3846 + 1];
-					Class357 class357 = Class44.method461(0, 19, i_228_, AnimableAnimator_Sub1.aClass302_9091);
+					Class357 class357 = Class44.method461(0, 19, i_228_, AnimableAnimator_Sub1.aCacheArchive_9091);
 					anIntArray3840[anInt3846++] = class357.method4028(string, Node_Sub52.aGLSpriteArray7655, (byte) -46, i_227_);
 					return;
 				}
@@ -2773,7 +2773,7 @@ public class Class305
 					anInt3846 -= 2;
 					int i_229_ = anIntArray3840[anInt3846];
 					int i_230_ = anIntArray3840[anInt3846 + 1];
-					Class357 class357 = Class44.method461(0, 123, i_230_, AnimableAnimator_Sub1.aClass302_9091);
+					Class357 class357 = Class44.method461(0, 123, i_230_, AnimableAnimator_Sub1.aCacheArchive_9091);
 					anIntArray3840[anInt3846++] = class357.method4030(Node_Sub52.aGLSpriteArray7655, 0, string, i_229_);
 					return;
 				}
@@ -2893,7 +2893,7 @@ public class Class305
 				if (i == 4125) {
 					String string = aStringArray3855[--anInt3841];
 					int i_249_ = anIntArray3840[--anInt3846];
-					Class357 class357 = Class44.method461(0, 120, i_249_, AnimableAnimator_Sub1.aClass302_9091);
+					Class357 class357 = Class44.method461(0, 120, i_249_, AnimableAnimator_Sub1.aCacheArchive_9091);
 					anIntArray3840[anInt3846++] = class357.method4031(104, Node_Sub52.aGLSpriteArray7655, string);
 					return;
 				}
@@ -4499,11 +4499,11 @@ public class Class305
 				Class150.anInt5088 = anIntArray3840[anInt3846 + 8];
 				Class320_Sub26.anInt8451 = anIntArray3840[anInt3846 + 9];
 				Class340.anInt4209 = anIntArray3840[anInt3846 + 10];
-				Node_Sub38_Sub39.aClass302_10500.method3510(Class40.anInt620, (byte) 63);
-				Node_Sub38_Sub39.aClass302_10500.method3510(Class150.anInt5085, (byte) 63);
-				Node_Sub38_Sub39.aClass302_10500.method3510(GLDrawableModel.anInt5710, (byte) 63);
-				Node_Sub38_Sub39.aClass302_10500.method3510(EntityNode_Sub3.anInt5965, (byte) 63);
-				Node_Sub38_Sub39.aClass302_10500.method3510(Class150.anInt5088, (byte) 63);
+				Node_Sub38_Sub39.aCacheArchive_10500.method3510(Class40.anInt620, (byte) 63);
+				Node_Sub38_Sub39.aCacheArchive_10500.method3510(Class150.anInt5085, (byte) 63);
+				Node_Sub38_Sub39.aCacheArchive_10500.method3510(GLDrawableModel.anInt5710, (byte) 63);
+				Node_Sub38_Sub39.aCacheArchive_10500.method3510(EntityNode_Sub3.anInt5965, (byte) 63);
+				Node_Sub38_Sub39.aCacheArchive_10500.method3510(Class150.anInt5088, (byte) 63);
 				Exception_Sub1.aGLSprite98 = Class296.aGLSprite5437 = Class290_Sub1.aGLSprite8062 = null;
 				Class247.aGLSprite3141 = aa.aGLSprite102 = Class339_Sub7.aGLSprite8718 = null;
 				Class40.aGLSprite621 = Class286.aGLSprite3604 = null;
@@ -5008,7 +5008,7 @@ public class Class305
 				if (i_465_ != i_466_) {
 					if (Class58.method577(Class151.anInt1843, -22906)) {
 						if (i_466_ == 0 && Class313.anInt4013 != -1) {
-							Class339_Sub8.method3946(Class313.anInt4013, 0, i_465_, SeekableFile.aClass302_3881, false, 23732);
+							Class339_Sub8.method3946(Class313.anInt4013, 0, i_465_, SeekableFile.aCacheArchive_3881, false, 23732);
 							EntityNode_Sub7.method979(17285);
 							Class377_Sub1.aBoolean8775 = false;
 						} else if (i_465_ == 0) {
@@ -5135,7 +5135,7 @@ public class Class305
 				if (i_474_ != i_475_ && Class313.anInt4013 == Class317.anInt4038) {
 					if (!Class58.method577(Class151.anInt1843, -22906)) {
 						if (i_475_ == 0) {
-							Class339_Sub8.method3946(Class313.anInt4013, 0, i_474_, SeekableFile.aClass302_3881, false, 23732);
+							Class339_Sub8.method3946(Class313.anInt4013, 0, i_474_, SeekableFile.aCacheArchive_3881, false, 23732);
 							EntityNode_Sub7.method979(17285);
 							Class377_Sub1.aBoolean8775 = false;
 						} else if (i_474_ == 0) {

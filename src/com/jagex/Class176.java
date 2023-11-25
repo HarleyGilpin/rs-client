@@ -2,8 +2,8 @@ package com.jagex;
 
 public class Class176
 {
-	private Class302 aClass302_2101;
-	static Class302 aClass302_2102;
+	private CacheArchive aCacheArchive_2101;
+	static CacheArchive aCacheArchive_2102;
 	static int anInt2103;
 	private Class61 aClass61_2104 = new Class61(64);
 	protected int anInt2105;
@@ -22,8 +22,8 @@ public class Class176
 			return class254;
 		}
 		byte[] bs;
-		synchronized (aClass302_2101) {
-			bs = aClass302_2101.method3524(false, i, 19);
+		synchronized (aCacheArchive_2101) {
+			bs = aCacheArchive_2101.method3524(false, i, 19);
 		}
 		class254 = new Class254();
 		if (bs != null) {
@@ -36,15 +36,15 @@ public class Class176
 	}
 	
 	public static void method1806(int i) {
-		aClass302_2102 = null;
+		aCacheArchive_2102 = null;
 		if (i != -25421) {
 			method1806(-44);
 		}
 		aNode_Sub9_Sub3_2106 = null;
 	}
 	
-	Class176(Class353 class353, int i, Class302 class302) {
-		aClass302_2101 = class302;
-		anInt2105 = aClass302_2101.method3537(-2, 19);
+	Class176(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_2101 = cacheArchive;
+		anInt2105 = aCacheArchive_2101.method3537(-2, 19);
 	}
 }

@@ -8,11 +8,11 @@ public class Class324
 	
 	static final void method3812(int i, Packet packet, int i_0_) {
 		anInt4086++;
-		boolean bool = packet.method2256((byte) 45, 1) == 1;
+		boolean bool = packet.readBits(1) == 1;
 		if (bool) {
 			Node_Sub23_Sub1.anIntArray9928[Node_Sub9_Sub4.anInt9733++] = i;
 		}
-		int i_1_ = packet.method2256((byte) 126, 2);
+		int i_1_ = packet.readBits(2);
 		Player player = Class270_Sub2.aPlayerArray8038[i];
 		if ((i_1_ ^ 0xffffffff) == -1) {
 			if (bool) {
@@ -35,12 +35,12 @@ public class Class324
 					Class45.method462((byte) 49, player);
 				}
 				Class270_Sub2.aPlayerArray8038[i] = null;
-				if (packet.method2256((byte) 72, 1) != 0) {
+				if (packet.readBits(1) != 0) {
 					Class339_Sub5.method3935(i, packet, 28460);
 				}
 			}
 		} else if ((i_1_ ^ 0xffffffff) == -2) {
-			int i_2_ = packet.method2256((byte) 1, 3);
+			int i_2_ = packet.readBits(3);
 			int i_3_ = player.anIntArray10910[0];
 			int i_4_ = player.anIntArray10908[0];
 			if (i_2_ != 0) {
@@ -80,7 +80,7 @@ public class Class324
 				player.aBoolean11156 = true;
 			}
 		} else if ((i_1_ ^ 0xffffffff) == -3) {
-			int i_5_ = packet.method2256((byte) 95, 4);
+			int i_5_ = packet.readBits(4);
 			int i_6_ = player.anIntArray10910[0];
 			int i_7_ = player.anIntArray10908[0];
 			if ((i_5_ ^ 0xffffffff) == -1) {
@@ -156,9 +156,9 @@ public class Class324
 				player.aBoolean11156 = true;
 			}
 		} else {
-			int i_8_ = packet.method2256((byte) -126, 1);
+			int i_8_ = packet.readBits(1);
 			if ((i_8_ ^ 0xffffffff) == -1) {
-				int i_9_ = packet.method2256((byte) -128, 12);
+				int i_9_ = packet.readBits(12);
 				int i_10_ = i_9_ >> 10;
 				int i_11_ = i_9_ >> 5 & 0x1f;
 				if ((i_11_ ^ 0xffffffff) < -16) {
@@ -188,7 +188,7 @@ public class Class324
 					CacheNode_Sub20_Sub1.anInt11089 = player.aByte5933;
 				}
 			} else {
-				int i_15_ = packet.method2256((byte) 66, 30);
+				int i_15_ = packet.readBits(30);
 				int i_16_ = i_15_ >> 28;
 				int i_17_ = 0x3fff & i_15_ >> 14;
 				if (i_0_ >= 18) {

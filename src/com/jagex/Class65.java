@@ -6,8 +6,8 @@ public class Class65
 	private int anInt926;
 	private int anInt927;
 	
-	static final Class65 method714(Class302 class302, int i, int i_0_) {
-		byte[] bs = class302.method3524(false, i_0_, i);
+	static final Class65 method714(CacheArchive cacheArchive, int i, int i_0_) {
+		byte[] bs = cacheArchive.method3524(false, i_0_, i);
 		if (bs == null) {
 			return null;
 		}

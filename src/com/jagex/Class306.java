@@ -3,7 +3,7 @@ import java.awt.Canvas;
 
 public class Class306
 {
-	static GraphicsToolkit initD3D(Class302 class302, int i, d var_d, Canvas canvas) {
+	static GraphicsToolkit initD3D(CacheArchive cacheArchive, int i, d var_d, Canvas canvas) {
 		GraphicsToolkit graphicstoolkit;
 
 		try {
@@ -15,7 +15,7 @@ public class Class306
 				throw new RuntimeException("");
 			}
 
-			graphicstoolkit = D3DToolkit.createToolkit(canvas, var_d, class302, i);
+			graphicstoolkit = D3DToolkit.createToolkit(canvas, var_d, cacheArchive, i);
 		} catch (Throwable throwable) {
 			throwable.printStackTrace();
 			throw new RuntimeException("");

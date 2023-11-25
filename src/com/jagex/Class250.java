@@ -12,9 +12,9 @@ public class Class250
 	static int anInt3174;
 	static boolean aBoolean3175 = false;
 	static int anInt3176;
-	private Class302 aClass302_3177;
+	private CacheArchive aCacheArchive_3177;
 	private int anInt3178;
-	static Class302 aClass302_3179;
+	static CacheArchive aCacheArchive_3179;
 	
 	final int[] method3091(int i, byte b) {
 		anInt3174++;
@@ -57,7 +57,7 @@ public class Class250
 	final Class55 method3093(int i, boolean bool) {
 		try {
 			anInt3176++;
-			byte[] bs = aClass302_3177.method3524(bool, i, 1);
+			byte[] bs = aCacheArchive_3177.method3524(bool, i, 1);
 			Class55 class55 = new Class55();
 			class55.method561(new Buffer(bs), (byte) 31);
 			return class55;
@@ -69,7 +69,7 @@ public class Class250
 	public static void method3094(byte b) {
 		if (b < -52) {
 			aBooleanArrayArray3168 = null;
-			aClass302_3179 = null;
+			aCacheArchive_3179 = null;
 		}
 	}
 	
@@ -96,10 +96,10 @@ public class Class250
 		return true;
 	}
 	
-	Class250(Class353 class353, int i, Class302 class302) {
-		aClass302_3177 = class302;
-		aClass302_3177.method3537(-2, 1);
-		Buffer buffer = new Buffer(aClass302_3177.method3524(false, 0, 0));
+	Class250(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_3177 = cacheArchive;
+		aCacheArchive_3177.method3537(-2, 1);
+		Buffer buffer = new Buffer(aCacheArchive_3177.method3524(false, 0, 0));
 		int i_7_ = buffer.method2233(255);
 		if (i_7_ <= 3) {
 			int i_8_ = buffer.method2233(255);

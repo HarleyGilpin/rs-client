@@ -28,9 +28,9 @@ class EntityNode_Sub3_Sub2 extends EntityNode_Sub3
 	static final void method946(boolean bool) {
 		anInt9167++;
 		if (bool == false) {
-			Class134_Sub3.aWidgetArrayArray9035 = new Widget[Node_Sub38_Sub31.aClass302_10422.method3526(-20871)][];
-			Class79.aWidgetArrayArray1082 = new Widget[Node_Sub38_Sub31.aClass302_10422.method3526(-20871)][];
-			Class169_Sub1.aBooleanArray8788 = new boolean[Node_Sub38_Sub31.aClass302_10422.method3526(-20871)];
+			Class134_Sub3.aWidgetArrayArray9035 = new Widget[Node_Sub38_Sub31.aCacheArchive_10422.method3526(-20871)][];
+			Class79.aWidgetArrayArray1082 = new Widget[Node_Sub38_Sub31.aCacheArchive_10422.method3526(-20871)][];
+			Class169_Sub1.aBooleanArray8788 = new boolean[Node_Sub38_Sub31.aCacheArchive_10422.method3526(-20871)];
 		}
 	}
 	

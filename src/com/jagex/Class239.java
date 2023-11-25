@@ -4,12 +4,12 @@ import java.math.BigInteger;
 public class Class239
 {
 	static int anInt2917;
-	protected Class302 aClass302_2918;
+	protected CacheArchive aCacheArchive_2918;
 	private Class61 aClass61_2919 = new Class61(64);
 	static int anInt2920;
 	static int anInt2921;
 	static int anInt2922;
-	private Class302 aClass302_2923;
+	private CacheArchive aCacheArchive_2923;
 	static BigInteger aBigInteger2924 = new BigInteger("10001", 16);
 	protected Class61 aClass61_2925 = new Class61(2);
 	static int anInt2926;
@@ -17,12 +17,12 @@ public class Class239
 	static int anInt2928 = -1;
 	static Class318 aClass318_2929 = new Class318(15, 4);
 	static boolean aBoolean2930 = false;
-	static Class302 aClass302_2931;
+	static CacheArchive aCacheArchive_2931;
 	static boolean aBoolean2932;
 	
 	static final void method3022(boolean bool) {
 		if (bool != false) {
-			aClass302_2931 = null;
+			aCacheArchive_2931 = null;
 		}
 		Class229.aGraphicsToolkit2732.L(Class138.anInt1726, (Class213.aNode_Sub27_2512.aClass320_Sub16_7316.method3744(bool) ^ 0xffffffff) == -2 ? Node_Sub12.anInt5455 + 256 << 2 : -1, 0);
 		anInt2920++;
@@ -42,7 +42,7 @@ public class Class239
 	
 	public static void method3024(int i) {
 		aClass318_2929 = null;
-		aClass302_2931 = null;
+		aCacheArchive_2931 = null;
 		if (i != 2) {
 			method3022(true);
 		}
@@ -72,8 +72,8 @@ public class Class239
 			return class364;
 		}
 		byte[] bs;
-		synchronized (aClass302_2923) {
-			bs = aClass302_2923.method3524(false, i_1_, 33);
+		synchronized (aCacheArchive_2923) {
+			bs = aCacheArchive_2923.method3524(false, i_1_, 33);
 		}
 		class364 = new Class364();
 		class364.aClass239_4516 = this;
@@ -98,9 +98,9 @@ public class Class239
 		}
 	}
 	
-	Class239(Class353 class353, int i, Class302 class302, Class302 class302_2_) {
-		aClass302_2918 = class302_2_;
-		aClass302_2923 = class302;
-		aClass302_2923.method3537(-2, 33);
+	Class239(Class353 class353, int i, CacheArchive cacheArchive, CacheArchive cacheArchive_2_) {
+		aCacheArchive_2918 = cacheArchive_2_;
+		aCacheArchive_2923 = cacheArchive;
+		aCacheArchive_2923.method3537(-2, 33);
 	}
 }

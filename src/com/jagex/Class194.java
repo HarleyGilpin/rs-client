@@ -60,7 +60,7 @@ class Class194
 				method1963((byte) -54);
 			}
 			Class169_Sub3.method1779(Class93.aGraphicsToolkit1241, Class22.aClass22_376.method297(-12273, Class35.anInt537), true, Class169_Sub3.aClass357_8820, StandardSprite.aClass52_8945, -16777216);
-			Model model = Renderer.method3448(CacheNode_Sub4.aClass1_9466.anInt110, 7, 0, Class107.aClass302_1364);
+			Model model = Renderer.method3448(CacheNode_Sub4.aClass1_9466.anInt110, 7, 0, Class107.aCacheArchive_1364);
 			long l = Class313.method3650(false);
 			Class93.aGraphicsToolkit1241.la();
 			Class290_Sub6.aClass336_8114.method3854(0, Class135.anInt1692, 0);
@@ -155,7 +155,7 @@ class Class194
 					if (!Class71.aBoolean967) {
 						Class93.aGraphicsToolkit1241.a(Node_Sub38_Sub20.aCanvas10309, Class360.anInt4480, Class205.anInt5115);
 					} else {
-						Class302.method3535(Node_Sub38_Sub20.aCanvas10309, true);
+						CacheArchive.method3535(Node_Sub38_Sub20.aCanvas10309, true);
 					}
 					if (container != Node_Sub29.aFrame7344) {
 						Node_Sub38_Sub20.aCanvas10309.setLocation(Class270_Sub1.anInt8033, Class131.anInt5447);

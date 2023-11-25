@@ -5,7 +5,7 @@ public class Class128
 	static int anInt1647;
 	static int anInt1648;
 	static int anInt1649;
-	private Class302 aClass302_1650;
+	private CacheArchive aCacheArchive_1650;
 	static Class318 aClass318_1651 = new Class318(5, 4);
 	static int anInt1652;
 	static int anInt1653;
@@ -270,7 +270,7 @@ public class Class128
 																				class262 = new Class262_Sub18(buffer);
 																				break while_134_;
 																			} while (false);
-																			class262 = new Class262_Sub10(buffer);
+																			class262 = new NPCUpdate(buffer);
 																			break while_134_;
 																		} while (false);
 																		class262 = new Class262_Sub3(buffer);
@@ -336,8 +336,8 @@ public class Class128
 			return class70;
 		}
 		byte[] bs;
-		synchronized (aClass302_1650) {
-			bs = aClass302_1650.method3524(false, Class169.method1762((byte) 114, i), Class273.method3315(-989325398, i));
+		synchronized (aCacheArchive_1650) {
+			bs = aCacheArchive_1650.method3524(false, Class169.method1762((byte) 114, i), Class273.method3315(-989325398, i));
 		}
 		class70 = new Class70();
 		if (bs != null) {
@@ -378,11 +378,11 @@ public class Class128
 		}
 	}
 	
-	Class128(Class353 class353, int i, Class302 class302) {
-		aClass302_1650 = class302;
-		if (aClass302_1650 != null) {
-			int i_22_ = aClass302_1650.method3526(-20871) - 1;
-			aClass302_1650.method3537(-2, i_22_);
+	Class128(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_1650 = cacheArchive;
+		if (aCacheArchive_1650 != null) {
+			int i_22_ = aCacheArchive_1650.method3526(-20871) - 1;
+			aCacheArchive_1650.method3537(-2, i_22_);
 		}
 	}
 }

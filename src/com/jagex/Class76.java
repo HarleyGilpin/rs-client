@@ -74,7 +74,7 @@ public class Class76
 							i_7_ = -player.anInt5940 + actor.anInt5940;
 							i_6_ = actor.anInt5934 + -player.anInt5934;
 						} else {
-							Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) i_3_);
+							Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) i_3_);
 							if (node_sub41 != null) {
 								Npc npc = node_sub41.aNpc7518;
 								i_7_ = actor.anInt5940 - npc.anInt5940;

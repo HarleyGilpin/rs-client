@@ -43,11 +43,11 @@ public class CacheNode_Sub3 extends CacheNode
 			for (int i_4_ = (-(Class377_Sub1.anInt8774 >> 4) + i_1_) / 8; i_4_ <= ((Class377_Sub1.anInt8774 >> 4) + i_1_) / 8; i_4_++) {
 				int i_5_ = i_4_ + (i_3_ << 8);
 				Class262_Sub1.anIntArray7704[i_2_] = i_5_;
-				StandardPlane.anIntArray7980[i_2_] = Animable_Sub1_Sub1.aClass302_10618.method3519("m" + i_3_ + "_" + i_4_, (byte) 97);
-				Class144.anIntArray1789[i_2_] = Animable_Sub1_Sub1.aClass302_10618.method3519("l" + i_3_ + "_" + i_4_, (byte) 17);
-				Class204.anIntArray2460[i_2_] = Animable_Sub1_Sub1.aClass302_10618.method3519("n" + i_3_ + "_" + i_4_, (byte) 86);
-				Class42.anIntArray645[i_2_] = Animable_Sub1_Sub1.aClass302_10618.method3519("um" + i_3_ + "_" + i_4_, (byte) 122);
-				ProducingGraphicsBuffer.anIntArray9895[i_2_] = Animable_Sub1_Sub1.aClass302_10618.method3519("ul" + i_3_ + "_" + i_4_, (byte) 48);
+				StandardPlane.anIntArray7980[i_2_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("m" + i_3_ + "_" + i_4_, (byte) 97);
+				Class144.anIntArray1789[i_2_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("l" + i_3_ + "_" + i_4_, (byte) 17);
+				Class204.anIntArray2460[i_2_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("n" + i_3_ + "_" + i_4_, (byte) 86);
+				Class42.anIntArray645[i_2_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("um" + i_3_ + "_" + i_4_, (byte) 122);
+				ProducingGraphicsBuffer.anIntArray9895[i_2_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("ul" + i_3_ + "_" + i_4_, (byte) 48);
 				if (Class204.anIntArray2460[i_2_] == -1) {
 					StandardPlane.anIntArray7980[i_2_] = -1;
 					Class144.anIntArray1789[i_2_] = -1;

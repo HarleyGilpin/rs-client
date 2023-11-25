@@ -53,12 +53,12 @@ public class Class290_Sub9 extends Class290
 		method3416((byte) -56);
 	}
 	
-	Class290_Sub9(D3DToolkit d3dtoolkit, Class302 class302, Class5 class5) {
+	Class290_Sub9(D3DToolkit d3dtoolkit, CacheArchive cacheArchive, Class5 class5) {
 		super(d3dtoolkit);
 		aD3DToolkit8149 = d3dtoolkit;
 		aClass5_8152 = class5;
-		if (null != class302 && aClass5_8152.method173(4) && (0xffff & aD3DToolkit8149.aD3DCAPS9188.VertexShaderVersion) >= 257) {
-			anIDirect3DVertexShader8151 = aD3DToolkit8149.anIDirect3DDevice9199.b(class302.method3529("dx", "transparent_water", 1));
+		if (null != cacheArchive && aClass5_8152.method173(4) && (0xffff & aD3DToolkit8149.aD3DCAPS9188.VertexShaderVersion) >= 257) {
+			anIDirect3DVertexShader8151 = aD3DToolkit8149.anIDirect3DDevice9199.b(cacheArchive.method3529("dx", "transparent_water", 1));
 		} else {
 			anIDirect3DVertexShader8151 = null;
 		}

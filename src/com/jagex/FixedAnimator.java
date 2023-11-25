@@ -28,14 +28,14 @@ public class FixedAnimator extends Animator
 			Class89.anInt1198 = 0;
 			Player.aNode_Sub4_11140 = node_sub4;
 		}
-		Class93_Sub2.aClass302_6049 = null;
+		Class93_Sub2.aCacheArchive_6049 = null;
 		if ((Class89.anInt1198 ^ 0xffffffff) == -1) {
-			Node_Sub21.aClass96_7183 = new Class96(Class51.aClass302_5339, Class320_Sub12.aClass302_8326);
+			Node_Sub21.aClass96_7183 = new Class96(Class51.aCacheArchive_5339, Class320_Sub12.aCacheArchive_8326);
 			Class307.aNode_Sub9_Sub1_3902.method2450((byte) 107);
 			Class89.anInt1198 = 1;
 		}
 		if (Class89.anInt1198 == 1) {
-			if (!Class307.aNode_Sub9_Sub1_3902.method2467(Node_Sub21.aClass96_7183, Node_Sub38_Sub6.aClass302_10138, -101, 22050, node_sub4)) {
+			if (!Class307.aNode_Sub9_Sub1_3902.method2467(Node_Sub21.aClass96_7183, Node_Sub38_Sub6.aCacheArchive_10138, -101, 22050, node_sub4)) {
 				return false;
 			}
 			Node_Sub21.aClass96_7183 = null;
@@ -50,7 +50,7 @@ public class FixedAnimator extends Animator
 	}
 	
 	static final void method258(boolean bool, byte b, boolean bool_0_, int i, int i_1_, String string, String string_2_) {
-		Class205.aClass302_5104.anInt3795 = 1;
+		Class205.aCacheArchive_5104.anInt3795 = 1;
 		anInt5505++;
 		string = string.toLowerCase();
 		short[] ses = new short[16];
@@ -104,7 +104,7 @@ public class FixedAnimator extends Animator
 		if (b != -50) {
 			method257(null, -79);
 		}
-		Class205.aClass302_5104.method3521((byte) -18);
-		Class205.aClass302_5104.anInt3795 = 2;
+		Class205.aCacheArchive_5104.method3521((byte) -18);
+		Class205.aCacheArchive_5104.anInt3795 = 2;
 	}
 }

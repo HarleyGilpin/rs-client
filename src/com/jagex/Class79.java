@@ -151,8 +151,8 @@ public class Class79
 		if (glsprite != null) {
 			return glsprite;
 		}
-		aClass215_1076.aClass302_2541.method3510(anInt1093, (byte) 63);
-		Class383 class383 = Class383.method4194(aClass215_1076.aClass302_2541, anInt1093, 0);
+		aClass215_1076.aCacheArchive_2541.method3510(anInt1093, (byte) 63);
+		Class383 class383 = Class383.method4194(aClass215_1076.aCacheArchive_2541, anInt1093, 0);
 		if (class383 != null) {
 			glsprite = graphicstoolkit.a(class383, true);
 			aClass215_1076.aClass61_2543.method601(glsprite, i + -6828, (long) (anInt1093 | 0x20000 | graphicstoolkit.anInt1537 << 29));
@@ -215,10 +215,10 @@ public class Class79
 		if (glsprite != null) {
 			return glsprite;
 		}
-		if (!aClass215_1076.aClass302_2541.method3510(i, (byte) 63)) {
+		if (!aClass215_1076.aCacheArchive_2541.method3510(i, (byte) 63)) {
 			return null;
 		}
-		Class383 class383 = Class383.method4194(aClass215_1076.aClass302_2541, i, 0);
+		Class383 class383 = Class383.method4194(aClass215_1076.aCacheArchive_2541, i, 0);
 		if (class383 != null) {
 			glsprite = graphicstoolkit.a(class383, true);
 			aClass215_1076.aClass61_2543.method601(glsprite, 25566, (long) i_4_);

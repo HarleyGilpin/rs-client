@@ -13,7 +13,7 @@ public class Class93_Sub2 extends Class93 implements MouseListener, MouseMotionL
 	static int anInt6046;
 	private Class312 aClass312_6047 = new Class312();
 	static int anInt6048;
-	static Class302 aClass302_6049;
+	static CacheArchive aCacheArchive_6049;
 	static int anInt6050;
 	static int anInt6051;
 	static int anInt6052;
@@ -142,7 +142,7 @@ public class Class93_Sub2 extends Class93 implements MouseListener, MouseMotionL
 		}
 		anInt6064++;
 		if (bool != false) {
-			aClass302_6049 = null;
+			aCacheArchive_6049 = null;
 		}
 	}
 	
@@ -255,7 +255,7 @@ public class Class93_Sub2 extends Class93 implements MouseListener, MouseMotionL
 	}
 	
 	public static void method1063(boolean bool) {
-		aClass302_6049 = null;
+		aCacheArchive_6049 = null;
 		if (bool != true) {
 			method1063(true);
 		}

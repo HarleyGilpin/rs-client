@@ -69,12 +69,12 @@ public class Node_Sub10 extends Node
 		int i = -92 % ((-23 - b) / 51);
 	}
 	
-	static final void method2539(Class302 class302, int i) {
+	static final void method2539(CacheArchive cacheArchive, int i) {
 		if (i >= -127) {
 			aString7081 = null;
 		}
 		anInt7086++;
-		Class173.aClass302_2090 = class302;
+		Class173.aCacheArchive_2090 = cacheArchive;
 	}
 	
 	static final void method2540(Class52 class52) {

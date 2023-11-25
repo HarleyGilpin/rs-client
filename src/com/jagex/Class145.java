@@ -9,7 +9,7 @@ public class Class145
 	static int anInt1796;
 	private GLToolkit aGLToolkit1797;
 	static Class192 aClass192_1798 = new Class192(6, -2);
-	static Class302 aClass302_1799;
+	static CacheArchive aCacheArchive_1799;
 	
 	static final int method1638(int i, String string, int i_0_, boolean bool) {
 		anInt1796++;
@@ -83,7 +83,7 @@ public class Class145
 		if (b > -8) {
 			method1638(-111, null, -48, true);
 		}
-		aClass302_1799 = null;
+		aCacheArchive_1799 = null;
 		aClass192_1798 = null;
 	}
 	

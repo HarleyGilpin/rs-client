@@ -11,12 +11,12 @@ public class Class104
 		throw new IllegalStateException();
 	}
 	
-	static final void method1114(long l, boolean bool, int i, int i_0_, int i_1_, int i_2_, Class302 class302) {
+	static final void method1114(long l, boolean bool, int i, int i_0_, int i_1_, int i_2_, CacheArchive cacheArchive) {
 		anInt1348++;
 		if (i <= 48) {
 			method1114(82L, true, -98, -24, 56, -20, null);
 		}
-		Node_Sub28.method2701(i_1_, 0, class302, i_2_, bool, i_0_, l, (byte) -124);
+		Node_Sub28.method2701(i_1_, 0, cacheArchive, i_2_, bool, i_0_, l, (byte) -124);
 	}
 	
 	static final Actor method1115(int i, int i_3_, int i_4_, int i_5_) {

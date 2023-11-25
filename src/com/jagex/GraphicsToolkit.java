@@ -194,7 +194,7 @@ abstract class GraphicsToolkit
 	
 	abstract Renderer c();
 	
-	static final synchronized GraphicsToolkit method1240(int i, java.awt.Canvas canvas, int i_112_, int i_113_, d var_d, int i_114_, Class302 class302, int i_115_) {
+	static final synchronized GraphicsToolkit method1240(int i, java.awt.Canvas canvas, int i_112_, int i_113_, d var_d, int i_114_, CacheArchive cacheArchive, int i_115_) {
 		anInt1539++;
 		if (i_114_ == 0) {
 			return Class346.method3974(i_115_, 31206, var_d, i_112_, canvas);
@@ -209,10 +209,10 @@ abstract class GraphicsToolkit
 			return Class114.method1155(var_d, canvas, i_113_, -58);
 		}
 		if ((i_114_ ^ 0xffffffff) == -6) {
-			return Node_Sub20.method2613(i_113_, 1, class302, var_d, canvas);
+			return Node_Sub20.method2613(i_113_, 1, cacheArchive, var_d, canvas);
 		}
 		if ((i_114_ ^ 0xffffffff) == -4) {
-			return Class306.initD3D(class302, i_113_, var_d, canvas);
+			return Class306.initD3D(cacheArchive, i_113_, var_d, canvas);
 		}
 		throw new IllegalArgumentException("UM");
 	}

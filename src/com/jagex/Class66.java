@@ -6,14 +6,14 @@ abstract class Class66 implements Interface10
 	static int anInt5165;
 	static int anInt5166;
 	static Class318 aClass318_5167 = new Class318(6, 8);
-	protected Class302 aClass302_5168;
+	protected CacheArchive aCacheArchive_5168;
 	private Class52 aClass52_5169;
 	static int anInt5170;
 	protected Class150 aClass150_5171;
 	static int anInt5172;
 	static int anInt5173;
 	private int anInt5174;
-	private Class302 aClass302_5175;
+	private CacheArchive aCacheArchive_5175;
 	static ClanChat aClanChat5176;
 	static String aString5177 = null;
 	
@@ -71,10 +71,10 @@ abstract class Class66 implements Interface10
 	public void method26(int i) {
 		anInt5166++;
 		if (i != 99) {
-			aClass302_5168 = null;
+			aCacheArchive_5168 = null;
 		}
-		Class357 class357 = Class129.method1553(i ^ ~0x63, aClass150_5171.anInt5083, aClass302_5175);
-		aClass52_5169 = Class93.aGraphicsToolkit1241.a(class357, Class383.method4199(aClass302_5168, aClass150_5171.anInt5083), true);
+		Class357 class357 = Class129.method1553(i ^ ~0x63, aClass150_5171.anInt5083, aCacheArchive_5175);
+		aClass52_5169 = Class93.aGraphicsToolkit1241.a(class357, Class383.method4199(aCacheArchive_5168, aClass150_5171.anInt5083), true);
 	}
 	
 	static final void method722(int i, String string) {
@@ -95,21 +95,21 @@ abstract class Class66 implements Interface10
 	public boolean method25(int i) {
 		anInt5170++;
 		boolean bool = true;
-		if (!aClass302_5168.method3510(aClass150_5171.anInt5083, (byte) 63)) {
+		if (!aCacheArchive_5168.method3510(aClass150_5171.anInt5083, (byte) 63)) {
 			bool = false;
 		}
 		if (i != 421) {
 			aClass52_5169 = null;
 		}
-		if (!aClass302_5175.method3510(aClass150_5171.anInt5083, (byte) 63)) {
+		if (!aCacheArchive_5175.method3510(aClass150_5171.anInt5083, (byte) 63)) {
 			bool = false;
 		}
 		return bool;
 	}
 	
-	Class66(Class302 class302, Class302 class302_11_, Class150 class150) {
+	Class66(CacheArchive cacheArchive, CacheArchive cacheArchive_11_, Class150 class150) {
 		aClass150_5171 = class150;
-		aClass302_5168 = class302;
-		aClass302_5175 = class302_11_;
+		aCacheArchive_5168 = cacheArchive;
+		aCacheArchive_5175 = cacheArchive_11_;
 	}
 }

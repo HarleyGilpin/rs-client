@@ -4,7 +4,7 @@ public class Node_Sub38_Sub19 extends Node_Sub38
 {
 	static Class78[] aClass78Array10284 = new Class78[50];
 	static int anInt10285;
-	static Class302 aClass302_10286;
+	static CacheArchive aCacheArchive_10286;
 	private boolean aBoolean10287;
 	static int anInt10288;
 	static int anInt10289;
@@ -37,7 +37,7 @@ public class Node_Sub38_Sub19 extends Node_Sub38
 	
 	public static void method2848(int i) {
 		anIntArray10292 = null;
-		aClass302_10286 = null;
+		aCacheArchive_10286 = null;
 		if (i < 92) {
 			aClass78Array10284 = null;
 		}

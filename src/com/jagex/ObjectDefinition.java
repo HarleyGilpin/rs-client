@@ -530,10 +530,10 @@ public class ObjectDefinition
 			return true;
 		}
 		boolean bool = true;
-		synchronized (aClass112_3028.aClass302_1433) {
+		synchronized (aClass112_3028.aCacheArchive_1433) {
 			for (int i_34_ = 0; (anIntArrayArray3031.length ^ 0xffffffff) < (i_34_ ^ 0xffffffff); i_34_++) {
 				for (int i_35_ = 0; (i_35_ ^ 0xffffffff) > (anIntArrayArray3031[i_34_].length ^ 0xffffffff); i_35_++)
-					bool &= aClass112_3028.aClass302_1433.method3515(0, anIntArrayArray3031[i_34_][i_35_], 0);
+					bool &= aClass112_3028.aCacheArchive_1433.method3515(0, anIntArrayArray3031[i_34_][i_35_], 0);
 			}
 		}
 		if (i <= 76) {
@@ -569,14 +569,14 @@ public class ObjectDefinition
 		if (anIntArrayArray3031 == null) {
 			return true;
 		}
-		synchronized (aClass112_3028.aClass302_1433) {
+		synchronized (aClass112_3028.aCacheArchive_1433) {
 			if (i_38_ <= 12) {
 				return true;
 			}
 			for (int i_39_ = 0; (i_39_ ^ 0xffffffff) > (aByteArray2967.length ^ 0xffffffff); i_39_++) {
 				if (i == aByteArray2967[i_39_]) {
 					for (int i_40_ = 0; (i_40_ ^ 0xffffffff) > (anIntArrayArray3031[i_39_].length ^ 0xffffffff); i_40_++) {
-						if (!aClass112_3028.aClass302_1433.method3515(0, anIntArrayArray3031[i_39_][i_40_], 0)) {
+						if (!aClass112_3028.aCacheArchive_1433.method3515(0, anIntArrayArray3031[i_39_][i_40_], 0)) {
 							return false;
 						}
 					}
@@ -939,8 +939,8 @@ public class ObjectDefinition
 				Model model = null;
 				synchronized (Animable_Sub3_Sub1.aModelArray11008) {
 					for (int i_76_ = 0; i_76_ < i_73_; i_76_++) {
-						synchronized (aClass112_3028.aClass302_1433) {
-							model = Renderer.method3448(is[i_76_] & 0xffff, 7, 0, aClass112_3028.aClass302_1433);
+						synchronized (aClass112_3028.aCacheArchive_1433) {
+							model = Renderer.method3448(is[i_76_] & 0xffff, 7, 0, aClass112_3028.aCacheArchive_1433);
 						}
 						if (model == null) {
 							return null;

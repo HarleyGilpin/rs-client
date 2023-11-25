@@ -199,7 +199,7 @@ public class EntityNode_Sub6 extends EntityNode
 				}
 			}
 			if (Class262_Sub15_Sub1.aClass224_10520 != null) {
-				Class4.aClass302_122.anInt3795 = 1;
+				Class4.aCacheArchive_122.anInt3795 = 1;
 				Class304.aClass215_3834.method2068(-1, 1024, 64);
 				for (int i_46_ = 0; i_46_ < Class262_Sub15_Sub1.aClass224_10520.anInt2670; i_46_++) {
 					int i_47_ = Class262_Sub15_Sub1.aClass224_10520.anIntArray2668[i_46_];
@@ -217,8 +217,8 @@ public class EntityNode_Sub6 extends EntityNode
 					}
 				}
 				Class304.aClass215_3834.method2068(i_0_ + -6401, 128, 64);
-				Class4.aClass302_122.anInt3795 = 2;
-				Class4.aClass302_122.method3521((byte) -18);
+				Class4.aCacheArchive_122.anInt3795 = 2;
+				Class4.aCacheArchive_122.method3521((byte) -18);
 			}
 		}
 		return true;

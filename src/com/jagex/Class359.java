@@ -4,7 +4,7 @@ public class Class359
 {
 	static int anInt4456;
 	static int anInt4457;
-	private Class302 aClass302_4458;
+	private CacheArchive aCacheArchive_4458;
 	private Class61 aClass61_4459 = new Class61(64);
 	static int anInt4460;
 	static int anInt4461;
@@ -66,8 +66,8 @@ public class Class359
 			return class367;
 		}
 		byte[] bs;
-		synchronized (aClass302_4458) {
-			bs = aClass302_4458.method3524(false, i, 31);
+		synchronized (aCacheArchive_4458) {
+			bs = aCacheArchive_4458.method3524(false, i, 31);
 		}
 		class367 = new Class367();
 		if (bs != null) {
@@ -89,8 +89,8 @@ public class Class359
 		anInt4460++;
 	}
 	
-	Class359(Class353 class353, int i, Class302 class302) {
-		aClass302_4458 = class302;
-		aClass302_4458.method3537(-2, 31);
+	Class359(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_4458 = cacheArchive;
+		aCacheArchive_4458.method3537(-2, 31);
 	}
 }

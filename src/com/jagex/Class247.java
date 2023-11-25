@@ -40,7 +40,7 @@ public class Class247
 	private boolean aBoolean3140;
 	static GLSprite aGLSprite3141;
 	private int anInt3142;
-	static Class302 aClass302_3143;
+	static CacheArchive aCacheArchive_3143;
 	static Calendar aCalendar3144 = Calendar.getInstance(TimeZone.getTimeZone("GMT"));
 	
 	private final boolean method3075(byte b) {
@@ -350,7 +350,7 @@ public class Class247
 	}
 	
 	public static void method3083(boolean bool) {
-		aClass302_3143 = null;
+		aCacheArchive_3143 = null;
 		aGLSprite3141 = null;
 		if (bool != false) {
 			method3083(true);

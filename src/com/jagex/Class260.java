@@ -135,7 +135,7 @@ public class Class260 implements Interface10
 		if (cachenode_sub9 != null) {
 			return cachenode_sub9;
 		}
-		byte[] bs = Class21.aClass302_357.method3524(false, 0, i);
+		byte[] bs = Class21.aCacheArchive_357.method3524(false, 0, i);
 		if (bs == null || bs.length <= 1) {
 			return null;
 		}

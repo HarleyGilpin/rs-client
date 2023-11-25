@@ -7,7 +7,7 @@ public class Class107
 	static float aFloat1361;
 	static int anInt1362;
 	static int[] anIntArray1363 = new int[1];
-	static Class302 aClass302_1364;
+	static CacheArchive aCacheArchive_1364;
 	protected Interface1 anInterface1_1365;
 	static int anInt1366 = 1403;
 	
@@ -20,7 +20,7 @@ public class Class107
 	}
 	
 	public static void method1125(int i) {
-		aClass302_1364 = null;
+		aCacheArchive_1364 = null;
 		int i_0_ = 83 % ((i - -49) / 48);
 		anIntArray1359 = null;
 		anIntArray1363 = null;

@@ -123,12 +123,12 @@ public class Class290_Sub3 extends Class290
 		}
 	}
 	
-	Class290_Sub3(GLXToolkit glxtoolkit, Class302 class302, Class5 class5) {
+	Class290_Sub3(GLXToolkit glxtoolkit, CacheArchive cacheArchive, Class5 class5) {
 		super(glxtoolkit);
 		aClass5_8088 = class5;
-		if (class302 != null && glxtoolkit.aBoolean9315 && glxtoolkit.aBoolean9322) {
-			Class237 class237 = Class24.method304(35633, -11847, class302.method3529("gl", "environment_mapped_water_v", 1), glxtoolkit);
-			Class237 class237_10_ = Class24.method304(35632, -11847, class302.method3529("gl", "environment_mapped_water_f", 1), glxtoolkit);
+		if (cacheArchive != null && glxtoolkit.aBoolean9315 && glxtoolkit.aBoolean9322) {
+			Class237 class237 = Class24.method304(35633, -11847, cacheArchive.method3529("gl", "environment_mapped_water_v", 1), glxtoolkit);
+			Class237 class237_10_ = Class24.method304(35632, -11847, cacheArchive.method3529("gl", "environment_mapped_water_f", 1), glxtoolkit);
 			aClass288_8079 = Animator.method224((byte) -113, new Class237[] { class237, class237_10_ }, glxtoolkit);
 			aBoolean8083 = aClass288_8079 != null && aClass5_8088.method172(10103);
 		} else {

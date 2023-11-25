@@ -4,7 +4,7 @@ import java.io.IOException;
 public class Class189_Sub1 extends Class189
 {
 	static int anInt6879;
-	private Class302 aClass302_6880;
+	private CacheArchive aCacheArchive_6880;
 	private int anInt6881;
 	static Class257 aClass257_6882 = new Class257(8, 7);
 	private Buffer aBuffer6883;
@@ -22,11 +22,11 @@ public class Class189_Sub1 extends Class189
 		}
 	}
 	
-	Class189_Sub1(int i, Class302 class302, int i_0_) {
+	Class189_Sub1(int i, CacheArchive cacheArchive, int i_0_) {
 		super(i);
 		aBuffer6883 = new Buffer(null);
 		aBuffer6889 = new Buffer(null);
-		aClass302_6880 = class302;
+		aCacheArchive_6880 = cacheArchive;
 		anInt6881 = i_0_;
 	}
 	
@@ -37,8 +37,8 @@ public class Class189_Sub1 extends Class189
 				if ((i_1_ + anInt6888 ^ 0xffffffff) <= (anIntArray6886.length ^ 0xffffffff)) {
 					break;
 				}
-				if (aByteArrayArray6884[i_1_] == null && aClass302_6880.method3515(0, anIntArray6886[anInt6888 - -i_1_], 0)) {
-					aByteArrayArray6884[i_1_] = aClass302_6880.method3524(false, 0, anIntArray6886[anInt6888 + i_1_]);
+				if (aByteArrayArray6884[i_1_] == null && aCacheArchive_6880.method3515(0, anIntArray6886[anInt6888 - -i_1_], 0)) {
+					aByteArrayArray6884[i_1_] = aCacheArchive_6880.method3524(false, 0, anIntArray6886[anInt6888 + i_1_]);
 				}
 			}
 			if (i < 93) {
@@ -50,10 +50,10 @@ public class Class189_Sub1 extends Class189
 	final int method1929(byte[] bs, int i) throws IOException {
 		anInt6885++;
 		if (anIntArray6886 == null) {
-			if (!aClass302_6880.method3515(0, anInt6881, 0)) {
+			if (!aCacheArchive_6880.method3515(0, anInt6881, 0)) {
 				return 0;
 			}
-			byte[] bs_2_ = aClass302_6880.method3524(false, 0, anInt6881);
+			byte[] bs_2_ = aCacheArchive_6880.method3524(false, 0, anInt6881);
 			if (bs_2_ == null) {
 				throw new IllegalStateException("");
 			}

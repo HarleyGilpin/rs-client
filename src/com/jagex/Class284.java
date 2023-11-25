@@ -42,10 +42,10 @@ public class Class284
 			method3390((byte) 2);
 		}
 		anInt3594++;
-		Packet packet = Class218.worldResponseBuffer.aPacket1570;
+		Packet packet = Class218.worldResponseBuffer.recievedBuffer;
 		for (int i = 0; i < Node_Sub38_Sub6.anInt10132; i++) {
 			int i_2_ = Class194_Sub1_Sub1.anIntArray9370[i];
-			Npc npc = ((Node_Sub41) Class12.aHashTable187.method1518(3512, (long) i_2_)).aNpc7518;
+			Npc npc = ((Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) i_2_)).aNpc7518;
 			int i_3_ = packet.method2233(255);
 			if ((0x80 & i_3_ ^ 0xffffffff) != -1) {
 				i_3_ += packet.method2233(255) << 8;

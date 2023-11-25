@@ -93,29 +93,29 @@ class Class194_Sub3 extends Class194
 			}
 			Node_Sub38_Sub27.method2878(73, null, true, 0);
 			Class320_Sub13.aBoolean8335 = !Node_Sub46.method2948(16062);
-			Class320_Sub6.aClass302_8261 = Class58.method576(false, Class320_Sub13.aBoolean8335 ? 34 : 32, 1, i + 1);
-			Class273.aClass302_3490 = Class58.method576(false, 33, 1, 2);
-			AnimableAnimator_Sub1.aClass302_9091 = Class58.method576(false, 13, 1, i ^ 0x3);
+			Class320_Sub6.aCacheArchive_8261 = Class58.method576(false, Class320_Sub13.aBoolean8335 ? 34 : 32, 1, i + 1);
+			Class273.aCacheArchive_3490 = Class58.method576(false, 33, 1, 2);
+			AnimableAnimator_Sub1.aCacheArchive_9091 = Class58.method576(false, 13, 1, i ^ 0x3);
 		}
 		if (Class110.aClass110_1392 == Class252.aClass110_3189) {
-			boolean bool = Class273.aClass302_3490.method3520((byte) 15);
+			boolean bool = Class273.aCacheArchive_3490.method3520((byte) 15);
 			int i_4_ = GraphicsToolkit.aClass34_Sub1Array1547[33].method376(i + 99);
 			i_4_ = i_4_ + GraphicsToolkit.aClass34_Sub1Array1547[!Class320_Sub13.aBoolean8335 ? 32 : 34].method376(100);
 			i_4_ += GraphicsToolkit.aClass34_Sub1Array1547[13].method376(i + 99);
-			i_4_ = i_4_ + (bool ? 100 : Class273.aClass302_3490.method3511(19492));
+			i_4_ = i_4_ + (bool ? 100 : Class273.aCacheArchive_3490.method3511(19492));
 			if (i_4_ != 400) {
 				return i_4_ / 4;
 			}
-			Class171.anInt2066 = Class320_Sub6.aClass302_8261.method3505(false);
-			Class251.anInt3185 = Class273.aClass302_3490.method3505(false);
-			Node_Sub38_Sub28.method2888((byte) 61, Class320_Sub6.aClass302_8261);
+			Class171.anInt2066 = Class320_Sub6.aCacheArchive_8261.method3505(false);
+			Class251.anInt3185 = Class273.aCacheArchive_3490.method3505(false);
+			Node_Sub38_Sub28.method2888((byte) 61, Class320_Sub6.aCacheArchive_8261);
 			int i_5_ = Class213.aNode_Sub27_2512.aClass320_Sub11_7264.method3722(false);
-			Class174.aClass250_2094 = new Class250(Class209.aClass353_2483, Class35.anInt537, Class273.aClass302_3490);
+			Class174.aClass250_2094 = new Class250(Class209.aClass353_2483, Class35.anInt537, Class273.aCacheArchive_3490);
 			int[] is = Class174.aClass250_2094.method3091(i_5_, (byte) 104);
 			if (is.length == 0) {
 				is = Class174.aClass250_2094.method3091(0, (byte) 100);
 			}
-			Class373 class373 = new Class373(Class320_Sub6.aClass302_8261, AnimableAnimator_Sub1.aClass302_9091);
+			Class373 class373 = new Class373(Class320_Sub6.aCacheArchive_8261, AnimableAnimator_Sub1.aCacheArchive_9091);
 			if (is.length > 0) {
 				Class235_Sub1.anInterface16Array8978 = new Interface16[is.length];
 				for (int i_6_ = 0; (i_6_ ^ 0xffffffff) > (Class235_Sub1.anInterface16Array8978.length ^ 0xffffffff); i_6_++)
@@ -123,7 +123,7 @@ class Class194_Sub3 extends Class194
 			}
 		}
 		if (Class110.aClass110_1394 == Class252.aClass110_3189) {
-			Class49.method484((byte) 111, AnimableAnimator_Sub1.aClass302_9091, Class320_Sub6.aClass302_8261, Class36.method392((byte) -36));
+			Class49.method484((byte) 111, AnimableAnimator_Sub1.aCacheArchive_9091, Class320_Sub6.aCacheArchive_8261, Class36.method392((byte) -36));
 		}
 		if (Class110.aClass110_1395 == Class252.aClass110_3189) {
 			int i_7_ = Class190.method1940(255);
@@ -150,39 +150,39 @@ class Class194_Sub3 extends Class194
 				Class304.aClass84Array3833[i_9_] = Class63.method707(Node_Sub54.anInt7675, Class377_Sub1.anInt8774, (byte) 42);
 		}
 		if (Class252.aClass110_3189 == Class110.aClass110_1398) {
-			Node_Sub38_Sub39.aClass302_10500 = Class58.method576(false, 8, 1, i + 1);
-			Class181.aClass302_2158 = Class58.method576(false, 0, 1, i ^ 0x3);
-			Class75.aClass302_1003 = Class58.method576(false, 1, 1, 2);
-			Class4.aClass302_122 = Class58.method576(false, 2, 1, 2);
-			Class293.aClass302_3681 = Class58.method576(false, 3, 1, 2);
-			Class148.aClass302_1827 = Class58.method576(false, 4, 1, 2);
-			Animable_Sub1_Sub1.aClass302_10618 = Class58.method576(true, 5, 1, 2);
-			SeekableFile.aClass302_3881 = Class58.method576(true, 6, 1, i ^ 0x3);
-			Class107.aClass302_1364 = Class58.method576(false, 7, 1, 2);
-			Class282.aClass302_3583 = Class58.method576(false, 9, 1, i ^ 0x3);
-			Class250.aClass302_3179 = Class58.method576(false, 10, 1, 2);
-			Class179.aClass302_2132 = Class58.method576(false, 11, 1, 2);
-			Class21.aClass302_357 = Class58.method576(false, 12, 1, 2);
-			Class78.aClass302_1033 = Class58.method576(false, 14, 1, i ^ 0x3);
-			Class218.aClass302_2563 = Class58.method576(false, 15, 1, 2);
-			Class247.aClass302_3143 = Class58.method576(false, 16, 1, 2);
-			Class14.aClass302_219 = Class58.method576(false, 17, 1, 2);
-			Class174.aClass302_2093 = Class58.method576(false, 18, 1, i + 1);
-			Class205.aClass302_5104 = Class58.method576(false, 19, 1, i ^ 0x3);
-			Class262_Sub23.aClass302_7886 = Class58.method576(false, 20, 1, i + 1);
-			Node_Sub15_Sub5.aClass302_9805 = Class58.method576(false, 21, 1, i ^ 0x3);
-			Class127.aClass302_1646 = Class58.method576(false, 22, 1, 2);
-			r_Sub1.aClass302_11047 = Class58.method576(true, 23, 1, i ^ 0x3);
-			Node_Sub38_Sub4.aClass302_10116 = Class58.method576(false, 24, 1, i + 1);
-			Node_Sub18.aClass302_7150 = Class58.method576(false, 25, 1, 2);
-			Node_Sub38_Sub10.aClass302_10197 = Class58.method576(true, 26, 1, 2);
-			CacheNode_Sub5.aClass302_9477 = Class58.method576(false, 27, 1, i + 1);
-			Class176.aClass302_2102 = Class58.method576(true, 28, 1, i + 1);
-			Class262_Sub3.aClass302_7715 = Class58.method576(false, 29, 1, 2);
-			Node_Sub15_Sub10.aClass302_9853 = Class58.method576(true, 35, 1, 2);
-			Class326.aClass302_4096 = Class58.method576(true, 30, 1, i ^ 0x3);
-			Class262_Sub2.aClass302_7707 = Class58.method576(true, 31, 1, i ^ 0x3);
-			Node_Sub38_Sub38.aClass302_10484 = Class58.method576(true, 36, 2, 2);
+			Node_Sub38_Sub39.aCacheArchive_10500 = Class58.method576(false, 8, 1, i + 1);
+			Class181.aCacheArchive_2158 = Class58.method576(false, 0, 1, i ^ 0x3);
+			Class75.aCacheArchive_1003 = Class58.method576(false, 1, 1, 2);
+			Class4.aCacheArchive_122 = Class58.method576(false, 2, 1, 2);
+			Class293.aCacheArchive_3681 = Class58.method576(false, 3, 1, 2);
+			Class148.aCacheArchive_1827 = Class58.method576(false, 4, 1, 2);
+			Animable_Sub1_Sub1.aCacheArchive_10618 = Class58.method576(true, 5, 1, 2);
+			SeekableFile.aCacheArchive_3881 = Class58.method576(true, 6, 1, i ^ 0x3);
+			Class107.aCacheArchive_1364 = Class58.method576(false, 7, 1, 2);
+			Class282.aCacheArchive_3583 = Class58.method576(false, 9, 1, i ^ 0x3);
+			Class250.aCacheArchive_3179 = Class58.method576(false, 10, 1, 2);
+			Class179.aCacheArchive_2132 = Class58.method576(false, 11, 1, 2);
+			Class21.aCacheArchive_357 = Class58.method576(false, 12, 1, 2);
+			Class78.aCacheArchive_1033 = Class58.method576(false, 14, 1, i ^ 0x3);
+			Class218.aCacheArchive_2563 = Class58.method576(false, 15, 1, 2);
+			Class247.aCacheArchive_3143 = Class58.method576(false, 16, 1, 2);
+			Class14.aCacheArchive_219 = Class58.method576(false, 17, 1, 2);
+			Class174.aCacheArchive_2093 = Class58.method576(false, 18, 1, i + 1);
+			Class205.aCacheArchive_5104 = Class58.method576(false, 19, 1, i ^ 0x3);
+			Class262_Sub23.aCacheArchive_7886 = Class58.method576(false, 20, 1, i + 1);
+			Node_Sub15_Sub5.aCacheArchive_9805 = Class58.method576(false, 21, 1, i ^ 0x3);
+			Class127.aCacheArchive_1646 = Class58.method576(false, 22, 1, 2);
+			r_Sub1.aCacheArchive_11047 = Class58.method576(true, 23, 1, i ^ 0x3);
+			Node_Sub38_Sub4.aCacheArchive_10116 = Class58.method576(false, 24, 1, i + 1);
+			Node_Sub18.aCacheArchive_7150 = Class58.method576(false, 25, 1, 2);
+			Node_Sub38_Sub10.aCacheArchive_10197 = Class58.method576(true, 26, 1, 2);
+			CacheNode_Sub5.aCacheArchive_9477 = Class58.method576(false, 27, 1, i + 1);
+			Class176.aCacheArchive_2102 = Class58.method576(true, 28, 1, i + 1);
+			Class262_Sub3.aCacheArchive_7715 = Class58.method576(false, 29, 1, 2);
+			Node_Sub15_Sub10.aCacheArchive_9853 = Class58.method576(true, 35, 1, 2);
+			Class326.aCacheArchive_4096 = Class58.method576(true, 30, 1, i ^ 0x3);
+			Class262_Sub2.aCacheArchive_7707 = Class58.method576(true, 31, 1, i ^ 0x3);
+			Node_Sub38_Sub38.aCacheArchive_10484 = Class58.method576(true, 36, 2, 2);
 		}
 		if (Class252.aClass110_3189 == Class110.aClass110_1399) {
 			int i_10_ = 0;
@@ -197,11 +197,11 @@ class Class194_Sub3 extends Class194
 				}
 				return 100 * (-Node_Sub51.anInt7633 + i_10_) / (100 - Node_Sub51.anInt7633);
 			}
-			Node_Sub16.method2589(Node_Sub38_Sub39.aClass302_10500, 1);
-			Class49.method484((byte) 103, AnimableAnimator_Sub1.aClass302_9091, Node_Sub38_Sub39.aClass302_10500, Class36.method392((byte) -13));
+			Node_Sub16.method2589(Node_Sub38_Sub39.aCacheArchive_10500, 1);
+			Class49.method484((byte) 103, AnimableAnimator_Sub1.aCacheArchive_9091, Node_Sub38_Sub39.aCacheArchive_10500, Class36.method392((byte) -13));
 		}
 		if (Class252.aClass110_3189 == Class110.aClass110_1400) {
-			byte[] bs = Class176.aClass302_2102.method3518((byte) 52, 4);
+			byte[] bs = Class176.aCacheArchive_2102.method3518((byte) 52, 4);
 			if (bs == null) {
 				return 0;
 			}
@@ -213,63 +213,63 @@ class Class194_Sub3 extends Class194
 			method1973(15, -83);
 		}
 		if (Class110.aClass110_1401 == Class252.aClass110_3189) {
-			IOException_Sub1.method133(255, Class326.aClass302_4096, Class240.aSignLink2946);
+			IOException_Sub1.method133(255, Class326.aCacheArchive_4096, Class240.aSignLink2946);
 		}
 		if (Class110.aClass110_1402 == Class252.aClass110_3189) {
 			int i_12_ = Class290_Sub6.method3438(i + 14626);
 			if ((i_12_ ^ 0xffffffff) > -101) {
 				return i_12_;
 			}
-			Class268.method3292((byte) -127, Class176.aClass302_2102.method3518((byte) 111, 1));
-			CacheNode_Sub4.aClass1_9466 = new Class1(Class176.aClass302_2102);
+			Class268.method3292((byte) -127, Class176.aCacheArchive_2102.method3518((byte) 111, 1));
+			CacheNode_Sub4.aClass1_9466 = new Class1(Class176.aCacheArchive_2102);
 			Class45.aShortArrayArray5265 = CacheNode_Sub4.aClass1_9466.aShortArrayArray106;
 			Class117_Sub2.aShortArrayArrayArray5151 = CacheNode_Sub4.aClass1_9466.aShortArrayArrayArray113;
-			Class63.aClass363_922 = new Class363(Class176.aClass302_2102);
+			Class63.aClass363_922 = new Class363(Class176.aCacheArchive_2102);
 		}
 		if (Class110.aClass110_1403 == Class252.aClass110_3189) {
-			if ((CacheNode_Sub4.aClass1_9466.anInt110 ^ 0xffffffff) != 0 && !Class107.aClass302_1364.method3515(0, CacheNode_Sub4.aClass1_9466.anInt110, 0)) {
+			if ((CacheNode_Sub4.aClass1_9466.anInt110 ^ 0xffffffff) != 0 && !Class107.aCacheArchive_1364.method3515(0, CacheNode_Sub4.aClass1_9466.anInt110, 0)) {
 				return 99;
 			}
-			Class38.aD565 = new Class274(Node_Sub38_Sub10.aClass302_10197, Class282.aClass302_3583, Node_Sub38_Sub39.aClass302_10500);
-			Class188_Sub2_Sub2.aClass36_9366 = new Class36(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			InputStream_Sub2.aClass281_83 = new Class281(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122, Class63.aClass363_922);
-			Class186.aClass239_2249 = new Class239(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122, Node_Sub38_Sub39.aClass302_10500);
-			Class328.aClass362_4112 = new Class362(Class209.aClass353_2483, Class35.anInt537, Class14.aClass302_219);
-			Class290_Sub7.aClass71_8134 = new Class71(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			r.aClass58_9578 = new Class58(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			Class296.aClass186_5429 = new Class186(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122, Node_Sub38_Sub39.aClass302_10500);
-			Class42.aClass181_643 = new Class181(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122, Class107.aClass302_1364);
-			Class269.aClass308_3469 = new Class308(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			Class32.aClass359_508 = new Class359(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			Class186.aClass112_2256 = new Class112(Class209.aClass353_2483, Class35.anInt537, true, Class247.aClass302_3143, Class107.aClass302_1364);
-			Class304.aClass215_3834 = new Class215(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122, Node_Sub38_Sub39.aClass302_10500);
-			Node_Sub54.aClass338_7671 = new Class338(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122, Node_Sub38_Sub39.aClass302_10500);
-			Class366.aClass279_4526 = new Class279(Class209.aClass353_2483, Class35.anInt537, true, Class174.aClass302_2093, Class107.aClass302_1364);
-			EntityNode_Sub3_Sub1.aClass86_9166 = new Class86(Class209.aClass353_2483, Class35.anInt537, true, Class188_Sub2_Sub2.aClass36_9366, Class205.aClass302_5104, Class107.aClass302_1364);
-			Class146.aClass32_1812 = new Class32(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			Class18.aClass37_306 = new Class37(Class209.aClass353_2483, Class35.anInt537, Class262_Sub23.aClass302_7886, Class181.aClass302_2158, Class75.aClass302_1003);
-			Class171.aClass278_2062 = new Class278(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			CacheNode_Sub6.aClass57_9480 = new Class57(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			Class16.aClass101_228 = new Class101(Class209.aClass353_2483, Class35.anInt537, Node_Sub15_Sub5.aClass302_9805, Class107.aClass302_1364);
-			Node_Sub9_Sub4.aClass180_9727 = new Class180(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			Class382.aClass142_5246 = new Class142(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			Node_Sub53.aClass176_7667 = new Class176(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			IOException_Sub1.aClass128_85 = new Class128(Class209.aClass353_2483, Class35.anInt537, Class127.aClass302_1646);
-			Class188_Sub2_Sub1.aClass229_9354 = new Class229(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			Class336.aClass315_4173 = new Class315(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			Class291_Sub1.aClass13_8198 = new Class13(Class209.aClass353_2483, Class35.anInt537, Class4.aClass302_122);
-			NpcDefinition.method3001(Class293.aClass302_3681, AnimableAnimator_Sub1.aClass302_9091, Node_Sub38_Sub39.aClass302_10500, (byte) 64, Class107.aClass302_1364);
-			Node_Sub10.method2539(Class262_Sub3.aClass302_7715, -128);
-			Class42.aClass122_631 = new Class122(Class35.anInt537, Node_Sub38_Sub4.aClass302_10116, Node_Sub18.aClass302_7150);
-			Node_Sub36_Sub1.aClass109_10035 = new Class109(Class35.anInt537, Node_Sub38_Sub4.aClass302_10116, Node_Sub18.aClass302_7150, new Class220());
+			Class38.aD565 = new Class274(Node_Sub38_Sub10.aCacheArchive_10197, Class282.aCacheArchive_3583, Node_Sub38_Sub39.aCacheArchive_10500);
+			Class188_Sub2_Sub2.aClass36_9366 = new Class36(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			InputStream_Sub2.aClass281_83 = new Class281(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122, Class63.aClass363_922);
+			Class186.aClass239_2249 = new Class239(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122, Node_Sub38_Sub39.aCacheArchive_10500);
+			Class328.aClass362_4112 = new Class362(Class209.aClass353_2483, Class35.anInt537, Class14.aCacheArchive_219);
+			Class290_Sub7.aClass71_8134 = new Class71(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			r.aClass58_9578 = new Class58(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			Class296.aClass186_5429 = new Class186(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122, Node_Sub38_Sub39.aCacheArchive_10500);
+			Class42.aClass181_643 = new Class181(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122, Class107.aCacheArchive_1364);
+			Class269.aClass308_3469 = new Class308(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			Class32.aClass359_508 = new Class359(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			Class186.aClass112_2256 = new Class112(Class209.aClass353_2483, Class35.anInt537, true, Class247.aCacheArchive_3143, Class107.aCacheArchive_1364);
+			Class304.aClass215_3834 = new Class215(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122, Node_Sub38_Sub39.aCacheArchive_10500);
+			Node_Sub54.aClass338_7671 = new Class338(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122, Node_Sub38_Sub39.aCacheArchive_10500);
+			Class366.aClass279_4526 = new Class279(Class209.aClass353_2483, Class35.anInt537, true, Class174.aCacheArchive_2093, Class107.aCacheArchive_1364);
+			EntityNode_Sub3_Sub1.aClass86_9166 = new Class86(Class209.aClass353_2483, Class35.anInt537, true, Class188_Sub2_Sub2.aClass36_9366, Class205.aCacheArchive_5104, Class107.aCacheArchive_1364);
+			Class146.aClass32_1812 = new Class32(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			Class18.aClass37_306 = new Class37(Class209.aClass353_2483, Class35.anInt537, Class262_Sub23.aCacheArchive_7886, Class181.aCacheArchive_2158, Class75.aCacheArchive_1003);
+			Class171.aClass278_2062 = new Class278(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			CacheNode_Sub6.aClass57_9480 = new Class57(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			Class16.aClass101_228 = new Class101(Class209.aClass353_2483, Class35.anInt537, Node_Sub15_Sub5.aCacheArchive_9805, Class107.aCacheArchive_1364);
+			Node_Sub9_Sub4.aClass180_9727 = new Class180(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			Class382.aClass142_5246 = new Class142(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			Node_Sub53.aClass176_7667 = new Class176(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			IOException_Sub1.aClass128_85 = new Class128(Class209.aClass353_2483, Class35.anInt537, Class127.aCacheArchive_1646);
+			Class188_Sub2_Sub1.aClass229_9354 = new Class229(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			Class336.aClass315_4173 = new Class315(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			Class291_Sub1.aClass13_8198 = new Class13(Class209.aClass353_2483, Class35.anInt537, Class4.aCacheArchive_122);
+			NpcDefinition.method3001(Class293.aCacheArchive_3681, AnimableAnimator_Sub1.aCacheArchive_9091, Node_Sub38_Sub39.aCacheArchive_10500, (byte) 64, Class107.aCacheArchive_1364);
+			Node_Sub10.method2539(Class262_Sub3.aCacheArchive_7715, -128);
+			Class42.aClass122_631 = new Class122(Class35.anInt537, Node_Sub38_Sub4.aCacheArchive_10116, Node_Sub18.aCacheArchive_7150);
+			Node_Sub36_Sub1.aClass109_10035 = new Class109(Class35.anInt537, Node_Sub38_Sub4.aCacheArchive_10116, Node_Sub18.aCacheArchive_7150, new Class220());
 			OutputStream_Sub2.method139((byte) -110);
 			Class186.aClass112_2256.method1143(-2098, (Class213.aNode_Sub27_2512.aClass320_Sub19_7301.method3751(false) ^ 0xffffffff) == -1);
 			Class24.aClass275_442 = new Class275();
 			Class320_Sub12.method3728(0);
 			Class28.method333(Class18.aClass37_306, -1);
-			Node_Sub38_Sub9.method2822(CacheNode_Sub5.aClass302_9477, 0);
-			Class218.method2077(Class38.aD565, Class107.aClass302_1364, false);
-			Class163 class163 = new Class163(Class250.aClass302_3179.method3529("huffman", "", i));
+			Node_Sub38_Sub9.method2822(CacheNode_Sub5.aCacheArchive_9477, 0);
+			Class218.method2077(Class38.aD565, Class107.aCacheArchive_1364, false);
+			Class163 class163 = new Class163(Class250.aCacheArchive_3179.method3529("huffman", "", i));
 			Animable_Sub2.method834(-123, class163);
 			try {
 				jagmisc.init();
@@ -280,14 +280,14 @@ class Class194_Sub3 extends Class194
 			Node_Sub23.instance = new Node_Sub39(true, Class240.aSignLink2946);
 		}
 		if (Class110.aClass110_1405 == Class252.aClass110_3189) {
-			int i_13_ = Class200_Sub1.method2017(0, Node_Sub38_Sub39.aClass302_10500) + Node_Sub30.method2721(true, false);
+			int i_13_ = Class200_Sub1.method2017(0, Node_Sub38_Sub39.aCacheArchive_10500) + Node_Sub30.method2721(true, false);
 			int i_14_ = CacheNode_Sub16_Sub2.method2391((byte) 99) - -aa_Sub3.method160(-5573);
 			if ((i_13_ ^ 0xffffffff) > (i_14_ ^ 0xffffffff)) {
 				return 100 * i_13_ / i_14_;
 			}
 		}
 		if (Class110.aClass110_1406 == Class252.aClass110_3189) {
-			Class20.method275(r_Sub1.aClass302_11047, Class290_Sub7.aClass71_8134, r.aClass58_9578, Class186.aClass112_2256, Class304.aClass215_3834, Node_Sub54.aClass338_7671, Class24.aClass275_442);
+			Class20.method275(r_Sub1.aCacheArchive_11047, Class290_Sub7.aClass71_8134, r.aClass58_9578, Class186.aClass112_2256, Class304.aClass215_3834, Node_Sub54.aClass338_7671, Class24.aClass275_442);
 		}
 		if (Class110.aClass110_1407 == Class252.aClass110_3189) {
 			Node_Sub38_Sub3.aStringArray10105 = new String[Class382.aClass142_5246.anInt1760];
@@ -301,19 +301,19 @@ class Class194_Sub3 extends Class194
 				Class320_Sub22.anIntArray8417[i_15_] = -1;
 			}
 			Class120.method1230(124);
-			Animable_Sub1_Sub1.aClass302_10618.method3504(false, (byte) 31, true);
-			SeekableFile.aClass302_3881.method3504(true, (byte) 31, true);
-			Node_Sub38_Sub39.aClass302_10500.method3504(true, (byte) 31, true);
-			AnimableAnimator_Sub1.aClass302_9091.method3504(true, (byte) 31, true);
-			Class250.aClass302_3179.method3504(true, (byte) 31, true);
-			Class4.aClass302_122.anInt3795 = 2;
+			Animable_Sub1_Sub1.aCacheArchive_10618.method3504(false, (byte) 31, true);
+			SeekableFile.aCacheArchive_3881.method3504(true, (byte) 31, true);
+			Node_Sub38_Sub39.aCacheArchive_10500.method3504(true, (byte) 31, true);
+			AnimableAnimator_Sub1.aCacheArchive_9091.method3504(true, (byte) 31, true);
+			Class250.aCacheArchive_3179.method3504(true, (byte) 31, true);
+			Class4.aCacheArchive_122.anInt3795 = 2;
 			Node_Sub38_Sub31.aBoolean10418 = true;
-			Class14.aClass302_219.anInt3795 = 2;
-			Class247.aClass302_3143.anInt3795 = 2;
-			Class174.aClass302_2093.anInt3795 = 2;
-			Class205.aClass302_5104.anInt3795 = 2;
-			Class262_Sub23.aClass302_7886.anInt3795 = 2;
-			Node_Sub15_Sub5.aClass302_9805.anInt3795 = 2;
+			Class14.aCacheArchive_219.anInt3795 = 2;
+			Class247.aCacheArchive_3143.anInt3795 = 2;
+			Class174.aCacheArchive_2093.anInt3795 = 2;
+			Class205.aCacheArchive_5104.anInt3795 = 2;
+			Class262_Sub23.aCacheArchive_7886.anInt3795 = 2;
+			Node_Sub15_Sub5.aCacheArchive_9805.anInt3795 = 2;
 		}
 		if (Class252.aClass110_3189 == Class110.aClass110_1408) {
 			if (!CacheNode_Sub15.method2379(i + 7014, CacheNode_Sub4.aClass1_9466.anInt120)) {
@@ -322,7 +322,7 @@ class Class194_Sub3 extends Class194
 			boolean bool = true;
 			for (int i_16_ = 0; i_16_ < Class134_Sub3.aWidgetArrayArray9035[CacheNode_Sub4.aClass1_9466.anInt120].length; i_16_++) {
 				Widget widget = Class134_Sub3.aWidgetArrayArray9035[CacheNode_Sub4.aClass1_9466.anInt120][i_16_];
-				if (widget.anInt4841 == 5 && widget.anInt4820 != -1 && !Node_Sub38_Sub39.aClass302_10500.method3515(0, widget.anInt4820, 0)) {
+				if (widget.anInt4841 == 5 && widget.anInt4820 != -1 && !Node_Sub38_Sub39.aCacheArchive_10500.method3515(0, widget.anInt4820, 0)) {
 					bool = false;
 				}
 			}
@@ -342,8 +342,8 @@ class Class194_Sub3 extends Class194
 			}
 			Class235_Sub1.anInterface16Array8978 = null;
 			Class243.aClass340_3069 = null;
-			Class320_Sub6.aClass302_8261 = null;
-			Class273.aClass302_3490 = null;
+			Class320_Sub6.aCacheArchive_8261 = null;
+			Class273.aCacheArchive_3490 = null;
 			Class132.aThread1677 = null;
 			Class174.aClass250_2094 = null;
 			Class6.method174((byte) -110);
@@ -363,7 +363,7 @@ class Class194_Sub3 extends Class194
 			Node_Sub38_Sub19.method2850(i ^ 0x2, Class213.aNode_Sub27_2512.aClass320_Sub1_7287.method3678(false), -1, false, -1);
 			Class300.method3497((byte) 107, Class93.aGraphicsToolkit1241);
 			Class320_Sub21.method3760(true, Class93.aGraphicsToolkit1241);
-			Class130.method1557((byte) -126, Node_Sub38_Sub39.aClass302_10500, Class93.aGraphicsToolkit1241);
+			Class130.method1557((byte) -126, Node_Sub38_Sub39.aCacheArchive_10500, Class93.aGraphicsToolkit1241);
 			Class173.method1800((byte) -61, Node_Sub52.aGLSpriteArray7655);
 		}
 		return Class169_Sub3.method1781((byte) 82);

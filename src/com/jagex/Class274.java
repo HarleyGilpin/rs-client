@@ -2,7 +2,7 @@ package com.jagex;
 
 public class Class274 implements d
 {
-	private Class302 aClass302_4966;
+	private CacheArchive aCacheArchive_4966;
 	private Class91[] aClass91Array4967;
 	static int anInt4968;
 	static int anInt4969;
@@ -18,7 +18,7 @@ public class Class274 implements d
 	private Class335 aClass335_4979 = new Class335(256);
 	static int anInt4980;
 	static GLSprite aGLSprite4981;
-	private Class302 aClass302_4982;
+	private CacheArchive aCacheArchive_4982;
 	
 	private final CacheNode_Sub19 method3322(int i, byte b) {
 		anInt4972++;
@@ -27,7 +27,7 @@ public class Class274 implements d
 			return (CacheNode_Sub19) cachenode;
 		}
 		int i_0_ = -93 % ((30 - b) / 39);
-		byte[] bs = aClass302_4966.method3518((byte) -128, i);
+		byte[] bs = aCacheArchive_4966.method3518((byte) -128, i);
 		if (bs == null) {
 			return null;
 		}
@@ -39,9 +39,9 @@ public class Class274 implements d
 	public final int[] method11(int i, boolean bool, int i_1_, int i_2_, byte b, float f) {
 		anInt4977++;
 		if (b != 0) {
-			aClass302_4966 = null;
+			aCacheArchive_4966 = null;
 		}
-		return method3322(i_2_, (byte) 115).method2405(aClass302_4982, (double) f, aClass91Array4967[i_2_].aBoolean1216, this, bool, i_1_, i, b);
+		return method3322(i_2_, (byte) 115).method2405(aCacheArchive_4982, (double) f, aClass91Array4967[i_2_].aBoolean1216, this, bool, i_1_, i, b);
 	}
 	
 	public final int method6(int i) {
@@ -52,9 +52,9 @@ public class Class274 implements d
 		return anInt4976;
 	}
 	
-	static final CacheNode_Sub11 method3323(Class302 class302, int i, int i_3_, int i_4_) {
+	static final CacheNode_Sub11 method3323(CacheArchive cacheArchive, int i, int i_3_, int i_4_) {
 		anInt4980++;
-		Buffer buffer = new Buffer(class302.method3524(false, i_3_, i));
+		Buffer buffer = new Buffer(cacheArchive.method3524(false, i_3_, i));
 		CacheNode_Sub11 cachenode_sub11 = new CacheNode_Sub11(i_3_, buffer.method2195(-1), buffer.method2195(i_4_ ^ 0xffffffff), buffer.method2186(-76), buffer.method2186(-58), (buffer.method2233(255) ^ 0xffffffff) == -2, buffer.method2233(255), buffer.method2233(255));
 		int i_5_ = buffer.method2233(255);
 		for (int i_6_ = i_4_; (i_5_ ^ 0xffffffff) < (i_6_ ^ 0xffffffff); i_6_++)
@@ -78,7 +78,7 @@ public class Class274 implements d
 		if (i != 9900) {
 			aClass91Array4967 = null;
 		}
-		if (cachenode_sub19 == null || !cachenode_sub19.method2401(aClass302_4982, this, (byte) 4)) {
+		if (cachenode_sub19 == null || !cachenode_sub19.method2401(aCacheArchive_4982, this, (byte) 4)) {
 			return false;
 		}
 		return true;
@@ -87,7 +87,7 @@ public class Class274 implements d
 	public final Class91 method10(int i, int i_8_) {
 		anInt4978++;
 		if (i_8_ != -8217) {
-			aClass302_4982 = null;
+			aCacheArchive_4982 = null;
 		}
 		return aClass91Array4967[i];
 	}
@@ -275,7 +275,7 @@ public class Class274 implements d
 		if (b >= -109) {
 			method3325(true, -60, -92, -10);
 		}
-		return method3322(i_33_, (byte) -69).method2400((byte) -114, i, this, aClass302_4982, aClass91Array4967[i_33_].aBoolean1216, i_34_);
+		return method3322(i_33_, (byte) -69).method2400((byte) -114, i, this, aCacheArchive_4982, aClass91Array4967[i_33_].aBoolean1216, i_34_);
 	}
 	
 	public final int[] method8(float f, int i, int i_35_, boolean bool, boolean bool_36_, int i_37_) {
@@ -283,13 +283,13 @@ public class Class274 implements d
 			aClass124_4975 = null;
 		}
 		anInt4968++;
-		return method3322(i, (byte) -103).method2402(i_35_, (double) f, aClass91Array4967[i].aBoolean1216, i_37_, (byte) -71, this, aClass302_4982);
+		return method3322(i, (byte) -103).method2402(i_35_, (double) f, aClass91Array4967[i].aBoolean1216, i_37_, (byte) -71, this, aCacheArchive_4982);
 	}
 	
-	Class274(Class302 class302, Class302 class302_38_, Class302 class302_39_) {
-		aClass302_4982 = class302_39_;
-		aClass302_4966 = class302_38_;
-		Buffer buffer = new Buffer(class302.method3524(false, 0, 0));
+	Class274(CacheArchive cacheArchive, CacheArchive cacheArchive_38_, CacheArchive cacheArchive_39_) {
+		aCacheArchive_4982 = cacheArchive_39_;
+		aCacheArchive_4966 = cacheArchive_38_;
+		Buffer buffer = new Buffer(cacheArchive.method3524(false, 0, 0));
 		anInt4976 = buffer.method2219(-130546744);
 		aClass91Array4967 = new Class91[anInt4976];
 		for (int i = 0; (i ^ 0xffffffff) > (anInt4976 ^ 0xffffffff); i++) {

@@ -49,9 +49,9 @@ public class Node_Sub15_Sub1 extends Node_Sub15
 				player.method847(i);
 			}
 		}
-		for (int i_3_ = 0; i_3_ < Node_Sub25_Sub3.anInt9987; i_3_++) {
-			long l = (long) Class54.anIntArray816[i_3_];
-			Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(i + 3513, l);
+		for (int i_3_ = 0; i_3_ < Node_Sub25_Sub3.NPC_UPDATE_INDEX; i_3_++) {
+			long l = (long) Class54.NPC_UPDATE_INDICES[i_3_];
+			Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(i + 3513, l);
 			if (node_sub41 != null) {
 				node_sub41.aNpc7518.method847(-1);
 			}

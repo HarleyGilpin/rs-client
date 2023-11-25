@@ -37,12 +37,12 @@ public class Node_Sub49 extends Node
 	private byte[] aByteArray7621;
 	private int anInt7622;
 	
-	static final Node_Sub49 method2954(Class302 class302, int i) {
-		if (!method2961(class302)) {
-			class302.method3510(i, (byte) 63);
+	static final Node_Sub49 method2954(CacheArchive cacheArchive, int i) {
+		if (!method2961(cacheArchive)) {
+			cacheArchive.method3510(i, (byte) 63);
 			return null;
 		}
-		byte[] bs = class302.method3518((byte) -126, i);
+		byte[] bs = cacheArchive.method3518((byte) -126, i);
 		if (bs == null) {
 			return null;
 		}
@@ -424,9 +424,9 @@ public class Node_Sub49 extends Node
 		aBoolean7600 = true;
 	}
 	
-	private static final boolean method2961(Class302 class302) {
+	private static final boolean method2961(CacheArchive cacheArchive) {
 		if (!aBoolean7600) {
-			byte[] bs = class302.method3524(false, 0, 0);
+			byte[] bs = cacheArchive.method3524(false, 0, 0);
 			if (bs == null) {
 				return false;
 			}
@@ -435,12 +435,12 @@ public class Node_Sub49 extends Node
 		return true;
 	}
 	
-	static final Node_Sub49 method2962(Class302 class302, int i, int i_110_) {
-		if (!method2961(class302)) {
-			class302.method3515(i_110_, i, 0);
+	static final Node_Sub49 method2962(CacheArchive cacheArchive, int i, int i_110_) {
+		if (!method2961(cacheArchive)) {
+			cacheArchive.method3515(i_110_, i, 0);
 			return null;
 		}
-		byte[] bs = class302.method3524(false, i_110_, i);
+		byte[] bs = cacheArchive.method3524(false, i_110_, i);
 		if (bs == null) {
 			return null;
 		}

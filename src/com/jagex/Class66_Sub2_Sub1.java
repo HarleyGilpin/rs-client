@@ -21,8 +21,8 @@ public class Class66_Sub2_Sub1 extends Class66_Sub2
 		aGLSprite8999.method1192(i_0_ - (i_4_ - i_5_), i, -i_5_ + i_2_ + i_4_, i_3_);
 	}
 	
-	Class66_Sub2_Sub1(Class302 class302, Class302 class302_6_, Class150_Sub3_Sub1 class150_sub3_sub1) {
-		super(class302, class302_6_, (Class150_Sub3) class150_sub3_sub1);
+	Class66_Sub2_Sub1(CacheArchive cacheArchive, CacheArchive cacheArchive_6_, Class150_Sub3_Sub1 class150_sub3_sub1) {
+		super(cacheArchive, cacheArchive_6_, (Class150_Sub3) class150_sub3_sub1);
 	}
 	
 	static final void method727(int i, int i_7_, int i_8_, int i_9_, int i_10_) {

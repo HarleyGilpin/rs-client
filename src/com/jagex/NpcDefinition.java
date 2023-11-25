@@ -162,14 +162,14 @@ public class NpcDefinition
 		}
 	}
 	
-	static final void method3001(Class302 class302, Class302 class302_3_, Class302 class302_4_, byte b, Class302 class302_5_) {
-		Class262_Sub10.aClass302_7776 = class302_4_;
+	static final void method3001(CacheArchive cacheArchive, CacheArchive cacheArchive_3_, CacheArchive cacheArchive_4_, byte b, CacheArchive cacheArchive_5_) {
+		NPCUpdate.npcCacheArchive = cacheArchive_4_;
 		anInt2807++;
-		Node_Sub38_Sub31.aClass302_10422 = class302;
+		Node_Sub38_Sub31.aCacheArchive_10422 = cacheArchive;
 		if (b >= 17) {
-			GLXToolkit.aClass302_9274 = class302_5_;
-			Class134_Sub3.aWidgetArrayArray9035 = new Widget[Node_Sub38_Sub31.aClass302_10422.method3526(-20871)][];
-			Class169_Sub1.aBooleanArray8788 = new boolean[Node_Sub38_Sub31.aClass302_10422.method3526(-20871)];
+			GLXToolkit.aCacheArchive_9274 = cacheArchive_5_;
+			Class134_Sub3.aWidgetArrayArray9035 = new Widget[Node_Sub38_Sub31.aCacheArchive_10422.method3526(-20871)][];
+			Class169_Sub1.aBooleanArray8788 = new boolean[Node_Sub38_Sub31.aCacheArchive_10422.method3526(-20871)];
 		}
 	}
 	
@@ -507,9 +507,9 @@ public class NpcDefinition
 			}
 			int[] is = class361 == null || class361.anIntArray4482 == null ? anIntArray2847 : class361.anIntArray4482;
 			boolean bool = false;
-			synchronized (aClass279_2861.aClass302_3564) {
+			synchronized (aClass279_2861.aCacheArchive_3564) {
 				for (int i_32_ = 0; (i_32_ ^ 0xffffffff) > (is.length ^ 0xffffffff); i_32_++) {
-					if (!aClass279_2861.aClass302_3564.method3515(0, is[i_32_], 0)) {
+					if (!aClass279_2861.aCacheArchive_3564.method3515(0, is[i_32_], 0)) {
 						bool = true;
 					}
 				}
@@ -518,9 +518,9 @@ public class NpcDefinition
 				return null;
 			}
 			Model[] models = new Model[is.length];
-			synchronized (aClass279_2861.aClass302_3564) {
+			synchronized (aClass279_2861.aCacheArchive_3564) {
 				for (int i_33_ = 0; (i_33_ ^ 0xffffffff) > (is.length ^ 0xffffffff); i_33_++)
-					models[i_33_] = Renderer.method3448(is[i_33_], 7, 0, aClass279_2861.aClass302_3564);
+					models[i_33_] = Renderer.method3448(is[i_33_], 7, 0, aClass279_2861.aCacheArchive_3564);
 			}
 			for (int i_34_ = 0; i_34_ < is.length; i_34_++) {
 				if (models[i_34_] != null && models[i_34_].anInt2614 < 13) {
@@ -635,9 +635,9 @@ public class NpcDefinition
 			}
 			int[] is_44_ = class361 != null && class361.anIntArray4482 != null ? class361.anIntArray4482 : anIntArray2865;
 			boolean bool_45_ = false;
-			synchronized (aClass279_2861.aClass302_3564) {
+			synchronized (aClass279_2861.aCacheArchive_3564) {
 				for (int i_46_ = 0; i_46_ < is_44_.length; i_46_++) {
-					if ((is_44_[i_46_] ^ 0xffffffff) != 0 && !aClass279_2861.aClass302_3564.method3515(0, is_44_[i_46_], 0)) {
+					if ((is_44_[i_46_] ^ 0xffffffff) != 0 && !aClass279_2861.aCacheArchive_3564.method3515(0, is_44_[i_46_], 0)) {
 						bool_45_ = true;
 					}
 				}
@@ -648,8 +648,8 @@ public class NpcDefinition
 			Model[] models = new Model[is_44_.length];
 			for (int i_47_ = 0; (i_47_ ^ 0xffffffff) > (is_44_.length ^ 0xffffffff); i_47_++) {
 				if ((is_44_[i_47_] ^ 0xffffffff) != 0) {
-					synchronized (aClass279_2861.aClass302_3564) {
-						models[i_47_] = Renderer.method3448(is_44_[i_47_], 7, 0, aClass279_2861.aClass302_3564);
+					synchronized (aClass279_2861.aCacheArchive_3564) {
+						models[i_47_] = Renderer.method3448(is_44_[i_47_], 7, 0, aClass279_2861.aCacheArchive_3564);
 					}
 					if (models[i_47_] != null) {
 						if ((models[i_47_].anInt2614 ^ 0xffffffff) > -14) {
@@ -800,7 +800,7 @@ public class NpcDefinition
 		if (class355 != null) {
 			return class355;
 		}
-		byte[] bs = Node_Sub38_Sub19.aClass302_10286.method3524(false, i, 0);
+		byte[] bs = Node_Sub38_Sub19.aCacheArchive_10286.method3524(false, i, 0);
 		class355 = new Class355();
 		if (bs != null) {
 			class355.method4018((byte) 105, new Buffer(bs));

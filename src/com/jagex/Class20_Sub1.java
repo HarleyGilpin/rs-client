@@ -41,19 +41,19 @@ public class Class20_Sub1 extends Class20
 	}
 	
 	static final void method295(int i) {
-		Class270_Sub2_Sub1.anInt10543 = 0;
+		Class270_Sub2_Sub1.removedNpcCount = 0;
 		Node_Sub38_Sub6.anInt10132 = 0;
 		anInt5511++;
 		Plane.anInt3423++;
-		Class262_Sub10.method3173(false);
+		NPCUpdate.updateNpcs();
 		Class91.method1035(i + 25136);
 		Class284.method3392(true);
 		boolean bool = false;
-		for (int i_2_ = 0; (Class270_Sub2_Sub1.anInt10543 ^ 0xffffffff) < (i_2_ ^ 0xffffffff); i_2_++) {
-			int i_3_ = FileOnDisk.anIntArray1322[i_2_];
-			Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) i_3_);
+		for (int i_2_ = 0; (Class270_Sub2_Sub1.removedNpcCount ^ 0xffffffff) < (i_2_ ^ 0xffffffff); i_2_++) {
+			int i_3_ = FileOnDisk.removedNPCIndices[i_2_];
+			Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) i_3_);
 			Npc npc = node_sub41.aNpc7518;
-			if (npc.anInt10880 != Plane.anInt3423) {
+			if (npc.lastUpdate != Plane.anInt3423) {
 				if (Class213.aBoolean2510 && Node_Sub23_Sub1.method2640(i_3_, 113)) {
 					Class260.method3137(0);
 				}
@@ -66,23 +66,23 @@ public class Class20_Sub1 extends Class20
 			}
 		}
 		if (bool) {
-			Node_Sub32.anInt7380 = Class12.aHashTable187.method1519((byte) -90);
-			Class12.aHashTable187.method1523((byte) -112, Class314.aNode_Sub41Array4017);
+			Node_Sub32.anInt7380 = Class12.NPC_MAP.method1519((byte) -90);
+			Class12.NPC_MAP.method1523((byte) -112, Class314.aNode_Sub41Array4017);
 		}
-		if ((Class218.worldResponseBuffer.aPacket1570.anInt7002 ^ 0xffffffff) != (Class218.worldResponseBuffer.anInt1581 ^ 0xffffffff)) {
-			throw new RuntimeException("gnp1 pos:" + Class218.worldResponseBuffer.aPacket1570.anInt7002 + " psize:" + Class218.worldResponseBuffer.anInt1581);
+		if ((Class218.worldResponseBuffer.recievedBuffer.anInt7002 ^ 0xffffffff) != (Class218.worldResponseBuffer.anInt1581 ^ 0xffffffff)) {
+			throw new RuntimeException("gnp1 pos:" + Class218.worldResponseBuffer.recievedBuffer.anInt7002 + " psize:" + Class218.worldResponseBuffer.anInt1581);
 		}
-		for (int i_4_ = 0; (i_4_ ^ 0xffffffff) > (Node_Sub25_Sub3.anInt9987 ^ 0xffffffff); i_4_++) {
-			if (Class12.aHashTable187.method1518(i + 28644, (long) Class54.anIntArray816[i_4_]) == null) {
-				throw new RuntimeException("gnp2 pos:" + i_4_ + " size:" + Node_Sub25_Sub3.anInt9987);
+		for (int i_4_ = 0; (i_4_ ^ 0xffffffff) > (Node_Sub25_Sub3.NPC_UPDATE_INDEX ^ 0xffffffff); i_4_++) {
+			if (Class12.NPC_MAP.method1518(i + 28644, (long) Class54.NPC_UPDATE_INDICES[i_4_]) == null) {
+				throw new RuntimeException("gnp2 pos:" + i_4_ + " size:" + Node_Sub25_Sub3.NPC_UPDATE_INDEX);
 			}
 		}
-		if (-Node_Sub25_Sub3.anInt9987 + Node_Sub32.anInt7380 != 0) {
-			throw new RuntimeException("gnp3 mis:" + (Node_Sub32.anInt7380 - Node_Sub25_Sub3.anInt9987));
+		if (-Node_Sub25_Sub3.NPC_UPDATE_INDEX + Node_Sub32.anInt7380 != 0) {
+			throw new RuntimeException("gnp3 mis:" + (Node_Sub32.anInt7380 - Node_Sub25_Sub3.NPC_UPDATE_INDEX));
 		}
 		if (i == -25132) {
 			for (int i_5_ = 0; (i_5_ ^ 0xffffffff) > (Node_Sub32.anInt7380 ^ 0xffffffff); i_5_++) {
-				if ((Class314.aNode_Sub41Array4017[i_5_].aNpc7518.anInt10880 ^ 0xffffffff) != (Plane.anInt3423 ^ 0xffffffff)) {
+				if ((Class314.aNode_Sub41Array4017[i_5_].aNpc7518.lastUpdate ^ 0xffffffff) != (Plane.anInt3423 ^ 0xffffffff)) {
 					throw new RuntimeException("gnp4 uk:" + Class314.aNode_Sub41Array4017[i_5_].aNpc7518.anInt10858);
 				}
 			}

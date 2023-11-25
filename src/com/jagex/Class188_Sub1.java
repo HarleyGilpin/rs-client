@@ -2,7 +2,7 @@ package com.jagex;
 
 class Class188_Sub1 extends Class188
 {
-	static Class302 aClass302_6849;
+	static CacheArchive aCacheArchive_6849;
 	static int anInt6850;
 	private int anInt6851;
 	static int anInt6852;
@@ -87,6 +87,6 @@ class Class188_Sub1 extends Class188
 		if (i != 4) {
 			anIntArray6859 = null;
 		}
-		aClass302_6849 = null;
+		aCacheArchive_6849 = null;
 	}
 }

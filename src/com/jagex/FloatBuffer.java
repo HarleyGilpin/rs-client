@@ -55,7 +55,7 @@ public class FloatBuffer extends Buffer
 	static final boolean method2249(Class123 class123, int i) throws IOException {
 		anInt9384++;
 		Class365 class365 = class123.aClass365_1557;
-		Packet packet = class123.aPacket1570;
+		Packet packet = class123.recievedBuffer;
 		if (class365 == null) {
 			return false;
 		}
@@ -64,7 +64,7 @@ public class FloatBuffer extends Buffer
 				if (!class365.method4068(1, 91)) {
 					return false;
 				}
-				class365.method4065((byte) -118, class123.aPacket1570.aByteArray7019, 1, 0);
+				class365.method4065((byte) -118, class123.recievedBuffer.aByteArray7019, 1, 0);
 				class123.anInt1578 = 0;
 				class123.anInt1575++;
 				class123.aBoolean1584 = false;
@@ -74,7 +74,7 @@ public class FloatBuffer extends Buffer
 				if (!class365.method4068(1, 68)) {
 					return false;
 				}
-				class365.method4065((byte) -116, class123.aPacket1570.aByteArray7019, 1, 1);
+				class365.method4065((byte) -116, class123.recievedBuffer.aByteArray7019, 1, 1);
 				class123.anInt1575++;
 				class123.anInt1578 = 0;
 			}
@@ -698,7 +698,7 @@ public class FloatBuffer extends Buffer
 			for (int i_93_ = 0; (i_93_ ^ 0xffffffff) > -5; i_93_++)
 				is[i_93_] = packet.method2243(false);
 			int i_94_ = packet.method2224(-602457616);
-			Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) i_94_);
+			Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) i_94_);
 			if (node_sub41 != null) {
 				Class352.method4011(is, i_92_, true, node_sub41.aNpc7518, -77);
 			}
@@ -804,7 +804,7 @@ public class FloatBuffer extends Buffer
 			GLXToolkit.anInt9276 = -1;
 			Class200_Sub2.anInt4935 = i_103_;
 			aa.anInt101 = 1;
-			Node_Sub15_Sub10.aClass302_9853.method3510(Class200_Sub2.anInt4935, (byte) 63);
+			Node_Sub15_Sub10.aCacheArchive_9853.method3510(Class200_Sub2.anInt4935, (byte) 63);
 			int i_104_ = packet.method2219(-130546744);
 			Class169.anIntArrayArray4954 = new int[i_104_][4];
 			for (int i_105_ = 0; (i_104_ ^ 0xffffffff) < (i_105_ ^ 0xffffffff); i_105_++) {
@@ -1323,7 +1323,7 @@ public class FloatBuffer extends Buffer
 					}
 				} else {
 					int i_185_ = 0xffff & i_171_;
-					Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) i_185_);
+					Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) i_185_);
 					if (node_sub41 != null) {
 						Npc npc = node_sub41.aNpc7518;
 						Class165 class165 = npc.aClass165Array10886[i_172_];

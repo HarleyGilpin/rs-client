@@ -6,7 +6,7 @@ public class Class270_Sub2_Sub1 extends Class270_Sub2
 	static int anInt10540;
 	static int anInt10541;
 	private Class169_Sub1 aClass169_Sub1_10542;
-	static int anInt10543 = 0;
+	static int removedNpcCount = 0;
 	private GLToolkit aGLToolkit10544;
 	static int anInt10545;
 	static int anInt10546;

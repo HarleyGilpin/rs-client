@@ -39,8 +39,8 @@ class Class66_Sub2 extends Class66
 		}
 	}
 	
-	Class66_Sub2(Class302 class302, Class302 class302_6_, Class150_Sub3 class150_sub3) {
-		super(class302, class302_6_, (Class150) class150_sub3);
+	Class66_Sub2(CacheArchive cacheArchive, CacheArchive cacheArchive_6_, Class150_Sub3 class150_sub3) {
+		super(cacheArchive, cacheArchive_6_, (Class150) class150_sub3);
 	}
 	
 	final void method721(int i, int i_7_, boolean bool, int i_8_) {
@@ -81,12 +81,12 @@ class Class66_Sub2 extends Class66
 		anInt9000++;
 		super.method26(i);
 		Class150_Sub3 class150_sub3 = (Class150_Sub3) aClass150_5171;
-		aGLSprite8999 = Node_Sub9_Sub4.method2523((byte) 102, class150_sub3.anInt8971, aClass302_5168);
-		aGLSprite8998 = Node_Sub9_Sub4.method2523((byte) 90, class150_sub3.anInt8974, aClass302_5168);
-		aGLSprite8992 = Node_Sub9_Sub4.method2523((byte) 127, class150_sub3.anInt8972, aClass302_5168);
-		aGLSprite8990 = Node_Sub9_Sub4.method2523((byte) 107, class150_sub3.anInt8968, aClass302_5168);
-		aGLSprite8993 = Node_Sub9_Sub4.method2523((byte) 126, class150_sub3.anInt8965, aClass302_5168);
-		aGLSprite8996 = Node_Sub9_Sub4.method2523((byte) 106, class150_sub3.anInt8964, aClass302_5168);
+		aGLSprite8999 = Node_Sub9_Sub4.method2523((byte) 102, class150_sub3.anInt8971, aCacheArchive_5168);
+		aGLSprite8998 = Node_Sub9_Sub4.method2523((byte) 90, class150_sub3.anInt8974, aCacheArchive_5168);
+		aGLSprite8992 = Node_Sub9_Sub4.method2523((byte) 127, class150_sub3.anInt8972, aCacheArchive_5168);
+		aGLSprite8990 = Node_Sub9_Sub4.method2523((byte) 107, class150_sub3.anInt8968, aCacheArchive_5168);
+		aGLSprite8993 = Node_Sub9_Sub4.method2523((byte) 126, class150_sub3.anInt8965, aCacheArchive_5168);
+		aGLSprite8996 = Node_Sub9_Sub4.method2523((byte) 106, class150_sub3.anInt8964, aCacheArchive_5168);
 	}
 	
 	public final boolean method25(int i) {
@@ -95,22 +95,22 @@ class Class66_Sub2 extends Class66
 			return false;
 		}
 		Class150_Sub3 class150_sub3 = (Class150_Sub3) aClass150_5171;
-		if (!aClass302_5168.method3510(class150_sub3.anInt8971, (byte) 63)) {
+		if (!aCacheArchive_5168.method3510(class150_sub3.anInt8971, (byte) 63)) {
 			return false;
 		}
-		if (!aClass302_5168.method3510(class150_sub3.anInt8974, (byte) 63)) {
+		if (!aCacheArchive_5168.method3510(class150_sub3.anInt8974, (byte) 63)) {
 			return false;
 		}
-		if (!aClass302_5168.method3510(class150_sub3.anInt8972, (byte) 63)) {
+		if (!aCacheArchive_5168.method3510(class150_sub3.anInt8972, (byte) 63)) {
 			return false;
 		}
-		if (!aClass302_5168.method3510(class150_sub3.anInt8968, (byte) 63)) {
+		if (!aCacheArchive_5168.method3510(class150_sub3.anInt8968, (byte) 63)) {
 			return false;
 		}
-		if (!aClass302_5168.method3510(class150_sub3.anInt8965, (byte) 63)) {
+		if (!aCacheArchive_5168.method3510(class150_sub3.anInt8965, (byte) 63)) {
 			return false;
 		}
-		if (!aClass302_5168.method3510(class150_sub3.anInt8964, (byte) 63)) {
+		if (!aCacheArchive_5168.method3510(class150_sub3.anInt8964, (byte) 63)) {
 			return false;
 		}
 		return true;

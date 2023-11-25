@@ -21,7 +21,7 @@ public class Class356
 		Class88.method1016(892);
 		Class300.method3497((byte) 107, Class93.aGraphicsToolkit1241);
 		Class320_Sub21.method3760(bool, Class93.aGraphicsToolkit1241);
-		Class130.method1557((byte) -122, Node_Sub38_Sub39.aClass302_10500, Class93.aGraphicsToolkit1241);
+		Class130.method1557((byte) -122, Node_Sub38_Sub39.aCacheArchive_10500, Class93.aGraphicsToolkit1241);
 		GameStub.method101(-15332);
 		Class173.method1800((byte) -16, Node_Sub52.aGLSpriteArray7655);
 		Class320_Sub21.method3764(-95);

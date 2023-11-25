@@ -123,16 +123,16 @@ public class Class1
 		}
 	}
 	
-	Class1(Class302 class302) {
+	Class1(CacheArchive cacheArchive) {
 		aBoolean111 = true;
 		anInt116 = 2;
 		anIntArray119 = null;
 		anInt118 = 3;
 		try {
-			byte[] bs = class302.method3518((byte) 126, 3);
+			byte[] bs = cacheArchive.method3518((byte) 126, 3);
 			method163(new Buffer(bs), 10200);
 		} catch (RuntimeException runtimeexception) {
-			throw Class126.method1537(runtimeexception, "aba.<init>(" + (class302 != null ? "{...}" : "null") + ')');
+			throw Class126.method1537(runtimeexception, "aba.<init>(" + (cacheArchive != null ? "{...}" : "null") + ')');
 		}
 	}
 }

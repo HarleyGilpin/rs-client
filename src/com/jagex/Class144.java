@@ -118,10 +118,10 @@ abstract class Class144
 						}
 					}
 					Class262_Sub1.anIntArray7704[i_21_] = i_28_;
-					StandardPlane.anIntArray7980[i_21_] = Animable_Sub1_Sub1.aClass302_10618.method3519("m" + i_26_ + "_" + i_27_, (byte) 119);
-					anIntArray1789[i_21_] = Animable_Sub1_Sub1.aClass302_10618.method3519("l" + i_26_ + "_" + i_27_, (byte) 23);
-					Class42.anIntArray645[i_21_] = Animable_Sub1_Sub1.aClass302_10618.method3519("um" + i_26_ + "_" + i_27_, (byte) 120);
-					ProducingGraphicsBuffer.anIntArray9895[i_21_] = Animable_Sub1_Sub1.aClass302_10618.method3519("ul" + i_26_ + "_" + i_27_, (byte) 121);
+					StandardPlane.anIntArray7980[i_21_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("m" + i_26_ + "_" + i_27_, (byte) 119);
+					anIntArray1789[i_21_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("l" + i_26_ + "_" + i_27_, (byte) 23);
+					Class42.anIntArray645[i_21_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("um" + i_26_ + "_" + i_27_, (byte) 120);
+					ProducingGraphicsBuffer.anIntArray9895[i_21_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("ul" + i_26_ + "_" + i_27_, (byte) 121);
 					i_21_++;
 				}
 			}

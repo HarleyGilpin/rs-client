@@ -2,10 +2,10 @@ package com.jagex;
 
 public class Class122
 {
-	private Class302 aClass302_1550;
+	private CacheArchive aCacheArchive_1550;
 	static int anInt1551;
 	static int anInt1552;
-	private Class302 aClass302_1553;
+	private CacheArchive aCacheArchive_1553;
 	private Class61 aClass61_1554 = new Class61(64);
 	static boolean[][] aBooleanArrayArray1555;
 	static int[] anIntArray1556;
@@ -26,9 +26,9 @@ public class Class122
 		}
 		byte[] bs;
 		if ((i ^ 0xffffffff) > -32769) {
-			bs = aClass302_1550.method3524(false, i, 0);
+			bs = aCacheArchive_1550.method3524(false, i, 0);
 		} else {
-			bs = aClass302_1553.method3524(false, i & 0x7fff, 0);
+			bs = aCacheArchive_1553.method3524(false, i & 0x7fff, 0);
 		}
 		int i_0_ = 10 / ((41 - b) / 47);
 		cachenode_sub3 = new CacheNode_Sub3();
@@ -42,14 +42,14 @@ public class Class122
 		return cachenode_sub3;
 	}
 	
-	Class122(int i, Class302 class302, Class302 class302_1_) {
-		aClass302_1553 = class302_1_;
-		aClass302_1550 = class302;
-		if (aClass302_1550 != null) {
-			aClass302_1550.method3537(-2, 0);
+	Class122(int i, CacheArchive cacheArchive, CacheArchive cacheArchive_1_) {
+		aCacheArchive_1553 = cacheArchive_1_;
+		aCacheArchive_1550 = cacheArchive;
+		if (aCacheArchive_1550 != null) {
+			aCacheArchive_1550.method3537(-2, 0);
 		}
-		if (aClass302_1553 != null) {
-			aClass302_1553.method3537(-2, 0);
+		if (aCacheArchive_1553 != null) {
+			aCacheArchive_1553.method3537(-2, 0);
 		}
 	}
 }

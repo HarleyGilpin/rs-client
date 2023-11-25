@@ -8,7 +8,7 @@ public class Node_Sub38_Sub6 extends Node_Sub38
 	static Class318 aClass318_10135 = new Class318(8, -1);
 	static int anInt10136;
 	private int anInt10137 = 4096;
-	static Class302 aClass302_10138;
+	static CacheArchive aCacheArchive_10138;
 	static int anInt10139;
 	
 	final int[] method2775(int i, int i_0_) {
@@ -50,10 +50,10 @@ public class Node_Sub38_Sub6 extends Node_Sub38
 	}
 	
 	public static void method2804(byte b) {
-		aClass302_10138 = null;
+		aCacheArchive_10138 = null;
 		aClass318_10135 = null;
 		if (b != 100) {
-			aClass302_10138 = null;
+			aCacheArchive_10138 = null;
 		}
 	}
 }

@@ -3,13 +3,13 @@ package com.jagex;
 public class Node_Sub18 extends Node
 {
 	protected String aString7149;
-	static Class302 aClass302_7150;
+	static CacheArchive aCacheArchive_7150;
 	static Class318 aClass318_7151 = new Class318(1, -1);
 	static int anInt7152;
 	static int anInt7153;
 	
 	public static void method2605(byte b) {
-		aClass302_7150 = null;
+		aCacheArchive_7150 = null;
 		if (b == -59) {
 			aClass318_7151 = null;
 		}

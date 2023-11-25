@@ -11,7 +11,7 @@ public class Node_Sub15_Sub10 extends Node_Sub15
 	static boolean aBoolean9850 = false;
 	static int anInt9851;
 	static int anInt9852;
-	static Class302 aClass302_9853;
+	static CacheArchive aCacheArchive_9853;
 	
 	final void method2556(ClanChat clanchat, int i) {
 		anInt9844++;
@@ -27,7 +27,7 @@ public class Node_Sub15_Sub10 extends Node_Sub15
 	}
 	
 	public static void method2579(byte b) {
-		aClass302_9853 = null;
+		aCacheArchive_9853 = null;
 		if (b > 27) {
 			aClass192_9849 = null;
 		}

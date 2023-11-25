@@ -84,12 +84,12 @@ public class Class339_Sub8 extends Class339
 		super(gltoolkit);
 	}
 	
-	static final void method3946(int i, int i_3_, int i_4_, Class302 class302, boolean bool, int i_5_) {
+	static final void method3946(int i, int i_3_, int i_4_, CacheArchive cacheArchive, boolean bool, int i_5_) {
 		anInt8732++;
 		if (i_5_ != 23732) {
 			anInt8739 = 44;
 		}
-		Class104.method1114(0L, bool, 95, i, i_3_, i_4_, class302);
+		Class104.method1114(0L, bool, 95, i, i_3_, i_4_, cacheArchive);
 	}
 	
 	final boolean method3922(byte b) {

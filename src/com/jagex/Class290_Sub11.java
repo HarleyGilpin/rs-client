@@ -128,15 +128,15 @@ public class Class290_Sub11 extends Class290
 		}
 	}
 	
-	Class290_Sub11(GLXToolkit glxtoolkit, Class302 class302) {
+	Class290_Sub11(GLXToolkit glxtoolkit, CacheArchive cacheArchive) {
 		super(glxtoolkit);
-		if (class302 == null || !glxtoolkit.aBoolean9326) {
+		if (cacheArchive == null || !glxtoolkit.aBoolean9326) {
 			aBoolean8176 = false;
 		} else {
-			aClass106_8160 = Class157.method1709(glxtoolkit, 34336, -113, class302.method3529("gl", "uw_ground_unlit", 1));
-			aClass106_8161 = Class157.method1709(glxtoolkit, 34336, -92, class302.method3529("gl", "uw_ground_lit", 1));
-			aClass106_8171 = Class157.method1709(glxtoolkit, 34336, -124, class302.method3529("gl", "uw_model_unlit", 1));
-			aClass106_8168 = Class157.method1709(glxtoolkit, 34336, -71, class302.method3529("gl", "uw_model_lit", 1));
+			aClass106_8160 = Class157.method1709(glxtoolkit, 34336, -113, cacheArchive.method3529("gl", "uw_ground_unlit", 1));
+			aClass106_8161 = Class157.method1709(glxtoolkit, 34336, -92, cacheArchive.method3529("gl", "uw_ground_lit", 1));
+			aClass106_8171 = Class157.method1709(glxtoolkit, 34336, -124, cacheArchive.method3529("gl", "uw_model_unlit", 1));
+			aClass106_8168 = Class157.method1709(glxtoolkit, 34336, -71, cacheArchive.method3529("gl", "uw_model_lit", 1));
 			if (!(aClass106_8168 != null & (aClass106_8160 != null & aClass106_8161 != null & aClass106_8171 != null))) {
 				aBoolean8176 = false;
 			} else {

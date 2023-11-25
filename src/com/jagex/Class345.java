@@ -18,10 +18,10 @@ public class Class345
 		aClass151_4267 = null;
 	}
 	
-	static final void method3971(Class302 class302, int i, boolean bool, Class302 class302_0_) {
+	static final void method3971(CacheArchive cacheArchive, int i, boolean bool, CacheArchive cacheArchive_0_) {
 		if (bool == true) {
-			Node_Sub15_Sub11.aClass302_9859 = class302_0_;
-			Class145.aClass302_1799 = class302;
+			Node_Sub15_Sub11.aCacheArchive_9859 = cacheArchive_0_;
+			Class145.aCacheArchive_1799 = cacheArchive;
 			anInt4269++;
 		}
 	}

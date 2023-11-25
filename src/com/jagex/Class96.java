@@ -3,11 +3,11 @@ import java.applet.Applet;
 
 public class Class96
 {
-	private Class302 aClass302_1260;
+	private CacheArchive aCacheArchive_1260;
 	private HashTable aHashTable1261 = new HashTable(256);
 	static int anInt1262;
 	static int anInt1263;
-	private Class302 aClass302_1264;
+	private CacheArchive aCacheArchive_1264;
 	static int anInt1265;
 	static int anInt1266;
 	static int anInt1267;
@@ -44,7 +44,7 @@ public class Class96
 		if (is != null && (is[0] ^ 0xffffffff) >= -1) {
 			return null;
 		}
-		Class65 class65 = Class65.method714(aClass302_1264, i_0_, i);
+		Class65 class65 = Class65.method714(aCacheArchive_1264, i_0_, i);
 		if (class65 == null) {
 			return null;
 		}
@@ -70,7 +70,7 @@ public class Class96
 		}
 		Node_Sub49 node_sub49 = (Node_Sub49) aHashTable1261.method1518(3512, l);
 		if (node_sub49 == null) {
-			node_sub49 = Node_Sub49.method2962(aClass302_1260, i, i_3_);
+			node_sub49 = Node_Sub49.method2962(aCacheArchive_1260, i, i_3_);
 			if (node_sub49 == null) {
 				return null;
 			}
@@ -88,10 +88,10 @@ public class Class96
 	
 	final Node_Sub45_Sub1 method1073(boolean bool, int[] is, int i) {
 		anInt1265++;
-		if (aClass302_1264.method3526(-20871) == 1) {
+		if (aCacheArchive_1264.method3526(-20871) == 1) {
 			return method1071(i, 0, 0, is);
 		}
-		if ((aClass302_1264.method3537(-2, i) ^ 0xffffffff) == -2) {
+		if ((aCacheArchive_1264.method3537(-2, i) ^ 0xffffffff) == -2) {
 			return method1071(0, i, 0, is);
 		}
 		if (bool != false) {
@@ -102,21 +102,21 @@ public class Class96
 	
 	final Node_Sub45_Sub1 method1074(int[] is, byte b, int i) {
 		anInt1267++;
-		if (aClass302_1260.method3526(-20871) == 1) {
+		if (aCacheArchive_1260.method3526(-20871) == 1) {
 			return method1072(is, 0, i, (byte) 116);
 		}
 		if (b != -31) {
 			return null;
 		}
-		if ((aClass302_1260.method3537(-2, i) ^ 0xffffffff) == -2) {
+		if ((aCacheArchive_1260.method3537(-2, i) ^ 0xffffffff) == -2) {
 			return method1072(is, i, 0, (byte) 111);
 		}
 		throw new RuntimeException();
 	}
 	
-	Class96(Class302 class302, Class302 class302_6_) {
-		aClass302_1260 = class302_6_;
-		aClass302_1264 = class302;
+	Class96(CacheArchive cacheArchive, CacheArchive cacheArchive_6_) {
+		aCacheArchive_1260 = cacheArchive_6_;
+		aCacheArchive_1264 = cacheArchive;
 	}
 	
 	static final int method1075(int i, int i_7_) {
@@ -171,7 +171,7 @@ public class Class96
 			i_16_ = 255;
 		}
 		if ((i_17_ ^ 0xffffffff) <= -1) {
-			if ((i_17_ ^ 0xffffffff) < -256) {
+			if ((i_17_ ^ 0xffffffff) < -256) { // paths
 				i_17_ = 255;
 			}
 		} else {

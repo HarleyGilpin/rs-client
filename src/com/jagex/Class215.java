@@ -8,13 +8,13 @@ public class Class215
 	static int anInt2532;
 	static int anInt2533;
 	static int anInt2534;
-	private Class302 aClass302_2535;
+	private CacheArchive aCacheArchive_2535;
 	static int anInt2536;
 	static int anInt2537;
 	static byte[] aByteArray2538 = new byte[2048];
 	static int anInt2539;
 	private Class61 aClass61_2540 = new Class61(128);
-	protected Class302 aClass302_2541;
+	protected CacheArchive aCacheArchive_2541;
 	static int anInt2542;
 	protected Class61 aClass61_2543 = new Class61(64);
 	static int anInt2544;
@@ -73,7 +73,7 @@ public class Class215
 		if (class352 != null) {
 			return class352;
 		}
-		byte[] bs = Class173.aClass302_2090.method3524(false, i_4_, i);
+		byte[] bs = Class173.aCacheArchive_2090.method3524(false, i_4_, i);
 		class352 = new Class352();
 		if (bs != null) {
 			class352.method4007(i_4_, (byte) 97, new Buffer(bs));
@@ -101,8 +101,8 @@ public class Class215
 			return class79;
 		}
 		byte[] bs;
-		synchronized (aClass302_2535) {
-			bs = aClass302_2535.method3524(false, i, 36);
+		synchronized (aCacheArchive_2535) {
+			bs = aCacheArchive_2535.method3524(false, i, 36);
 		}
 		class79 = new Class79();
 		class79.aClass215_1076 = this;
@@ -115,7 +115,7 @@ public class Class215
 			aClass61_2540.method601(class79, 25566, (long) i);
 		}
 		if (b <= 99) {
-			aClass302_2535 = null;
+			aCacheArchive_2535 = null;
 		}
 		return class79;
 	}
@@ -125,7 +125,7 @@ public class Class215
 		synchronized (aClass61_2540) {
 			aClass61_2540.method602((byte) -118);
 			if (i != 2048) {
-				aClass302_2535 = null;
+				aCacheArchive_2535 = null;
 			}
 		}
 		synchronized (aClass61_2543) {
@@ -160,9 +160,9 @@ public class Class215
 		return (i_7_ ^ 0xffffffff) & i;
 	}
 	
-	Class215(Class353 class353, int i, Class302 class302, Class302 class302_8_) {
-		aClass302_2541 = class302_8_;
-		aClass302_2535 = class302;
-		aClass302_2535.method3537(-2, 36);
+	Class215(Class353 class353, int i, CacheArchive cacheArchive, CacheArchive cacheArchive_8_) {
+		aCacheArchive_2541 = cacheArchive_8_;
+		aCacheArchive_2535 = cacheArchive;
+		aCacheArchive_2535.method3537(-2, 36);
 	}
 }

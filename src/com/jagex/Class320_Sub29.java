@@ -19,7 +19,7 @@ public class Class320_Sub29 extends Class320
 	
 	static final void method3788(int i, Class257 class257) {
 		anInt8478++;
-		Packet packet = Class218.worldResponseBuffer.aPacket1570;
+		Packet packet = Class218.worldResponseBuffer.recievedBuffer;
 		if (class257 == Class189_Sub1.aClass257_6882) {
 			int i_0_ = packet.method2233(255);
 			int i_1_ = (0x7 & i_0_) + Node_Sub21.anInt7184;
@@ -189,7 +189,7 @@ public class Class320_Sub29 extends Class320
 						Actor actor = null;
 						if ((i_62_ ^ 0xffffffff) <= -1) {
 							int i_71_ = i_62_ + -1;
-							Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) i_71_);
+							Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) i_71_);
 							if (node_sub41 != null) {
 								actor = node_sub41.aNpc7518;
 							}

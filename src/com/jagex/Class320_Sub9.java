@@ -212,14 +212,14 @@ public class Class320_Sub9 extends Class320
 		}
 	}
 	
-	static final boolean method3717(Class42 class42, Class302 class302, Class302 class302_15_, Class302 class302_16_, int i, Node_Sub9_Sub1 node_sub9_sub1) {
+	static final boolean method3717(Class42 class42, CacheArchive cacheArchive, CacheArchive cacheArchive_15_, CacheArchive cacheArchive_16_, int i, Node_Sub9_Sub1 node_sub9_sub1) {
 		Class307.aNode_Sub9_Sub1_3902 = node_sub9_sub1;
-		Class320_Sub12.aClass302_8326 = class302;
+		Class320_Sub12.aCacheArchive_8326 = cacheArchive;
 		anInt8292++;
-		Class51.aClass302_5339 = class302_15_;
+		Class51.aCacheArchive_5339 = cacheArchive_15_;
 		Class153.anIntArray1948 = new int[16];
 		Class230.aClass42_5208 = class42;
-		Node_Sub38_Sub6.aClass302_10138 = class302_16_;
+		Node_Sub38_Sub6.aCacheArchive_10138 = cacheArchive_16_;
 		if (i != 311508264) {
 			anInt8295 = -128;
 		}

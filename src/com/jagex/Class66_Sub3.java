@@ -15,7 +15,7 @@ public class Class66_Sub3 extends Class66
 		}
 		anInt9005++;
 		super.method26(i);
-		aGLSprite9002 = Node_Sub9_Sub4.method2523((byte) 119, ((Class150_Sub1) aClass150_5171).anInt8950, aClass302_5168);
+		aGLSprite9002 = Node_Sub9_Sub4.method2523((byte) 119, ((Class150_Sub1) aClass150_5171).anInt8950, aCacheArchive_5168);
 	}
 	
 	final void method719(boolean bool, int i, byte b, int i_0_) {
@@ -27,8 +27,8 @@ public class Class66_Sub3 extends Class66
 		Class93.aGraphicsToolkit1241.d(i - 1, i_0_ - -1, 2 + aClass150_5171.anInt5086, aClass150_5171.anInt5081, 0, 0);
 	}
 	
-	Class66_Sub3(Class302 class302, Class302 class302_1_, Class150_Sub1 class150_sub1) {
-		super(class302, class302_1_, (Class150) class150_sub1);
+	Class66_Sub3(CacheArchive cacheArchive, CacheArchive cacheArchive_1_, Class150_Sub1 class150_sub1) {
+		super(cacheArchive, cacheArchive_1_, (Class150) class150_sub1);
 	}
 	
 	public final boolean method25(int i) {
@@ -36,7 +36,7 @@ public class Class66_Sub3 extends Class66
 		if (!super.method25(i)) {
 			return false;
 		}
-		return aClass302_5168.method3510(((Class150_Sub1) aClass150_5171).anInt8950, (byte) 63);
+		return aCacheArchive_5168.method3510(((Class150_Sub1) aClass150_5171).anInt8950, (byte) 63);
 	}
 	
 	final void method721(int i, int i_2_, boolean bool, int i_3_) {

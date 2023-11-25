@@ -47,11 +47,11 @@ public class Class50
 	
 	static final void method512(int i, int i_6_, String string, GraphicsToolkit graphicstoolkit, byte b, int i_7_, int i_8_, int i_9_) {
 		if (Class247.aGLSprite3141 == null || aa.aGLSprite102 == null) {
-			if (!Node_Sub38_Sub39.aClass302_10500.method3510(Class40.anInt620, (byte) 63) || !Node_Sub38_Sub39.aClass302_10500.method3510(Class150.anInt5085, (byte) 63)) {
+			if (!Node_Sub38_Sub39.aCacheArchive_10500.method3510(Class40.anInt620, (byte) 63) || !Node_Sub38_Sub39.aCacheArchive_10500.method3510(Class150.anInt5085, (byte) 63)) {
 				graphicstoolkit.aa(i_8_, i_7_, i, i_9_, AnimableAnimator.anInt5501 | -Node_Sub36_Sub3.anInt10056 + 255 << 24, 1);
 			} else {
-				Class247.aGLSprite3141 = graphicstoolkit.a(Class383.method4194(Node_Sub38_Sub39.aClass302_10500, Class40.anInt620, 0), true);
-				Class383 class383 = Class383.method4194(Node_Sub38_Sub39.aClass302_10500, Class150.anInt5085, 0);
+				Class247.aGLSprite3141 = graphicstoolkit.a(Class383.method4194(Node_Sub38_Sub39.aCacheArchive_10500, Class40.anInt620, 0), true);
+				Class383 class383 = Class383.method4194(Node_Sub38_Sub39.aCacheArchive_10500, Class150.anInt5085, 0);
 				aa.aGLSprite102 = graphicstoolkit.a(class383, true);
 				class383.method4200();
 				Class339_Sub7.aGLSprite8718 = graphicstoolkit.a(class383, true);

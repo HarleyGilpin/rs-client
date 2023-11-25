@@ -88,13 +88,13 @@ public class Class48
 				Node_Sub38_Sub32.method2897(29);
 			}
 			if (Class315.method3655(Class151.anInt1843, 128)) {
-				Class4.aClass302_122.anInt3795 = 2;
-				Class14.aClass302_219.anInt3795 = 2;
-				Class247.aClass302_3143.anInt3795 = 2;
-				Class174.aClass302_2093.anInt3795 = 2;
-				Class205.aClass302_5104.anInt3795 = 2;
-				Class262_Sub23.aClass302_7886.anInt3795 = 2;
-				Node_Sub15_Sub5.aClass302_9805.anInt3795 = 2;
+				Class4.aCacheArchive_122.anInt3795 = 2;
+				Class14.aCacheArchive_219.anInt3795 = 2;
+				Class247.aCacheArchive_3143.anInt3795 = 2;
+				Class174.aCacheArchive_2093.anInt3795 = 2;
+				Class205.aCacheArchive_5104.anInt3795 = 2;
+				Class262_Sub23.aCacheArchive_7886.anInt3795 = 2;
+				Node_Sub15_Sub5.aCacheArchive_9805.anInt3795 = 2;
 			}
 			if (Class315.method3655(i, 128)) {
 				Node_Sub29_Sub2.anInt10015 = 0;
@@ -103,13 +103,13 @@ public class Class48
 				Class118.anInt5407 = 0;
 				Node_Sub2.anInt6937 = 0;
 				Class262_Sub23.method3212(true, 1295);
-				Class4.aClass302_122.anInt3795 = 1;
-				Class14.aClass302_219.anInt3795 = 1;
-				Class247.aClass302_3143.anInt3795 = 1;
-				Class174.aClass302_2093.anInt3795 = 1;
-				Class205.aClass302_5104.anInt3795 = 1;
-				Class262_Sub23.aClass302_7886.anInt3795 = 1;
-				Node_Sub15_Sub5.aClass302_9805.anInt3795 = 1;
+				Class4.aCacheArchive_122.anInt3795 = 1;
+				Class14.aCacheArchive_219.anInt3795 = 1;
+				Class247.aCacheArchive_3143.anInt3795 = 1;
+				Class174.aCacheArchive_2093.anInt3795 = 1;
+				Class205.aCacheArchive_5104.anInt3795 = 1;
+				Class262_Sub23.aCacheArchive_7886.anInt3795 = 1;
+				Node_Sub15_Sub5.aCacheArchive_9805.anInt3795 = 1;
 			}
 			if (i == 12 || i == 3) {
 				Node_Sub24.method2644((byte) -42);
@@ -126,7 +126,7 @@ public class Class48
 				} else {
 					Class313.anInt4013 = Class317.anInt4038;
 					if ((Class213.aNode_Sub27_2512.aClass320_Sub25_7309.method3776(false) ^ 0xffffffff) != -1) {
-						Class39.method408(2, Class317.anInt4038, 0, false, Class213.aNode_Sub27_2512.aClass320_Sub25_7309.method3776(false), SeekableFile.aClass302_3881, false);
+						Class39.method408(2, Class317.anInt4038, 0, false, Class213.aNode_Sub27_2512.aClass320_Sub25_7309.method3776(false), SeekableFile.aCacheArchive_3881, false);
 						EntityNode_Sub7.method979(17285);
 					} else {
 						Class166.method1746(2, -1);

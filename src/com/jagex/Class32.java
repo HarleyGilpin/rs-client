@@ -11,7 +11,7 @@ public class Class32
 	static int anInt514;
 	static int anInt515;
 	static Animable[] anAnimableArray516;
-	private Class302 aClass302_517;
+	private CacheArchive aCacheArchive_517;
 	private Class61 aClass61_518 = new Class61(64);
 	
 	final void method352(byte b) {
@@ -34,8 +34,8 @@ public class Class32
 			return class184;
 		}
 		byte[] bs;
-		synchronized (aClass302_517) {
-			bs = aClass302_517.method3524(false, i, 35);
+		synchronized (aCacheArchive_517) {
+			bs = aCacheArchive_517.method3524(false, i, 35);
 		}
 		class184 = new Class184();
 		if (bs != null) {
@@ -171,10 +171,10 @@ public class Class32
 		return node_sub9_sub1_18_;
 	}
 	
-	Class32(Class353 class353, int i, Class302 class302) {
-		aClass302_517 = class302;
-		if (aClass302_517 != null) {
-			aClass302_517.method3537(-2, 35);
+	Class32(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_517 = cacheArchive;
+		if (aCacheArchive_517 != null) {
+			aCacheArchive_517.method3537(-2, 35);
 		}
 	}
 }

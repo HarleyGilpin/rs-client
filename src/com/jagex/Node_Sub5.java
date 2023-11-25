@@ -14,15 +14,15 @@ abstract class Node_Sub5 extends Node
 	
 	static final int method2268(Packet packet, int i) {
 		anInt7026++;
-		int i_0_ = packet.method2256((byte) 50, 2);
+		int i_0_ = packet.readBits(2);
 		int i_1_;
 		if (i_0_ != 0) {
 			if (i_0_ == 1) {
-				i_1_ = packet.method2256((byte) 121, 5);
+				i_1_ = packet.readBits(5);
 			} else if ((i_0_ ^ 0xffffffff) == -3) {
-				i_1_ = packet.method2256((byte) -127, 8);
+				i_1_ = packet.readBits(8);
 			} else {
-				i_1_ = packet.method2256((byte) 24, 11);
+				i_1_ = packet.readBits(11);
 			}
 		} else {
 			i_1_ = 0;

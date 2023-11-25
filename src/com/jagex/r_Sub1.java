@@ -9,7 +9,7 @@ public class r_Sub1 extends r
 	protected byte[] aByteArray11044;
 	static int anInt11045;
 	static int anInt11046;
-	static Class302 aClass302_11047;
+	static CacheArchive aCacheArchive_11047;
 	static int anInt11048;
 	protected int anInt11049;
 	protected int anInt11050;
@@ -116,7 +116,7 @@ public class r_Sub1 extends r
 	}
 	
 	public static void method2366(int i) {
-		aClass302_11047 = null;
+		aCacheArchive_11047 = null;
 		if (i != -1612655536) {
 			method2364(-73, -44, -114, null, 119);
 		}

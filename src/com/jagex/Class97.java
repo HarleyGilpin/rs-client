@@ -15,11 +15,11 @@ public class Class97
 	
 	static final void method1076(Packet packet, int i) {
 		anInt1274++;
-		packet.method2261(107347906);
+		packet.initBitAccess(107347906);
 		int i_0_ = Class166.anInt5099;
 		Player player = Class295.aPlayer3692 = Class270_Sub2.aPlayerArray8038[i_0_] = new Player();
 		player.anInt10858 = i_0_;
-		int i_1_ = packet.method2256((byte) -124, 30);
+		int i_1_ = packet.readBits(30);
 		byte b = (byte) (i_1_ >> 28);
 		int i_2_ = i_1_ >> 14 & 0x3fff;
 		player.anIntArray10910[0] = i_2_ + -Node_Sub53.anInt7668;
@@ -41,7 +41,7 @@ public class Class97
 			Class35.anInt538 = 0;
 			for (int i_4_ = 1; i_4_ < 2048; i_4_++) {
 				if (i_0_ != i_4_) {
-					int i_5_ = packet.method2256((byte) 107, 18);
+					int i_5_ = packet.readBits(18);
 					int i_6_ = i_5_ >> 16;
 					int i_7_ = (i_5_ & 0xff72) >> 8;
 					int i_8_ = 0xff & i_5_;

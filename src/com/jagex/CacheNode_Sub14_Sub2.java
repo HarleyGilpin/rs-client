@@ -74,14 +74,14 @@ public class CacheNode_Sub14_Sub2 extends CacheNode_Sub14
 		}
 	}
 	
-	static final void method2354(Class302 class302, int i, boolean bool, int i_6_, int i_7_, int i_8_, boolean bool_9_) {
+	static final void method2354(CacheArchive cacheArchive, int i, boolean bool, int i_6_, int i_7_, int i_8_, boolean bool_9_) {
 		anInt11036++;
 		if ((i_8_ ^ 0xffffffff) >= -1) {
-			Class339_Sub8.method3946(i_7_, i_6_, i, class302, bool, 23732);
+			Class339_Sub8.method3946(i_7_, i_6_, i, cacheArchive, bool, 23732);
 		} else {
 			Class17.anInt282 = i;
 			Class52.anInt800 = 1;
-			Class93_Sub2.aClass302_6049 = class302;
+			Class93_Sub2.aCacheArchive_6049 = cacheArchive;
 			Class266.aBoolean3385 = bool;
 			Class61.aNode_Sub9_Sub1_885 = null;
 			CacheNode_Sub6.anInt9485 = i_7_;

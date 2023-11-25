@@ -4,7 +4,7 @@ public class Class188_Sub2_Sub2 extends Class188_Sub2
 {
 	static int anInt9359;
 	static int anInt9360;
-	static Class302 aClass302_9361;
+	static CacheArchive aCacheArchive_9361;
 	private byte[] aByteArray9362;
 	static int anInt9363;
 	static int anInt9364;
@@ -13,7 +13,7 @@ public class Class188_Sub2_Sub2 extends Class188_Sub2
 	
 	static final boolean method1911(int i, int i_0_) {
 		if (i_0_ != 2) {
-			aClass302_9361 = null;
+			aCacheArchive_9361 = null;
 		}
 		anInt9363++;
 		if (i != 0 && i != 2) {
@@ -23,7 +23,7 @@ public class Class188_Sub2_Sub2 extends Class188_Sub2
 	}
 	
 	public static void method1912(byte b) {
-		aClass302_9361 = null;
+		aCacheArchive_9361 = null;
 		aClass36_9366 = null;
 		if (b >= -75) {
 			anInt9360 = -98;

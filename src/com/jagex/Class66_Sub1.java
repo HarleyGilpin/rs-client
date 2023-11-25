@@ -10,8 +10,8 @@ public class Class66_Sub1 extends Class66
 	static int[] anIntArray8987 = new int[2048];
 	static volatile Object anObject8988 = null;
 	
-	Class66_Sub1(Class302 class302, Class302 class302_0_, Class150_Sub2 class150_sub2) {
-		super(class302, class302_0_, (Class150) class150_sub2);
+	Class66_Sub1(CacheArchive cacheArchive, CacheArchive cacheArchive_0_, Class150_Sub2 class150_sub2) {
+		super(cacheArchive, cacheArchive_0_, (Class150) class150_sub2);
 	}
 	
 	static final void method723(byte b, boolean bool, int i, int i_1_, boolean bool_2_) {

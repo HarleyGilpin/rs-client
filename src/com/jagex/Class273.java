@@ -6,7 +6,7 @@ public class Class273
 	static int anInt3487;
 	static int anInt3488;
 	static int anInt3489;
-	static Class302 aClass302_3490;
+	static CacheArchive aCacheArchive_3490;
 	static int anInt3491;
 	protected String aString3492;
 	static int anInt3493;
@@ -56,7 +56,7 @@ public class Class273
 	
 	public static void method3317(int i) {
 		if (i == 0) {
-			aClass302_3490 = null;
+			aCacheArchive_3490 = null;
 		}
 	}
 	

@@ -413,7 +413,7 @@ public class Node_Sub38_Sub20 extends Node_Sub38
 	static final void method2857(int i) {
 		anInt10310++;
 		Class61.anInt898 = 0;
-		Packet packet = Class218.worldResponseBuffer.aPacket1570;
+		Packet packet = Class218.worldResponseBuffer.recievedBuffer;
 		int i_47_ = packet.method2238(true);
 		boolean bool = (packet.method2233(255) ^ 0xffffffff) == -2;
 		int i_48_ = packet.method2209((byte) 57);
@@ -444,10 +444,10 @@ public class Node_Sub38_Sub20 extends Node_Sub38
 		for (int i_53_ = (-(Node_Sub54.anInt7675 >> 4) + i_48_) / 8; ((Node_Sub54.anInt7675 >> 4) + i_48_) / 8 >= i_53_; i_53_++) {
 			for (int i_54_ = (-(Class377_Sub1.anInt8774 >> 4) + i_49_) / 8; (i_54_ ^ 0xffffffff) >= ((i_49_ + (Class377_Sub1.anInt8774 >> 4)) / 8 ^ 0xffffffff); i_54_++) {
 				Class262_Sub1.anIntArray7704[i_50_] = (i_53_ << 8) - -i_54_;
-				StandardPlane.anIntArray7980[i_50_] = Animable_Sub1_Sub1.aClass302_10618.method3519("m" + i_53_ + "_" + i_54_, (byte) 33);
-				Class144.anIntArray1789[i_50_] = Animable_Sub1_Sub1.aClass302_10618.method3519("l" + i_53_ + "_" + i_54_, (byte) 19);
-				Class42.anIntArray645[i_50_] = Animable_Sub1_Sub1.aClass302_10618.method3519("um" + i_53_ + "_" + i_54_, (byte) 87);
-				ProducingGraphicsBuffer.anIntArray9895[i_50_] = Animable_Sub1_Sub1.aClass302_10618.method3519("ul" + i_53_ + "_" + i_54_, (byte) 109);
+				StandardPlane.anIntArray7980[i_50_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("m" + i_53_ + "_" + i_54_, (byte) 33);
+				Class144.anIntArray1789[i_50_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("l" + i_53_ + "_" + i_54_, (byte) 19);
+				Class42.anIntArray645[i_50_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("um" + i_53_ + "_" + i_54_, (byte) 87);
+				ProducingGraphicsBuffer.anIntArray9895[i_50_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("ul" + i_53_ + "_" + i_54_, (byte) 109);
 				i_50_++;
 			}
 		}

@@ -2,7 +2,7 @@ package com.jagex;
 
 public class Class279
 {
-	private Class302 aClass302_3549;
+	private CacheArchive aCacheArchive_3549;
 	static int anInt3550;
 	static int anInt3551;
 	static int anInt3552;
@@ -17,7 +17,7 @@ public class Class279
 	static int anInt3561;
 	private int anInt3562;
 	static int anInt3563;
-	protected Class302 aClass302_3564;
+	protected CacheArchive aCacheArchive_3564;
 	protected Class61 aClass61_3565 = new Class61(50);
 	protected Class61 aClass61_3566 = new Class61(5);
 	protected int anInt3567;
@@ -94,7 +94,7 @@ public class Class279
 		if (bool != aBoolean3556) {
 			aBoolean3556 = bool;
 			if (b != -50) {
-				aClass302_3549 = null;
+				aCacheArchive_3549 = null;
 			}
 			method3370((byte) -40);
 		}
@@ -126,8 +126,8 @@ public class Class279
 			return npcdefinition;
 		}
 		byte[] bs;
-		synchronized (aClass302_3549) {
-			bs = aClass302_3549.method3524(false, Node_Sub47.method2952(false, i), Class379.method4164(i, (byte) 104));
+		synchronized (aCacheArchive_3549) {
+			bs = aCacheArchive_3549.method3524(false, Node_Sub47.method2952(false, i), Class379.method4164(i, (byte) 104));
 		}
 		npcdefinition = new NpcDefinition();
 		npcdefinition.aClass279_2861 = this;
@@ -154,15 +154,15 @@ public class Class279
 		}
 	}
 	
-	Class279(Class353 class353, int i, boolean bool, Class302 class302, Class302 class302_4_) {
-		aClass302_3564 = class302_4_;
-		aClass302_3549 = class302;
+	Class279(Class353 class353, int i, boolean bool, CacheArchive cacheArchive, CacheArchive cacheArchive_4_) {
+		aCacheArchive_3564 = cacheArchive_4_;
+		aCacheArchive_3549 = cacheArchive;
 		aBoolean3556 = bool;
 		anInt3562 = i;
 		aClass353_3553 = class353;
-		if (aClass302_3549 != null) {
-			int i_5_ = -1 + aClass302_3549.method3526(-20871);
-			aClass302_3549.method3537(-2, i_5_);
+		if (aCacheArchive_3549 != null) {
+			int i_5_ = -1 + aCacheArchive_3549.method3526(-20871);
+			aCacheArchive_3549.method3537(-2, i_5_);
 		}
 		if (Node_Sub38_Sub34.aClass353_10443 != aClass353_3553) {
 			aStringArray3568 = new String[] { null, null, null, null, null, null };

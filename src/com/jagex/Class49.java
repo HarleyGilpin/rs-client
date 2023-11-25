@@ -7,9 +7,9 @@ public class Class49
 	protected Class52 aClass52_721 = null;
 	protected Class357 aClass357_722 = null;
 	
-	static final void method484(byte b, Class302 class302, Class302 class302_0_, int[] is) {
-		Class294.aClass302_3690 = class302_0_;
-		Class188_Sub1.aClass302_6849 = class302;
+	static final void method484(byte b, CacheArchive cacheArchive, CacheArchive cacheArchive_0_, int[] is) {
+		Class294.aCacheArchive_3690 = cacheArchive_0_;
+		Class188_Sub1.aCacheArchive_6849 = cacheArchive;
 		anInt720++;
 		if (is != null) {
 			Class291.anIntArray3665 = is;

@@ -19,7 +19,7 @@ public class Class40
 		i = i * Class213.aNode_Sub27_2512.aClass320_Sub25_7274.method3776(false) >> 8;
 		if ((i_1_ ^ 0xffffffff) != 0 || Class377_Sub1.aBoolean8775) {
 			if ((i_1_ ^ 0xffffffff) != 0 && ((Class313.anInt4013 ^ 0xffffffff) != (i_1_ ^ 0xffffffff) || !Class36.method390(-122)) && (i ^ 0xffffffff) != -1 && !Class377_Sub1.aBoolean8775) {
-				CacheNode_Sub14_Sub2.method2354(SeekableFile.aClass302_3881, i, false, 0, i_1_, i_2_, false);
+				CacheNode_Sub14_Sub2.method2354(SeekableFile.aCacheArchive_3881, i, false, 0, i_1_, i_2_, false);
 				EntityNode_Sub7.method979(17285);
 			}
 		} else {

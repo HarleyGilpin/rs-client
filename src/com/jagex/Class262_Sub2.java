@@ -4,7 +4,7 @@ public class Class262_Sub2 extends Class262
 {
 	static int anInt7705;
 	private int anInt7706;
-	static Class302 aClass302_7707;
+	static CacheArchive aCacheArchive_7707;
 	static int anInt7708;
 	static int anInt7709;
 	static int anInt7710;
@@ -44,14 +44,14 @@ public class Class262_Sub2 extends Class262
 	
 	public static void method3154(boolean bool) {
 		if (bool != false) {
-			aClass302_7707 = null;
+			aCacheArchive_7707 = null;
 		}
-		aClass302_7707 = null;
+		aCacheArchive_7707 = null;
 	}
 	
 	static final boolean method3155(int i, byte b) {
 		if (b != -18) {
-			aClass302_7707 = null;
+			aCacheArchive_7707 = null;
 		}
 		anInt7710++;
 		if ((i ^ 0xffffffff) != -3 && i != 22 && i != 52 && i != 30 && i != 53 && i != 9 && i != 51 && i != 15 && i != 48 && (i ^ 0xffffffff) != -17 && (i ^ 0xffffffff) != -45) {

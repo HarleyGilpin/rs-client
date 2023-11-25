@@ -3,7 +3,7 @@ package com.jagex;
 public class Class278
 {
 	static int anInt3538;
-	private Class302 aClass302_3539;
+	private CacheArchive aCacheArchive_3539;
 	static int anInt3540;
 	static int anInt3541;
 	static Class192 aClass192_3542 = new Class192(78, 8);
@@ -26,7 +26,7 @@ public class Class278
 	
 	final void method3363(int i) {
 		if (i != -29945) {
-			aClass302_3539 = null;
+			aCacheArchive_3539 = null;
 		}
 		synchronized (aClass61_3543) {
 			aClass61_3543.method602((byte) -124);
@@ -47,8 +47,8 @@ public class Class278
 			return class82;
 		}
 		byte[] bs;
-		synchronized (aClass302_3539) {
-			bs = aClass302_3539.method3524(false, i, 29);
+		synchronized (aCacheArchive_3539) {
+			bs = aCacheArchive_3539.method3524(false, i, 29);
 		}
 		class82 = new Class82();
 		if (bs != null) {
@@ -73,7 +73,7 @@ public class Class278
 	final Class119 method3366(Class57 class57, int i, int i_2_, int i_3_, int i_4_, boolean bool) {
 		anInt3545++;
 		if (bool != true) {
-			aClass302_3539 = null;
+			aCacheArchive_3539 = null;
 		}
 		Class182[] class182s = null;
 		Class82 class82 = method3364(i_2_, -26726);
@@ -93,9 +93,9 @@ public class Class278
 		return (0x220 & i_6_ ^ 0xffffffff) == -545 | (0x18 & i_6_) != 0;
 	}
 	
-	Class278(Class353 class353, int i, Class302 class302) {
-		aClass302_3539 = class302;
-		aClass302_3539.method3537(-2, 29);
+	Class278(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_3539 = cacheArchive;
+		aCacheArchive_3539.method3537(-2, 29);
 	}
 	
 	public static void method3368(int i) {

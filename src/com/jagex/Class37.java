@@ -12,7 +12,7 @@ public class Class37
 	static int anInt556;
 	static Class318 aClass318_557 = new Class318(53, 3);
 	static float aFloat558;
-	private Class302 aClass302_559;
+	private CacheArchive aCacheArchive_559;
 	private Class61 aClass61_560 = new Class61(100);
 	
 	final Class48 method395(int i, byte b) {
@@ -25,8 +25,8 @@ public class Class37
 			return class48;
 		}
 		byte[] bs;
-		synchronized (aClass302_559) {
-			bs = aClass302_559.method3524(false, Class262_Sub23.method3214(i, -20139), Class156.method1705(-983162425, i));
+		synchronized (aCacheArchive_559) {
+			bs = aCacheArchive_559.method3524(false, Class262_Sub23.method3214(i, -20139), Class156.method1705(-983162425, i));
 		}
 		class48 = new Class48();
 		class48.anInt711 = i;
@@ -120,13 +120,13 @@ public class Class37
 			return -1;
 		}
 		String string_3_ = Class117_Sub1.aString4931 + string_2_;
-		if (!Class239.aClass302_2931.method3506(string_3_, bool, "")) {
+		if (!Class239.aCacheArchive_2931.method3506(string_3_, bool, "")) {
 			return -1;
 		}
-		if (!Class239.aClass302_2931.method3527(string_3_, 0)) {
-			return Class239.aClass302_2931.method3522((byte) 102, string_3_);
+		if (!Class239.aCacheArchive_2931.method3527(string_3_, 0)) {
+			return Class239.aCacheArchive_2931.method3522((byte) 102, string_3_);
 		}
-		byte[] bs = Class239.aClass302_2931.method3529(string_3_, "", 1);
+		byte[] bs = Class239.aCacheArchive_2931.method3529(string_3_, "", 1);
 		Object object = null;
 		File file;
 		try {
@@ -160,12 +160,12 @@ public class Class37
 		return -1;
 	}
 	
-	Class37(Class353 class353, int i, Class302 class302, Class302 class302_6_, Class302 class302_7_) {
-		aClass302_559 = class302;
-		if (aClass302_559 != null) {
-			int i_8_ = -1 + aClass302_559.method3526(-20871);
-			aClass302_559.method3537(-2, i_8_);
+	Class37(Class353 class353, int i, CacheArchive cacheArchive, CacheArchive cacheArchive_6_, CacheArchive cacheArchive_7_) {
+		aCacheArchive_559 = cacheArchive;
+		if (aCacheArchive_559 != null) {
+			int i_8_ = -1 + aCacheArchive_559.method3526(-20871);
+			aCacheArchive_559.method3537(-2, i_8_);
 		}
-		Class345.method3971(class302_7_, 2, true, class302_6_);
+		Class345.method3971(cacheArchive_7_, 2, true, cacheArchive_6_);
 	}
 }

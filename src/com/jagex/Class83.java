@@ -13,7 +13,7 @@ public class Class83 implements Interface10
 	static String aString5186 = null;
 	static int anInt5187;
 	static int[] anIntArray5188;
-	private Class302 aClass302_5189;
+	private CacheArchive aCacheArchive_5189;
 	static int anInt5190;
 	
 	public static void method799(boolean bool) {
@@ -57,15 +57,15 @@ public class Class83 implements Interface10
 		Packet.aClass42_9402.method441(11757, Class176.aNode_Sub9_Sub3_2106);
 	}
 	
-	Class83(Class302 class302, Class166 class166) {
-		aClass302_5189 = class302;
+	Class83(CacheArchive cacheArchive, Class166 class166) {
+		aCacheArchive_5189 = cacheArchive;
 		aClass166_5182 = class166;
 	}
 	
 	public final void method26(int i) {
 		if (i == 99) {
 			anInt5185++;
-			aGLSprite5178 = Node_Sub9_Sub4.method2523((byte) 113, aClass166_5182.anInt5093, aClass302_5189);
+			aGLSprite5178 = Node_Sub9_Sub4.method2523((byte) 113, aClass166_5182.anInt5093, aCacheArchive_5189);
 		}
 	}
 	
@@ -82,6 +82,6 @@ public class Class83 implements Interface10
 		if (i != 421) {
 			method27(false, 2);
 		}
-		return aClass302_5189.method3510(aClass166_5182.anInt5093, (byte) 63);
+		return aCacheArchive_5189.method3510(aClass166_5182.anInt5093, (byte) 63);
 	}
 }

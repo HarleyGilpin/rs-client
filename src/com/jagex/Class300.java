@@ -52,8 +52,8 @@ public class Class300
 		if (b == 107) {
 			for (int i = 0; (i ^ 0xffffffff) > (Class291.anIntArray3665.length ^ 0xffffffff); i++) {
 				int i_1_ = Class291.anIntArray3665[i];
-				Class357 class357 = Class129.method1553(-1, i_1_, Class188_Sub1.aClass302_6849);
-				Class52 class52 = graphicstoolkit.a(class357, Class383.method4199(Class294.aClass302_3690, i_1_), true);
+				Class357 class357 = Class129.method1553(-1, i_1_, Class188_Sub1.aCacheArchive_6849);
+				Class52 class52 = graphicstoolkit.a(class357, Class383.method4199(Class294.aCacheArchive_3690, i_1_), true);
 				Node_Sub5_Sub2.aClass49Array9413[i] = new Class49(class52, class357);
 			}
 		}

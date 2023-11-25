@@ -103,7 +103,7 @@ public class Class195
 			if (aShortArray2389 != null) {
 				i_7_ |= 0x8000;
 			}
-			Model model = Renderer.method3448(anInt2379, 7, 0, aClass101_2392.aClass302_1310);
+			Model model = Renderer.method3448(anInt2379, 7, 0, aClass101_2392.aCacheArchive_1310);
 			if (model == null) {
 				return null;
 			}
@@ -333,7 +333,7 @@ public class Class195
 						buffer.method2200(CacheNode_Sub15.aLong9588, 1817671800);
 						buffer.method2226(Class209.aClass353_2483.anInt4344, false);
 						buffer.method2226((int) (9.9999999E7 * Math.random()), false);
-						buffer.method2222(0, RS2Loader.loginModulus, Class262_Sub10.aBigInteger7775);
+						buffer.method2222(0, RS2Loader.loginModulus, NPCUpdate.RSA_EXPONENT);
 						node_sub13.aPacket7113.method2223(buffer.anInt7002, (byte) 4, buffer.aByteArray7019, 0);
 						node_sub13.aPacket7113.method2194(node_sub13.aPacket7113.anInt7002 - i_33_, -2887);
 					} else {
@@ -347,8 +347,8 @@ public class Class195
 					if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(1, 59)) {
 						return;
 					}
-					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -66, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 1, 0);
-					int i_35_ = 0xff & Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[0];
+					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -66, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, 1, 0);
+					int i_35_ = 0xff & Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019[0];
 					if (i_35_ != 0) {
 						Node_Sub38_Sub8.anInt10163 = 0;
 						Animable_Sub2.method836(i_35_, true);
@@ -366,20 +366,20 @@ public class Class195
 					if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(2, 106)) {
 						return;
 					}
-					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -94, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 2, 0);
-					Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 = 0;
-					Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 = Class320_Sub23.aClass123_8432.aPacket1570.method2219(-130546744);
+					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -94, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, 2, 0);
+					Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002 = 0;
+					Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002 = Class320_Sub23.aClass123_8432.recievedBuffer.method2219(-130546744);
 					Node_Sub38_Sub8.anInt10163 = 5;
 				}
 				if (Node_Sub38_Sub8.anInt10163 == 5) {
-					if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(Class320_Sub23.aClass123_8432.aPacket1570.anInt7002, 43)) {
+					if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002, 43)) {
 						return;
 					}
-					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -127, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, Class320_Sub23.aClass123_8432.aPacket1570.anInt7002, 0);
-					Class320_Sub23.aClass123_8432.aPacket1570.method2192(Class121.anIntArray1527, 98);
-					Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 = 0;
-					String string = Class320_Sub23.aClass123_8432.aPacket1570.method2180((byte) -73);
-					Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 = 0;
+					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -127, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002, 0);
+					Class320_Sub23.aClass123_8432.recievedBuffer.method2192(Class121.anIntArray1527, 98);
+					Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002 = 0;
+					String string = Class320_Sub23.aClass123_8432.recievedBuffer.method2180((byte) -73);
+					Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002 = 0;
 					String string_36_ = "opensn";
 					if (!Animable_Sub2_Sub1.aBoolean10628 || (Class188_Sub2_Sub1.method1910((byte) 84, Class240.aSignLink2946, string, string_36_, 1).anInt2953 ^ 0xffffffff) == -3) {
 						Class140.method1610(0, string, string_36_, Class240.aSignLink2946, (Class213.aNode_Sub27_2512.aClass320_Sub29_7270.method3791(false) ^ 0xffffffff) == -2, true);
@@ -390,8 +390,8 @@ public class Class195
 					if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(1, 82)) {
 						return;
 					}
-					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -106, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 1, 0);
-					if ((Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[0] & 0xff ^ 0xffffffff) == -2) {
+					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -106, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, 1, 0);
+					if ((Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019[0] & 0xff ^ 0xffffffff) == -2) {
 						Node_Sub38_Sub8.anInt10163 = 7;
 					}
 				}
@@ -399,16 +399,16 @@ public class Class195
 					if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(16, 30)) {
 						return;
 					}
-					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -97, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 16, 0);
-					Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 = 16;
-					Class320_Sub23.aClass123_8432.aPacket1570.method2192(Class121.anIntArray1527, 127);
-					Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 = 0;
-					Class243.aString3076 = Class188_Sub1_Sub1.aString9327 = Class154.method1699(Class320_Sub23.aClass123_8432.aPacket1570.method2235(-2023329376), 25589);
-					Class188_Sub1_Sub2.aLong9342 = Class320_Sub23.aClass123_8432.aPacket1570.method2235(-2023329376);
+					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -97, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, 16, 0);
+					Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002 = 16;
+					Class320_Sub23.aClass123_8432.recievedBuffer.method2192(Class121.anIntArray1527, 127);
+					Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002 = 0;
+					Class243.aString3076 = Class188_Sub1_Sub1.aString9327 = Class154.method1699(Class320_Sub23.aClass123_8432.recievedBuffer.method2235(-2023329376), 25589);
+					Class188_Sub1_Sub2.aLong9342 = Class320_Sub23.aClass123_8432.recievedBuffer.method2235(-2023329376);
 					Node_Sub38_Sub8.anInt10163 = 8;
 				}
 				if (Node_Sub38_Sub8.anInt10163 == 8) {
-					Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 = 0;
+					Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002 = 0;
 					Class320_Sub23.aClass123_8432.method1511((byte) 74);
 					Node_Sub13 node_sub13 = Node_Sub25_Sub1.method2660(0);
 					Packet packet = node_sub13.aPacket7113;
@@ -491,7 +491,7 @@ public class Class195
 					Class320_Sub23.aClass123_8432.anIsaacCipher1571 = new IsaacCipher(Class121.anIntArray1527);
 					for (int i_42_ = 0; i_42_ < 4; i_42_++)
 						Class121.anIntArray1527[i_42_] += 50;
-					Class320_Sub23.aClass123_8432.aPacket1570.method2259(Class121.anIntArray1527, (byte) -20);
+					Class320_Sub23.aClass123_8432.recievedBuffer.method2259(Class121.anIntArray1527, (byte) -20);
 					Class121.anIntArray1527 = null;
 					Node_Sub38_Sub8.anInt10163 = 9;
 				}
@@ -499,8 +499,8 @@ public class Class195
 					if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(1, 121)) {
 						return;
 					}
-					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -97, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 1, 0);
-					int i_43_ = 0xff & Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[0];
+					Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -97, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, 1, 0);
+					int i_43_ = 0xff & Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019[0];
 					if ((i_43_ ^ 0xffffffff) != -22) {
 						if (i_43_ != 29 && (i_43_ ^ 0xffffffff) != -46) {
 							if ((i_43_ ^ 0xffffffff) != -2) {
@@ -567,8 +567,8 @@ public class Class195
 					Node_Sub38_Sub8.anInt10163 = 9;
 				} else if (Node_Sub38_Sub8.anInt10163 == 12) {
 					if (Class320_Sub23.aClass123_8432.aClass365_1557.method4068(1, 66)) {
-						Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -116, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 1, 0);
-						int i_44_ = 0xff & Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[0];
+						Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -116, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, 1, 0);
+						int i_44_ = 0xff & Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019[0];
 						Node_Sub38_Sub8.anInt10163 = 0;
 						FileOnDisk.anInt1326 = i_44_ * 50;
 						Animable_Sub2.method836(21, true);
@@ -578,8 +578,8 @@ public class Class195
 					}
 				} else if (Node_Sub38_Sub8.anInt10163 == 20) {
 					if (Class320_Sub23.aClass123_8432.aClass365_1557.method4068(2, 30)) {
-						Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -70, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 2, 0);
-						Node_Sub15_Sub13.anInt9874 = (Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[1] & 0xff) + ((Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[0] & 0xff) << 8);
+						Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -70, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, 2, 0);
+						Node_Sub15_Sub13.anInt9874 = (Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019[1] & 0xff) + ((Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019[0] & 0xff) << 8);
 						Node_Sub38_Sub8.anInt10163 = 9;
 					}
 				} else if (Node_Sub38_Sub8.anInt10163 == 18) {
@@ -590,15 +590,15 @@ public class Class195
 						if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(3, 27)) {
 							return;
 						}
-						Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -75, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 3, 0);
-						Class187.anInt2276 = (Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[2] & 0xff) + ((0xff & Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[1]) << 8);
-						GameStub.anInt45 = 0xff & Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[0];
+						Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -75, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, 3, 0);
+						Class187.anInt2276 = (Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019[2] & 0xff) + ((0xff & Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019[1]) << 8);
+						GameStub.anInt45 = 0xff & Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019[0];
 					} else {
 						if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(1, 76)) {
 							return;
 						}
-						Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -66, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 1, 0);
-						GameStub.anInt45 = 0xff & Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[0];
+						Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -66, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, 1, 0);
+						GameStub.anInt45 = 0xff & Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019[0];
 					}
 					Node_Sub38_Sub8.anInt10163 = 0;
 					Animable_Sub2.method836(Node_Sub7.anInt7063, true);
@@ -607,13 +607,13 @@ public class Class195
 					Class297.method3479((byte) -119);
 				} else if ((Node_Sub38_Sub8.anInt10163 ^ 0xffffffff) == -14) {
 					if (Class320_Sub23.aClass123_8432.aClass365_1557.method4068(1, 71)) {
-						Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -127, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 1, 0);
-						Node_Sub8.anInt7070 = 0xff & Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019[0];
+						Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -127, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, 1, 0);
+						Node_Sub8.anInt7070 = 0xff & Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019[0];
 						Node_Sub38_Sub8.anInt10163 = 14;
 					}
 				} else {
 					if (Node_Sub38_Sub8.anInt10163 == 14) {
-						Packet packet = Class320_Sub23.aClass123_8432.aPacket1570;
+						Packet packet = Class320_Sub23.aClass123_8432.recievedBuffer;
 						if (Class159.anInt1996 != 2) {
 							if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(Node_Sub8.anInt7070, 39)) {
 								return;
@@ -720,11 +720,11 @@ public class Class195
 						if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(3, 68)) {
 							return;
 						}
-						Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -73, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 3, 0);
+						Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -73, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, 3, 0);
 						Node_Sub38_Sub8.anInt10163 = 17;
 					}
 					if (Node_Sub38_Sub8.anInt10163 == 17) {
-						Packet packet = Class320_Sub23.aClass123_8432.aPacket1570;
+						Packet packet = Class320_Sub23.aClass123_8432.recievedBuffer;
 						packet.anInt7002 = 0;
 						if (packet.method2257(true)) {
 							if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(1, 116)) {
@@ -738,21 +738,21 @@ public class Class195
 					}
 					if (Node_Sub38_Sub8.anInt10163 == 15) {
 						if (Class320_Sub23.aClass123_8432.aClass365_1557.method4068(Class320_Sub23.aClass123_8432.anInt1581, 63)) {
-							Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -86, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, Class320_Sub23.aClass123_8432.anInt1581, 0);
-							Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 = 0;
+							Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -86, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, Class320_Sub23.aClass123_8432.anInt1581, 0);
+							Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002 = 0;
 							int i_46_ = Class320_Sub23.aClass123_8432.anInt1581;
 							Node_Sub38_Sub8.anInt10163 = 0;
 							Animable_Sub2.method836(2, true);
 							Class320_Sub11.method3724(0);
-							Class97.method1076(Class320_Sub23.aClass123_8432.aPacket1570, 28);
+							Class97.method1076(Class320_Sub23.aClass123_8432.recievedBuffer, 28);
 							Player.anInt11178 = -1;
 							if (Class320_Sub23.aClass123_8432.aClass192_1576 != Class156.aClass192_1962) {
 								Node_Sub38_Sub20.method2857(-105);
 							} else {
 								Class251.method3100(false);
 							}
-							if (Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 != i_46_) {
-								throw new RuntimeException("lswp pos:" + Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 + " psize:" + i_46_);
+							if (Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002 != i_46_) {
+								throw new RuntimeException("lswp pos:" + Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002 + " psize:" + i_46_);
 							}
 							Class320_Sub23.aClass123_8432.aClass192_1576 = null;
 						}
@@ -761,20 +761,20 @@ public class Class195
 							if (!Class320_Sub23.aClass123_8432.aClass365_1557.method4068(2, 19)) {
 								return;
 							}
-							Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -91, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, 2, 0);
-							Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 = 0;
-							Class320_Sub23.aClass123_8432.anInt1581 = Class320_Sub23.aClass123_8432.aPacket1570.method2219(-130546744);
+							Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -91, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, 2, 0);
+							Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002 = 0;
+							Class320_Sub23.aClass123_8432.anInt1581 = Class320_Sub23.aClass123_8432.recievedBuffer.method2219(-130546744);
 						}
 						if (Class320_Sub23.aClass123_8432.aClass365_1557.method4068(Class320_Sub23.aClass123_8432.anInt1581, 47)) {
-							Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -54, Class320_Sub23.aClass123_8432.aPacket1570.aByteArray7019, Class320_Sub23.aClass123_8432.anInt1581, 0);
-							Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 = 0;
+							Class320_Sub23.aClass123_8432.aClass365_1557.method4065((byte) -54, Class320_Sub23.aClass123_8432.recievedBuffer.aByteArray7019, Class320_Sub23.aClass123_8432.anInt1581, 0);
+							Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002 = 0;
 							Node_Sub38_Sub8.anInt10163 = 0;
 							int i_47_ = Class320_Sub23.aClass123_8432.anInt1581;
 							Animable_Sub2.method836(15, true);
 							Node_Sub8.method2424(0);
-							Class97.method1076(Class320_Sub23.aClass123_8432.aPacket1570, 98);
-							if (i_47_ != Class320_Sub23.aClass123_8432.aPacket1570.anInt7002) {
-								throw new RuntimeException("lswpr pos:" + Class320_Sub23.aClass123_8432.aPacket1570.anInt7002 + " psize:" + i_47_);
+							Class97.method1076(Class320_Sub23.aClass123_8432.recievedBuffer, 98);
+							if (i_47_ != Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002) {
+								throw new RuntimeException("lswpr pos:" + Class320_Sub23.aClass123_8432.recievedBuffer.anInt7002 + " psize:" + i_47_);
 							}
 							Class320_Sub23.aClass123_8432.aClass192_1576 = null;
 						}

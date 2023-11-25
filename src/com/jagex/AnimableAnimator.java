@@ -22,8 +22,8 @@ class AnimableAnimator extends Animator
 		anInt5496++;
 		if (Class20.aCacheNode_Sub11_318 != null) {
 			if (Node_Sub25_Sub1.anInt9947 < 10) {
-				if (!Class20.aClass302_314.method3527(Class20.aCacheNode_Sub11_318.aString9537, 0)) {
-					Node_Sub25_Sub1.anInt9947 = r_Sub1.aClass302_11047.method3522((byte) 127, Class20.aCacheNode_Sub11_318.aString9537) / 10;
+				if (!Class20.aCacheArchive_314.method3527(Class20.aCacheNode_Sub11_318.aString9537, 0)) {
+					Node_Sub25_Sub1.anInt9947 = r_Sub1.aCacheArchive_11047.method3522((byte) 127, Class20.aCacheNode_Sub11_318.aString9537) / 10;
 					return;
 				}
 				Class371.method4096((byte) -118);
@@ -116,13 +116,13 @@ class AnimableAnimator extends Animator
 					Node_Sub24.method2650(true, -14651);
 					Node_Sub38_Sub10.method2824(0);
 				} else if (Node_Sub25_Sub1.anInt9947 == 60) {
-					if (!Class20.aClass302_314.method3516(Class20.aCacheNode_Sub11_318.aString9537 + "_staticelements", -74)) {
+					if (!Class20.aCacheArchive_314.method3516(Class20.aCacheNode_Sub11_318.aString9537 + "_staticelements", -74)) {
 						Class20.aClass224_330 = new Class224(0);
 					} else {
-						if (!Class20.aClass302_314.method3527(Class20.aCacheNode_Sub11_318.aString9537 + "_staticelements", 0)) {
+						if (!Class20.aCacheArchive_314.method3527(Class20.aCacheNode_Sub11_318.aString9537 + "_staticelements", 0)) {
 							return;
 						}
-						Class20.aClass224_330 = Class152.method1695(Class101.aBoolean1313, 0, Class20.aClass302_314, Class20.aCacheNode_Sub11_318.aString9537 + "_staticelements");
+						Class20.aClass224_330 = Class152.method1695(Class101.aBoolean1313, 0, Class20.aCacheArchive_314, Class20.aCacheNode_Sub11_318.aString9537 + "_staticelements");
 					}
 					Class20.method289();
 					Node_Sub25_Sub1.anInt9947 = 70;

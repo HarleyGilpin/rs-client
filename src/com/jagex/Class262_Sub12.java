@@ -20,7 +20,7 @@ public class Class262_Sub12 extends Class262
 	
 	final boolean method3145(boolean bool) {
 		if (aNode_Sub4_7790 == null) {
-			aNode_Sub4_7790 = Node_Sub4.method2173(SeekableFile.aClass302_3881, anInt7786, 0);
+			aNode_Sub4_7790 = Node_Sub4.method2173(SeekableFile.aCacheArchive_3881, anInt7786, 0);
 		}
 		anInt7792++;
 		if (aNode_Sub4_7790 == null) {

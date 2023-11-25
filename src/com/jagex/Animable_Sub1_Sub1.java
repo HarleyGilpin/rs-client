@@ -36,7 +36,7 @@ public class Animable_Sub1_Sub1 extends Animable_Sub1 implements Interface19
 	private Class171 aClass171_10615;
 	static SignLink aSignLink10616;
 	static int anInt10617;
-	static Class302 aClass302_10618;
+	static CacheArchive aCacheArchive_10618;
 	/*synthetic*/ static Class aClass10619;
 	
 	final boolean method814(byte b) {
@@ -154,7 +154,7 @@ public class Animable_Sub1_Sub1 extends Animable_Sub1 implements Interface19
 	public static void method827(byte b) {
 		if (b == -37) {
 			aSignLink10616 = null;
-			aClass302_10618 = null;
+			aCacheArchive_10618 = null;
 			aNode_Sub35_10613 = null;
 		}
 	}

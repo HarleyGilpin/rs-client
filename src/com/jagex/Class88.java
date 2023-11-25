@@ -2,7 +2,7 @@ package com.jagex;
 
 public class Class88 implements Interface12
 {
-	private Class302 aClass302_5273;
+	private CacheArchive aCacheArchive_5273;
 	static String aString5274 = null;
 	static int anInt5275;
 	static int anInt5276;
@@ -34,10 +34,10 @@ public class Class88 implements Interface12
 		if (i >= -4) {
 			method35(118);
 		}
-		if (aClass302_5273.method3527(aString5277, 0)) {
+		if (aCacheArchive_5273.method3527(aString5277, 0)) {
 			return 100;
 		}
-		return aClass302_5273.method3522((byte) 33, aString5277);
+		return aCacheArchive_5273.method3522((byte) 33, aString5277);
 	}
 	
 	public final Class172 method34(byte b) {
@@ -92,8 +92,8 @@ public class Class88 implements Interface12
 		}
 	}
 	
-	Class88(Class302 class302, String string) {
+	Class88(CacheArchive cacheArchive, String string) {
 		aString5277 = string;
-		aClass302_5273 = class302;
+		aCacheArchive_5273 = cacheArchive;
 	}
 }

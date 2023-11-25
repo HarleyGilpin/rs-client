@@ -342,7 +342,7 @@ public class Class251
 	
 	static final void method3100(boolean bool) {
 		anInt3186++;
-		Packet packet = Class218.worldResponseBuffer.aPacket1570;
+		Packet packet = Class218.worldResponseBuffer.recievedBuffer;
 		int i = packet.method2219(-130546744);
 		int i_68_ = packet.method2233(255);
 		boolean bool_69_ = (packet.method2213((byte) 125) ^ 0xffffffff) == -2;
@@ -350,15 +350,15 @@ public class Class251
 		int i_70_ = packet.method2209((byte) 72);
 		Class95.method1066(62);
 		Animable_Sub2.method837((byte) -90, i_68_);
-		packet.method2261(107347906);
+		packet.initBitAccess(107347906);
 		for (int i_71_ = 0; i_71_ < 4; i_71_++) {
 			for (int i_72_ = 0; Node_Sub54.anInt7675 >> 3 > i_72_; i_72_++) {
 				for (int i_73_ = 0; (i_73_ ^ 0xffffffff) > (Class377_Sub1.anInt8774 >> 3 ^ 0xffffffff); i_73_++) {
-					int i_74_ = packet.method2256((byte) 66, 1);
+					int i_74_ = packet.readBits(1);
 					if ((i_74_ ^ 0xffffffff) != -2) {
 						Class330.anIntArrayArrayArray4128[i_71_][i_72_][i_73_] = -1;
 					} else {
-						Class330.anIntArrayArrayArray4128[i_71_][i_72_][i_73_] = packet.method2256((byte) 48, 26);
+						Class330.anIntArrayArrayArray4128[i_71_][i_72_][i_73_] = packet.readBits(26);
 					}
 				}
 			}
@@ -401,10 +401,10 @@ public class Class251
 								Class262_Sub1.anIntArray7704[i_75_] = i_84_;
 								int i_86_ = 0xff & i_84_ >> 8;
 								int i_87_ = i_84_ & 0xff;
-								StandardPlane.anIntArray7980[i_75_] = Animable_Sub1_Sub1.aClass302_10618.method3519("m" + i_86_ + "_" + i_87_, (byte) 102);
-								Class144.anIntArray1789[i_75_] = Animable_Sub1_Sub1.aClass302_10618.method3519("l" + i_86_ + "_" + i_87_, (byte) 93);
-								Class42.anIntArray645[i_75_] = Animable_Sub1_Sub1.aClass302_10618.method3519("um" + i_86_ + "_" + i_87_, (byte) 82);
-								ProducingGraphicsBuffer.anIntArray9895[i_75_] = Animable_Sub1_Sub1.aClass302_10618.method3519("ul" + i_86_ + "_" + i_87_, (byte) 114);
+								StandardPlane.anIntArray7980[i_75_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("m" + i_86_ + "_" + i_87_, (byte) 102);
+								Class144.anIntArray1789[i_75_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("l" + i_86_ + "_" + i_87_, (byte) 93);
+								Class42.anIntArray645[i_75_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("um" + i_86_ + "_" + i_87_, (byte) 82);
+								ProducingGraphicsBuffer.anIntArray9895[i_75_] = Animable_Sub1_Sub1.aCacheArchive_10618.method3519("ul" + i_86_ + "_" + i_87_, (byte) 114);
 								i_75_++;
 							}
 						}

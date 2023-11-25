@@ -86,21 +86,21 @@ public class Class255
 	
 	private final void method3115(int i, GraphicsToolkit graphicstoolkit) {
 		anInt3220++;
-		Class302 class302 = aClass186_3217.aClass302_2260;
-		if (anInt3221 >= 0 && aClass186_3217.aClass61_2258.method607((long) anInt3221, 0) == null && class302.method3510(anInt3221, (byte) 63)) {
-			Class383 class383 = Class383.method4191(class302, anInt3221);
+		CacheArchive cacheArchive = aClass186_3217.aCacheArchive_2260;
+		if (anInt3221 >= 0 && aClass186_3217.aClass61_2258.method607((long) anInt3221, 0) == null && cacheArchive.method3510(anInt3221, (byte) 63)) {
+			Class383 class383 = Class383.method4191(cacheArchive, anInt3221);
 			aClass186_3217.aClass61_2258.method601(graphicstoolkit.a(class383, true), 25566, (long) anInt3221);
 		}
-		if (i >= (anInt3219 ^ 0xffffffff) && aClass186_3217.aClass61_2258.method607((long) anInt3219, 0) == null && class302.method3510(anInt3219, (byte) 63)) {
-			Class383 class383 = Class383.method4191(class302, anInt3219);
+		if (i >= (anInt3219 ^ 0xffffffff) && aClass186_3217.aClass61_2258.method607((long) anInt3219, 0) == null && cacheArchive.method3510(anInt3219, (byte) 63)) {
+			Class383 class383 = Class383.method4191(cacheArchive, anInt3219);
 			aClass186_3217.aClass61_2258.method601(graphicstoolkit.a(class383, true), 25566, (long) anInt3219);
 		}
-		if ((anInt3216 ^ 0xffffffff) <= -1 && aClass186_3217.aClass61_2258.method607((long) anInt3216, 0) == null && class302.method3510(anInt3216, (byte) 63)) {
-			Class383 class383 = Class383.method4191(class302, anInt3216);
+		if ((anInt3216 ^ 0xffffffff) <= -1 && aClass186_3217.aClass61_2258.method607((long) anInt3216, 0) == null && cacheArchive.method3510(anInt3216, (byte) 63)) {
+			Class383 class383 = Class383.method4191(cacheArchive, anInt3216);
 			aClass186_3217.aClass61_2258.method601(graphicstoolkit.a(class383, true), 25566, (long) anInt3216);
 		}
-		if ((anInt3226 ^ 0xffffffff) <= -1 && aClass186_3217.aClass61_2258.method607((long) anInt3226, 0) == null && class302.method3510(anInt3226, (byte) 63)) {
-			Class383 class383 = Class383.method4191(class302, anInt3226);
+		if ((anInt3226 ^ 0xffffffff) <= -1 && aClass186_3217.aClass61_2258.method607((long) anInt3226, 0) == null && cacheArchive.method3510(anInt3226, (byte) 63)) {
+			Class383 class383 = Class383.method4191(cacheArchive, anInt3226);
 			aClass186_3217.aClass61_2258.method601(graphicstoolkit.a(class383, true), i + 25567, (long) anInt3226);
 		}
 	}

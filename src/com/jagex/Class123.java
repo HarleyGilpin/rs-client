@@ -16,7 +16,7 @@ public class Class123
 	private int anInt1567 = 0;
 	static int anInt1568;
 	static int anInt1569;
-	protected Packet aPacket1570;
+	protected Packet recievedBuffer;
 	protected IsaacCipher anIsaacCipher1571;
 	protected int anInt1572;
 	protected Class192 aClass192_1573;
@@ -108,7 +108,7 @@ public class Class123
 	
 	public Class123() {
 		aBuffer1566 = new Buffer(1350);
-		aPacket1570 = new Packet(15000);
+		recievedBuffer = new Packet(15000);
 		aClass192_1576 = null;
 		anInt1581 = 0;
 		anInt1579 = 0;

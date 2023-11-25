@@ -7,13 +7,13 @@ public class Node_Sub15_Sub11 extends Node_Sub15
 	static int anInt9856 = 4;
 	static int anInt9857;
 	static int anInt9858;
-	static Class302 aClass302_9859;
+	static CacheArchive aCacheArchive_9859;
 	private int anInt9860;
 	
 	static final void method2580(byte b, int i, int i_0_) {
 		anInt9855++;
 		if (b != -114) {
-			aClass302_9859 = null;
+			aCacheArchive_9859 = null;
 		}
 		if (Class20.aFloat329 > Class20.aFloat327) {
 			Class20.aFloat327 += (double) Class20.aFloat327 / 30.0;
@@ -103,7 +103,7 @@ public class Node_Sub15_Sub11 extends Node_Sub15
 	}
 	
 	public static void method2581(int i) {
-		aClass302_9859 = null;
+		aCacheArchive_9859 = null;
 		if (i < 13) {
 			method2581(96);
 		}

@@ -41,7 +41,7 @@ public class Class59
 					actor_0_ = Class270_Sub2.aPlayerArray8038[actor.anInt10838 - 32768];
 				}
 			} else {
-				Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) actor.anInt10838);
+				Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) actor.anInt10838);
 				if (node_sub41 != null) {
 					actor_0_ = node_sub41.aNpc7518;
 				}

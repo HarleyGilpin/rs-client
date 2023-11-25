@@ -6,7 +6,7 @@ public class Class262_Sub3 extends Class262
 	private int anInt7712;
 	static int[] anIntArray7713 = new int[5];
 	private int anInt7714;
-	static Class302 aClass302_7715;
+	static CacheArchive aCacheArchive_7715;
 	static int anInt7716;
 	private int anInt7717;
 	private int anInt7718;
@@ -43,7 +43,7 @@ public class Class262_Sub3 extends Class262
 	}
 	
 	public static void method3158(int i) {
-		aClass302_7715 = null;
+		aCacheArchive_7715 = null;
 		if (i == 1) {
 			anIntArray7713 = null;
 		}

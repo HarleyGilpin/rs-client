@@ -57,7 +57,7 @@ public class Node_Sub19 extends Node
 			if ((cachenode_sub13.anInt9569 ^ 0xffffffff) != 0) {
 				is = EntityNode_Sub3_Sub1.aClass86_9166.method1010(cachenode_sub13.anInt9569, 14434).anIntArray1926;
 			} else if (Class318.method3666(cachenode_sub13.anInt9562, (byte) 119)) {
-				Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) (int) cachenode_sub13.aLong9563);
+				Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) (int) cachenode_sub13.aLong9563);
 				if (node_sub41 != null) {
 					Npc npc = node_sub41.aNpc7518;
 					NpcDefinition npcdefinition = npc.aNpcDefinition11122;

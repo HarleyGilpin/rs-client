@@ -76,7 +76,7 @@ public class GLXToolkit extends AbstractToolkit
 	static int anInt9271;
 	static int anInt9272;
 	static int anInt9273;
-	static Class302 aClass302_9274;
+	static CacheArchive aCacheArchive_9274;
 	private Class312 aClass312_9275 = new Class312();
 	static int anInt9276 = -1;
 	static int anInt9277;
@@ -276,11 +276,11 @@ public class GLXToolkit extends AbstractToolkit
 						break while_103_;
 					}
 				} else {
-					return new Class290_Sub11(this, aClass302_6167);
+					return new Class290_Sub11(this, aCacheArchive_6167);
 				}
-				return new Class290_Sub1(this, aClass302_6167, aClass5_6247);
+				return new Class290_Sub1(this, aCacheArchive_6167, aClass5_6247);
 			} while (false);
-			return new Class290_Sub3(this, aClass302_6167, aClass5_6247);
+			return new Class290_Sub3(this, aCacheArchive_6167, aClass5_6247);
 		} while (false);
 		return super.method1311(-22838, i_6_);
 	}
@@ -970,7 +970,7 @@ public class GLXToolkit extends AbstractToolkit
 		aClass54Array9292 = null;
 		anIntArray9221 = null;
 		if (i == 0) {
-			aClass302_9274 = null;
+			aCacheArchive_9274 = null;
 		}
 	}
 	
@@ -1067,8 +1067,8 @@ public class GLXToolkit extends AbstractToolkit
 		}
 	}
 	
-	GLXToolkit(OpenGL opengl, java.awt.Canvas canvas, long l, d var_d, Class302 class302, int i) {
-		super(canvas, new Long(l), var_d, class302, i, 1);
+	GLXToolkit(OpenGL opengl, java.awt.Canvas canvas, long l, d var_d, CacheArchive cacheArchive, int i) {
+		super(canvas, new Long(l), var_d, cacheArchive, i, 1);
 		aMapBuffer9308 = new MapBuffer();
 		aMapBuffer9314 = new MapBuffer();
 		anInt9319 = 0;

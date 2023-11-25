@@ -13,10 +13,10 @@ public class Class112
 	private Class61 aClass61_1427 = new Class61(64);
 	static int anInt1428;
 	static int anInt1429;
-	private Class302 aClass302_1430;
+	private CacheArchive aCacheArchive_1430;
 	protected boolean aBoolean1431;
 	static int anInt1432;
-	protected Class302 aClass302_1433;
+	protected CacheArchive aCacheArchive_1433;
 	protected Class61 aClass61_1434 = new Class61(500);
 	protected Class61 aClass61_1435 = new Class61(30);
 	protected Class61 aClass61_1436 = new Class61(50);
@@ -82,7 +82,7 @@ public class Class112
 	
 	final void method1144(int i, int i_0_) {
 		if (i != 64) {
-			aClass302_1433 = null;
+			aCacheArchive_1433 = null;
 		}
 		aClass61_1427 = new Class61(i_0_);
 		anInt1419++;
@@ -101,8 +101,8 @@ public class Class112
 			return objectdefinition;
 		}
 		byte[] bs;
-		synchronized (aClass302_1430) {
-			bs = aClass302_1430.method3524(false, Class300.method3499(i, (byte) -6), Class374.method4112(1, i));
+		synchronized (aCacheArchive_1430) {
+			bs = aCacheArchive_1430.method3524(false, Class300.method3499(i, (byte) -6), Class374.method4112(1, i));
 		}
 		objectdefinition = new ObjectDefinition();
 		objectdefinition.anInt3030 = i;
@@ -161,15 +161,15 @@ public class Class112
 		}
 	}
 	
-	Class112(Class353 class353, int i, boolean bool, Class302 class302, Class302 class302_4_) {
-		aClass302_1433 = class302_4_;
+	Class112(Class353 class353, int i, boolean bool, CacheArchive cacheArchive, CacheArchive cacheArchive_4_) {
+		aCacheArchive_1433 = cacheArchive_4_;
 		aClass353_1421 = class353;
 		anInt1422 = i;
-		aClass302_1430 = class302;
+		aCacheArchive_1430 = cacheArchive;
 		aBoolean1431 = bool;
-		if (aClass302_1430 != null) {
-			int i_5_ = -1 + aClass302_1430.method3526(-20871);
-			aClass302_1430.method3537(-2, i_5_);
+		if (aCacheArchive_1430 != null) {
+			int i_5_ = -1 + aCacheArchive_1430.method3526(-20871);
+			aCacheArchive_1430.method3537(-2, i_5_);
 		}
 		if (Node_Sub38_Sub34.aClass353_10443 != aClass353_1421) {
 			aStringArray1438 = new String[] { null, null, null, null, null, null };

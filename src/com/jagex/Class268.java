@@ -32,7 +32,7 @@ public class Class268
 		Class49 class49 = (Class49) Class335.aClass61_4161.method607((long) ((bool ? 1 : 0) | i << 1), b + -75);
 		if (class49 != null) {
 			if (bool_0_ && class49.aClass357_722 == null) {
-				Class357 class357 = Class129.method1553(-1, i, Class188_Sub1.aClass302_6849);
+				Class357 class357 = Class129.method1553(-1, i, Class188_Sub1.aCacheArchive_6849);
 				if (class357 == null) {
 					return null;
 				}
@@ -40,11 +40,11 @@ public class Class268
 			}
 			return class49;
 		}
-		Class383[] class383s = Class383.method4199(Class294.aClass302_3690, i);
+		Class383[] class383s = Class383.method4199(Class294.aCacheArchive_3690, i);
 		if (class383s == null) {
 			return null;
 		}
-		Class357 class357 = Class129.method1553(-1, i, Class188_Sub1.aClass302_6849);
+		Class357 class357 = Class129.method1553(-1, i, Class188_Sub1.aCacheArchive_6849);
 		if (class357 == null) {
 			return null;
 		}

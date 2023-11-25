@@ -13,7 +13,7 @@ public class Class78
 	static int[] anIntArray1030 = new int[2];
 	static int[] anIntArray1031 = new int[8];
 	static int anInt1032;
-	static Class302 aClass302_1033;
+	static CacheArchive aCacheArchive_1033;
 	protected int anInt1034;
 	protected Node_Sub49 aNode_Sub49_1035;
 	protected int anInt1036;
@@ -148,8 +148,8 @@ public class Class78
 							if ((0x1 & i_29_) == 0 && (0x1ff & player.anInt5934) == 0 && (0x1ff & player.anInt5940) == 0 || (0x1 & i_29_) == 1 && (0x1ff & player.anInt5934) == 256 && (player.anInt5940 & 0x1ff) == 256) {
 								int i_30_ = player.anInt5934 - (-1 + player.method853((byte) 79) << 8);
 								int i_31_ = player.anInt5940 - (player.method853((byte) 61) + -1 << 8);
-								for (int i_32_ = 0; (Node_Sub25_Sub3.anInt9987 ^ 0xffffffff) < (i_32_ ^ 0xffffffff); i_32_++) {
-									Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) Class54.anIntArray816[i_32_]);
+								for (int i_32_ = 0; (Node_Sub25_Sub3.NPC_UPDATE_INDEX ^ 0xffffffff) < (i_32_ ^ 0xffffffff); i_32_++) {
+									Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) Class54.NPC_UPDATE_INDICES[i_32_]);
 									if (node_sub41 != null) {
 										Npc npc = node_sub41.aNpc7518;
 										if ((Class174.anInt2092 ^ 0xffffffff) != (npc.anInt10863 ^ 0xffffffff) && npc.aBoolean10826) {
@@ -188,8 +188,8 @@ public class Class78
 								if ((npc.aNpcDefinition11122.anInt2811 & 0x1 ^ 0xffffffff) == -1 && (0x1ff & npc.anInt5934 ^ 0xffffffff) == -1 && (0x1ff & npc.anInt5940) == 0 || (0x1 & npc.aNpcDefinition11122.anInt2811 ^ 0xffffffff) == -2 && (0x1ff & npc.anInt5934) == 256 && (0x1ff & npc.anInt5940) == 256) {
 									int i_40_ = npc.anInt5934 - (-1 + npc.aNpcDefinition11122.anInt2811 << 8);
 									int i_41_ = npc.anInt5940 - (npc.aNpcDefinition11122.anInt2811 + -1 << 8);
-									for (int i_42_ = 0; (Node_Sub25_Sub3.anInt9987 ^ 0xffffffff) < (i_42_ ^ 0xffffffff); i_42_++) {
-										Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) Class54.anIntArray816[i_42_]);
+									for (int i_42_ = 0; (Node_Sub25_Sub3.NPC_UPDATE_INDEX ^ 0xffffffff) < (i_42_ ^ 0xffffffff); i_42_++) {
+										Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) Class54.NPC_UPDATE_INDICES[i_42_]);
 										if (node_sub41 != null) {
 											Npc npc_43_ = node_sub41.aNpc7518;
 											if (npc_43_.anInt10863 != Class174.anInt2092 && npc_43_ != npc && npc_43_.aBoolean10826) {
@@ -378,7 +378,7 @@ public class Class78
 		CacheNode_Sub2 cachenode_sub2 = Class320_Sub19.method3754(3, 5, (long) i);
 		cachenode_sub2.method2288(0);
 		if (b != -36) {
-			aClass302_1033 = null;
+			aCacheArchive_1033 = null;
 		}
 		cachenode_sub2.anInt9434 = i_70_;
 	}
@@ -407,7 +407,7 @@ public class Class78
 			method779(-3, 113, (byte) 76);
 		}
 		anIntArray1031 = null;
-		aClass302_1033 = null;
+		aCacheArchive_1033 = null;
 	}
 	
 	Class78(byte b, int i, int i_72_, int i_73_, int i_74_, int i_75_, int i_76_, Animable animable) {

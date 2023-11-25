@@ -22,7 +22,7 @@ abstract class Class51 implements Interface15
 	static int anInt5336;
 	private boolean aBoolean5337;
 	static int anInt5338;
-	static Class302 aClass302_5339;
+	static CacheArchive aCacheArchive_5339;
 	private int anInt5340 = 0;
 	private int anInt5341;
 	static int anInt5342;
@@ -33,10 +33,10 @@ abstract class Class51 implements Interface15
 	
 	public static void method514(int i) {
 		if (i != 2) {
-			aClass302_5339 = null;
+			aCacheArchive_5339 = null;
 		}
 		aClass192_5335 = null;
-		aClass302_5339 = null;
+		aCacheArchive_5339 = null;
 		aClanChat5345 = null;
 	}
 	

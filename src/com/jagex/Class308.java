@@ -2,10 +2,10 @@ package com.jagex;
 
 public class Class308
 {
-	private Class302 aClass302_3906;
+	private CacheArchive aCacheArchive_3906;
 	static Class124 aClass124_3907 = new Class124(3);
 	private Class61 aClass61_3908 = new Class61(64);
-	static Class302 aClass302_3909;
+	static CacheArchive aCacheArchive_3909;
 	static int anInt3910;
 	static int anInt3911;
 	static int anInt3912;
@@ -20,7 +20,7 @@ public class Class308
 		}
 		aClass139_3915 = null;
 		aClass124_3907 = null;
-		aClass302_3909 = null;
+		aCacheArchive_3909 = null;
 	}
 	
 	final CacheNode_Sub6 method3584(int i, int i_0_) {
@@ -33,8 +33,8 @@ public class Class308
 			return cachenode_sub6;
 		}
 		byte[] bs;
-		synchronized (aClass302_3906) {
-			bs = aClass302_3906.method3524(false, i, 5);
+		synchronized (aCacheArchive_3906) {
+			bs = aCacheArchive_3906.method3524(false, i, 5);
 		}
 		cachenode_sub6 = new CacheNode_Sub6();
 		if (bs != null) {
@@ -61,9 +61,9 @@ public class Class308
 		return widget_1_;
 	}
 	
-	Class308(Class353 class353, int i, Class302 class302) {
-		aClass302_3906 = class302;
-		aClass302_3906.method3537(-2, 5);
+	Class308(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_3906 = cacheArchive;
+		aCacheArchive_3906.method3537(-2, 5);
 	}
 	
 	static {

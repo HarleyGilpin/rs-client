@@ -290,7 +290,7 @@ public class Npc extends Actor
 		return aNpcDefinition11122.anInt2814;
 	}
 	
-	final void method876(int i, int i_22_, byte b) {
+	final void move(int i, int i_22_, byte b) {
 		anInt11117++;
 		int i_23_ = anIntArray10910[0];
 		if (b < -95) {
@@ -512,7 +512,7 @@ public class Npc extends Actor
 				if (!Class71.aBoolean967) {
 					Class93.aGraphicsToolkit1241.a(Node_Sub38_Sub20.aCanvas10309, Class360.anInt4480, Class205.anInt5115);
 				} else {
-					Class302.method3535(Node_Sub38_Sub20.aCanvas10309, true);
+					CacheArchive.method3535(Node_Sub38_Sub20.aCanvas10309, true);
 				}
 			}
 			if (container != Node_Sub29.aFrame7344) {

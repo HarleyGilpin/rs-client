@@ -3,7 +3,7 @@ package com.jagex;
 public class Class4
 {
 	static int anInt121;
-	static Class302 aClass302_122;
+	static CacheArchive aCacheArchive_122;
 	static long aLong123 = 0L;
 	static int anInt124;
 	static int anInt125;
@@ -12,7 +12,7 @@ public class Class4
 		if (i != 2) {
 			method171((byte) 90, 123, null, null, -116, 86, null, 116);
 		}
-		aClass302_122 = null;
+		aCacheArchive_122 = null;
 	}
 	
 	static final void method171(byte b, int i, aa var_aa, GLSprite glsprite, int i_0_, int i_1_, Widget widget, int i_2_) {

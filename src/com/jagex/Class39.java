@@ -134,8 +134,8 @@ public class Class39
 		fs[0] = f_16_;
 	}
 	
-	static final void method408(int i, int i_19_, int i_20_, boolean bool, int i_21_, Class302 class302, boolean bool_22_) {
-		Class93_Sub2.aClass302_6049 = class302;
+	static final void method408(int i, int i_19_, int i_20_, boolean bool, int i_21_, CacheArchive cacheArchive, boolean bool_22_) {
+		Class93_Sub2.aCacheArchive_6049 = cacheArchive;
 		Class266.aBoolean3385 = bool;
 		Class107.anInt1362 = i;
 		Class61.aNode_Sub9_Sub1_885 = null;

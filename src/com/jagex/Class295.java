@@ -58,7 +58,7 @@ public class Class295
 					if (!Class134.method1574(false, cachenode_sub13.anInt9562)) {
 						if ((cachenode_sub13.anInt9569 ^ 0xffffffff) == 0) {
 							if (Class318.method3666(cachenode_sub13.anInt9562, (byte) 109)) {
-								Node_Sub41 node_sub41 = (Node_Sub41) Class12.aHashTable187.method1518(3512, (long) (int) cachenode_sub13.aLong9563);
+								Node_Sub41 node_sub41 = (Node_Sub41) Class12.NPC_MAP.method1518(3512, (long) (int) cachenode_sub13.aLong9563);
 								if (node_sub41 != null) {
 									Npc npc = node_sub41.aNpc7518;
 									NpcDefinition npcdefinition = npc.aNpcDefinition11122;

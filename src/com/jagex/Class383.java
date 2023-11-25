@@ -12,8 +12,8 @@ public class Class383
 	protected int[] anIntArray4904;
 	protected byte[] aByteArray4905;
 	
-	static final Class383[] method4187(Class302 class302, int i, int i_0_) {
-		byte[] bs = class302.method3524(false, i_0_, i);
+	static final Class383[] method4187(CacheArchive cacheArchive, int i, int i_0_) {
+		byte[] bs = cacheArchive.method3524(false, i_0_, i);
 		if (bs == null) {
 			return null;
 		}
@@ -140,8 +140,8 @@ public class Class383
 		return anInt4897 + anInt4902 + anInt4901;
 	}
 	
-	static final Class383 method4191(Class302 class302, int i) {
-		byte[] bs = class302.method3518((byte) -127, i);
+	static final Class383 method4191(CacheArchive cacheArchive, int i) {
+		byte[] bs = cacheArchive.method3518((byte) -127, i);
 		if (bs == null) {
 			return null;
 		}
@@ -255,8 +255,8 @@ public class Class383
 		}
 	}
 	
-	static final Class383 method4194(Class302 class302, int i, int i_66_) {
-		byte[] bs = class302.method3524(false, i_66_, i);
+	static final Class383 method4194(CacheArchive cacheArchive, int i, int i_66_) {
+		byte[] bs = cacheArchive.method3524(false, i_66_, i);
 		if (bs == null) {
 			return null;
 		}
@@ -393,8 +393,8 @@ public class Class383
 		anInt4897 = i_100_;
 	}
 	
-	static final Class383[] method4199(Class302 class302, int i) {
-		byte[] bs = class302.method3518((byte) 4, i);
+	static final Class383[] method4199(CacheArchive cacheArchive, int i) {
+		byte[] bs = cacheArchive.method3518((byte) 4, i);
 		if (bs == null) {
 			return null;
 		}

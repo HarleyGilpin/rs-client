@@ -5,7 +5,7 @@ public class Class142
 	static int[] anIntArray1759 = new int[2];
 	protected int anInt1760;
 	static int anInt1761;
-	private Class302 aClass302_1762;
+	private CacheArchive aCacheArchive_1762;
 	static int anInt1763;
 	
 	public static void method1619(boolean bool) {
@@ -21,15 +21,15 @@ public class Class142
 		FixedAnimator.method258(false, (byte) -50, bool, i_0_, i_1_, string, null);
 	}
 	
-	Class142(Class353 class353, int i, Class302 class302) {
+	Class142(Class353 class353, int i, CacheArchive cacheArchive) {
 		new Class61(64);
-		aClass302_1762 = class302;
-		anInt1760 = aClass302_1762.method3537(-2, 15);
+		aCacheArchive_1762 = cacheArchive;
+		anInt1760 = aCacheArchive_1762.method3537(-2, 15);
 	}
 	
 	static final void method1621(Packet packet, int i) {
 		anInt1761++;
-		packet.method2261(107347906);
+		packet.initBitAccess(107347906);
 		int i_3_ = 0;
 		for (int i_4_ = 0; Class178.anInt2120 > i_4_; i_4_++) {
 			int i_5_ = Class66_Sub1.anIntArray8987[i_4_];
@@ -38,7 +38,7 @@ public class Class142
 					Class215.aByteArray2538[i_5_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_5_], 2);
 					i_3_--;
 				} else {
-					int i_6_ = packet.method2256((byte) 45, 1);
+					int i_6_ = packet.readBits(1);
 					if (i_6_ == 0) {
 						i_3_ = Node_Sub5.method2268(packet, -24974);
 						Class215.aByteArray2538[i_5_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_5_], 2);
@@ -52,7 +52,7 @@ public class Class142
 		if (i_3_ != 0) {
 			throw new RuntimeException("nsn0");
 		}
-		packet.method2261(i + 107347904);
+		packet.initBitAccess(i + 107347904);
 		for (int i_7_ = 0; i_7_ < Class178.anInt2120; i_7_++) {
 			int i_8_ = Class66_Sub1.anIntArray8987[i_7_];
 			if ((0x1 & Class215.aByteArray2538[i_8_]) != 0) {
@@ -60,7 +60,7 @@ public class Class142
 					i_3_--;
 					Class215.aByteArray2538[i_8_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_8_], 2);
 				} else {
-					int i_9_ = packet.method2256((byte) 126, 1);
+					int i_9_ = packet.readBits(1);
 					if ((i_9_ ^ 0xffffffff) == -1) {
 						i_3_ = Node_Sub5.method2268(packet, -24974);
 						Class215.aByteArray2538[i_8_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_8_], 2);
@@ -74,7 +74,7 @@ public class Class142
 		if ((i_3_ ^ 0xffffffff) != -1) {
 			throw new RuntimeException("nsn1");
 		}
-		packet.method2261(i + 107347904);
+		packet.initBitAccess(i + 107347904);
 		for (int i_10_ = 0; i_10_ < Class35.anInt538; i_10_++) {
 			int i_11_ = Node_Sub38_Sub19.anIntArray10292[i_10_];
 			if ((Class215.aByteArray2538[i_11_] & 0x1) != 0) {
@@ -82,7 +82,7 @@ public class Class142
 					Class215.aByteArray2538[i_11_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_11_], 2);
 					i_3_--;
 				} else {
-					int i_12_ = packet.method2256((byte) -125, 1);
+					int i_12_ = packet.readBits(1);
 					if (i_12_ == 0) {
 						i_3_ = Node_Sub5.method2268(packet, -24974);
 						Class215.aByteArray2538[i_11_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_11_], 2);
@@ -96,7 +96,7 @@ public class Class142
 		if (i_3_ != 0) {
 			throw new RuntimeException("nsn2");
 		}
-		packet.method2261(107347906);
+		packet.initBitAccess(107347906);
 		if (i != 2) {
 			anIntArray1759 = null;
 		}
@@ -107,7 +107,7 @@ public class Class142
 					i_3_--;
 					Class215.aByteArray2538[i_14_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_14_], 2);
 				} else {
-					int i_15_ = packet.method2256((byte) 47, 1);
+					int i_15_ = packet.readBits(1);
 					if (i_15_ == 0) {
 						i_3_ = Node_Sub5.method2268(packet, -24974);
 						Class215.aByteArray2538[i_14_] = (byte) Node_Sub16.method2590(Class215.aByteArray2538[i_14_], 2);

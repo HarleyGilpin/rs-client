@@ -3228,7 +3228,7 @@ public class GLToolkit extends GraphicsToolkit
 		}
 		Class61.aNode_Sub9_Sub1_885 = null;
 		Class10.aClass96_176 = null;
-		Class93_Sub2.aClass302_6049 = null;
+		Class93_Sub2.aCacheArchive_6049 = null;
 	}
 	
 	final void b(java.awt.Canvas canvas) {

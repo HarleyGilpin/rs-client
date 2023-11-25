@@ -9,7 +9,7 @@ public class Class326
 	private int anInt4093;
 	private int anInt4094;
 	static int anInt4095;
-	static Class302 aClass302_4096;
+	static CacheArchive aCacheArchive_4096;
 	static float[] aFloatArray4097 = { 1.0F, 0.0F, 0.0F, 0.0F, 0.0F, 1.0F, 0.0F, 0.0F, 0.0F, 0.0F, 1.0F, 0.0F, 0.0F, 0.0F, 0.0F, 1.0F };
 	static int anInt4098;
 	static int anInt4099;
@@ -28,7 +28,7 @@ public class Class326
 	
 	public static void method3815(int i) {
 		aFloatArray4097 = null;
-		aClass302_4096 = null;
+		aCacheArchive_4096 = null;
 		if (i != 4) {
 			aBoolean4109 = false;
 		}

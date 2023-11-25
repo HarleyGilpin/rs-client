@@ -49,7 +49,7 @@ public class Class320_Sub11 extends Class320 {
 
 	static final void method3724(int i) {
 		anInt8309++;
-		Class4.aClass302_122.anInt3795 = 1;
+		Class4.aCacheArchive_122.anInt3795 = 1;
 		if(Class151.anInt1843 == 15) {
 			Node_Sub38_Sub9.method2820(true);
 		}
@@ -110,7 +110,7 @@ public class Class320_Sub11 extends Class320 {
 		Class169.anInt4964 = 0;
 		Node_Sub38.anInt7447 = 0;
 		Class52.anInt786 = 0;
-		Class302.anInt3815 = 0;
+		CacheArchive.anInt3815 = 0;
 		Class290_Sub1.anInt8060 = 0;
 		Node_Sub38_Sub1.anInt10076 = 0;
 		GLToolkit.anInt6576 = 0;
@@ -193,7 +193,7 @@ public class Class320_Sub11 extends Class320 {
 		GLToolkit.anInt6435 = 0;
 		GLToolkit.anInt6452 = 0;
 		StandardSprite.anInt8927 = 0;
-		Class302.anInt3805 = 0;
+		CacheArchive.anInt3805 = 0;
 		Class371.anInt4581 = 0;
 		Class336_Sub2.anInt8590 = 0;
 		Class346.anInt4273 = 0;
@@ -385,7 +385,7 @@ public class Class320_Sub11 extends Class320 {
 		Class52.anInt803 = 0;
 		Class320_Sub20.anInt8395 = 0;
 		Node_Sub29.anInt7348 = 0;
-		Class262_Sub10.anInt7774 = 0;
+		NPCUpdate.anInt7774 = 0;
 		Node_Sub25_Sub4.anInt10004 = 0;
 		Class103.anInt1336 = 0;
 		Node_Sub25_Sub2.anInt9956 = 0;
@@ -436,7 +436,7 @@ public class Class320_Sub11 extends Class320 {
 		client.anInt5468 = 0;
 		Class267.anInt3447 = 0;
 		Class349.anInt4306 = 0;
-		Class302.anInt3799 = 0;
+		CacheArchive.anInt3799 = 0;
 		Class180.anInt2137 = 0;
 		Class339.anInt4203 = 0;
 		Class290_Sub11.anInt8166 = 0;
@@ -555,7 +555,7 @@ public class Class320_Sub11 extends Class320 {
 		Class275.anInt5414 = 0;
 		ItemDefinition.anInt1881 = 0;
 		Class110.anInt1388 = 0;
-		Class302.anInt3809 = 0;
+		CacheArchive.anInt3809 = 0;
 		Class86.anInt1167 = 0;
 		GameStub.anInt17 = 0;
 		GLXToolkit.anInt9244 = 0;
@@ -632,7 +632,7 @@ public class Class320_Sub11 extends Class320 {
 		Node_Sub15_Sub8.anInt9832 = 0;
 		Class110.anInt1377 = 0;
 		Mobile_Sub1.anInt10926 = 0;
-		Class302.anInt3802 = 0;
+		CacheArchive.anInt3802 = 0;
 		Class327.anInt5351 = 0;
 		AbstractToolkit.anInt6216 = 0;
 		Class187.anInt2271 = 0;
@@ -643,7 +643,7 @@ public class Class320_Sub11 extends Class320 {
 		Node_Sub38_Sub27.anInt10383 = 0;
 		Node_Sub53.anInt7662 = 0;
 		GLXToolkit.anInt9272 = 0;
-		Class302.anInt3801 = 0;
+		CacheArchive.anInt3801 = 0;
 		Class76.anInt1009 = 0;
 		Class290_Sub5.anInt8108 = 0;
 		Class77.anInt1020 = 0;
@@ -720,7 +720,7 @@ public class Class320_Sub11 extends Class320 {
 		GLPlane.anInt7921 = 0;
 		Class89.anInt1194 = 0;
 		Node_Sub38_Sub19.anInt10294 = 0;
-		Class302.anInt3798 = 0;
+		CacheArchive.anInt3798 = 0;
 		Node_Sub38_Sub14.anInt10249 = 0;
 		Class188_Sub2_Sub1.anInt9352 = 0;
 		Class382.anInt5240 = 0;
@@ -928,14 +928,14 @@ public class Class320_Sub11 extends Class320 {
 		Class190.anInt2340 = 0;
 		AbstractToolkit.anInt6233 = 0;
 		Node_Sub38_Sub8.anInt10160 = 0;
-		Class302.anInt3810 = 0;
+		CacheArchive.anInt3810 = 0;
 		Class96.anInt1263 = 0;
 		Node_Sub38_Sub24.anInt10348 = 0;
 		Class199.anInt2432 = 0;
 		Animable_Sub4_Sub1.anInt10683 = 0;
 		Player.anInt11144 = 0;
 		Class163.anInt2007 = 0;
-		Class302.anInt3817 = 0;
+		CacheArchive.anInt3817 = 0;
 		Node_Sub38_Sub3.anInt10098 = 0;
 		Class339_Sub1.anInt8634 = 0;
 		Class84.anInt1141 = 0;
@@ -1209,7 +1209,7 @@ public class Class320_Sub11 extends Class320 {
 		Node_Sub15_Sub5.anInt9807 = 0;
 		Class336_Sub3.anInt8610 = 0;
 		Class379.anInt4870 = 0;
-		Class302.anInt3800 = 0;
+		CacheArchive.anInt3800 = 0;
 		Animable_Sub4_Sub2.anInt10799 = 0;
 		Node_Sub38_Sub27.anInt10379 = 0;
 		CacheNode_Sub1.anInt9422 = 0;
@@ -1928,7 +1928,7 @@ public class Class320_Sub11 extends Class320 {
 		Class262_Sub23.anInt7894 = 0;
 		Animator.anInt260 = 0;
 		Class150_Sub2.anInt8961 = 0;
-		Class302.anInt3787 = 0;
+		CacheArchive.anInt3787 = 0;
 		Node_Sub19.anInt7158 = 0;
 		Class103.anInt1342 = 0;
 		Class226.anInt2692 = 0;
@@ -1969,7 +1969,7 @@ public class Class320_Sub11 extends Class320 {
 		Class126.anInt1611 = 0;
 		StandardSprite.anInt8931 = 0;
 		Class364.anInt4520 = 0;
-		Class302.anInt3811 = 0;
+		CacheArchive.anInt3811 = 0;
 		Class373.anInt4603 = 0;
 		Class291_Sub1.anInt8189 = 0;
 		Class254.anInt3207 = 0;
@@ -2031,7 +2031,7 @@ public class Class320_Sub11 extends Class320 {
 		Class13.anInt200 = 0;
 		Class75.anInt1004 = 0;
 		Class169.anInt4952 = 0;
-		Class302.anInt3792 = 0;
+		CacheArchive.anInt3792 = 0;
 		GLSprite_Sub1.anInt8860 = 0;
 		Class226.anInt2682 = 0;
 		Class295.anInt3700 = 0;
@@ -2074,7 +2074,7 @@ public class Class320_Sub11 extends Class320 {
 		GLDrawableModel.anInt5705 = 0;
 		Class52.anInt804 = 0;
 		Class320_Sub22.anInt8424 = 0;
-		Class302.anInt3812 = 0;
+		CacheArchive.anInt3812 = 0;
 		Animable_Sub1_Sub1.anInt10617 = 0;
 		Class320_Sub19.anInt8389 = 0;
 		Class312.anInt3971 = 0;
@@ -2128,7 +2128,7 @@ public class Class320_Sub11 extends Class320 {
 		Class320_Sub4.anInt8238 = 0;
 		Node_Sub38_Sub16.anInt10266 = 0;
 		Class195.anInt2393 = 0;
-		Class302.anInt3814 = 0;
+		CacheArchive.anInt3814 = 0;
 		Class146.anInt1800 = 0;
 		AbstractToolkit.anInt6155 = 0;
 		Class382.anInt5242 = 0;
@@ -2308,7 +2308,7 @@ public class Class320_Sub11 extends Class320 {
 		Class331.anInt4136 = 0;
 		Class320_Sub28.anInt8472 = 0;
 		Class194_Sub3.anInt6902 = 0;
-		Class302.anInt3818 = 0;
+		CacheArchive.anInt3818 = 0;
 		Class169_Sub3.anInt8810 = 0;
 		Node_Sub35.anInt7414 = 0;
 		Node_Sub12.anInt5451 = 0;
@@ -2345,7 +2345,7 @@ public class Class320_Sub11 extends Class320 {
 		Class215.anInt2542 = 0;
 		GLDrawableModel.anInt5586 = 0;
 		Class248.anInt3147 = 0;
-		Class302.anInt3807 = 0;
+		CacheArchive.anInt3807 = 0;
 		Class42.anInt648 = 0;
 		Class137.anInt1701 = 0;
 		Class42.anInt632 = 0;
@@ -2357,7 +2357,7 @@ public class Class320_Sub11 extends Class320 {
 		SeekableFile.anInt3877 = 0;
 		Class13.anInt211 = 0;
 		Class138.anInt1718 = 0;
-		Class302.anInt3803 = 0;
+		CacheArchive.anInt3803 = 0;
 		Class179.anInt2126 = 0;
 		Animable_Sub2_Sub2.anInt10744 = 0;
 		Class262_Sub2.anInt7708 = 0;
@@ -2427,7 +2427,7 @@ public class Class320_Sub11 extends Class320 {
 		GLDrawableModel.anInt5602 = 0;
 		GLToolkit.anInt6510 = 0;
 		Class339_Sub7.anInt8722 = 0;
-		Class302.anInt3796 = 0;
+		CacheArchive.anInt3796 = 0;
 		Class112.anInt1432 = 0;
 		Class357.anInt4436 = 0;
 		GameStub.anInt33 = 0;
@@ -2445,7 +2445,7 @@ public class Class320_Sub11 extends Class320 {
 		AbstractToolkit.anInt6185 = 0;
 		Mobile_Sub2.anInt10726 = 0;
 		Class345.anInt4269 = 0;
-		Class302.anInt3781 = 0;
+		CacheArchive.anInt3781 = 0;
 		EntityNode_Sub6.anInt5989 = 0;
 		Class336_Sub1.anInt8516 = 0;
 		Node_Sub38_Sub24.anInt10349 = 0;
@@ -2469,7 +2469,7 @@ public class Class320_Sub11 extends Class320 {
 		Animable_Sub1_Sub1.anInt10589 = 0;
 		Node_Sub38_Sub2.anInt10093 = 0;
 		Class93_Sub2.anInt6059 = 0;
-		Class302.anInt3785 = 0;
+		CacheArchive.anInt3785 = 0;
 		Animable_Sub1_Sub1.anInt10600 = 0;
 		Model.anInt2597 = 0;
 		Class270_Sub1_Sub1.anInt10534 = 0;
@@ -2738,10 +2738,10 @@ public class Class320_Sub11 extends Class320 {
 		Class305.anInt3863 = 0;
 		Class188_Sub1.anInt6865 = 0;
 		GLXToolkit.anInt9238 = 0;
-		Class302.anInt3820 = 0;
+		CacheArchive.anInt3820 = 0;
 		Class144_Sub2.anInt6821 = 0;
 		Class340.anInt4221 = 0;
-		Class302.anInt3793 = 0;
+		CacheArchive.anInt3793 = 0;
 		Widget.anInt4713 = 0;
 		Class215.anInt2530 = 0;
 		Class262_Sub9.anInt7763 = 0;
@@ -2756,7 +2756,7 @@ public class Class320_Sub11 extends Class320 {
 		Class367.anInt4535 = 0;
 		GLDrawableModel.anInt5652 = 0;
 		Class84.anInt1129 = 0;
-		Class302.anInt3794 = 0;
+		CacheArchive.anInt3794 = 0;
 		GLXToolkit.anInt9256 = 0;
 		StandardDrawableModel.anInt5858 = 0;
 		GLDrawableModel.anInt5676 = 0;
@@ -2830,7 +2830,7 @@ public class Class320_Sub11 extends Class320 {
 		Class262_Sub21.anInt7866 = 0;
 		anInt8310 = 0;
 		Class339_Sub3.anInt8660 = 0;
-		Class302.anInt3806 = 0;
+		CacheArchive.anInt3806 = 0;
 		Class320_Sub20.anInt8399 = 0;
 		Class336_Sub1.anInt8553 = 0;
 		Animator.anInt236 = 0;
@@ -3071,7 +3071,7 @@ public class Class320_Sub11 extends Class320 {
 		Buffer.anInt6982 = 0;
 		Node_Sub36.anInt7425 = 0;
 		Animable_Sub3.anInt9139 = 0;
-		Class302.anInt3813 = 0;
+		CacheArchive.anInt3813 = 0;
 		Class340.anInt4212 = 0;
 		GameStub.anInt36 = 0;
 		Class17.anInt281 = 0;
@@ -3122,7 +3122,7 @@ public class Class320_Sub11 extends Class320 {
 		Class255.anInt3233 = 0;
 		GLToolkit.anInt6490 = 0;
 		Mobile_Sub2.anInt10706 = 0;
-		Class302.anInt3808 = 0;
+		CacheArchive.anInt3808 = 0;
 		Animator.anInt239 = 0;
 		Class320_Sub23.anInt8430 = 0;
 		Node_Sub38_Sub9.anInt10177 = 0;
@@ -3239,7 +3239,7 @@ public class Class320_Sub11 extends Class320 {
 		AbstractToolkit.anInt6250 = 0;
 		Node_Sub38_Sub11.anInt10212 = 0;
 		Buffer.anInt7007 = 0;
-		Class302.anInt3791 = 0;
+		CacheArchive.anInt3791 = 0;
 		Node_Sub38_Sub18.anInt10276 = 0;
 		StandardDrawableModel.anInt5882 = 0;
 		Class136.anInt1700 = 0;
@@ -3410,7 +3410,7 @@ public class Class320_Sub11 extends Class320 {
 		StandardPlane.anInt7992 = 0;
 		Class295.anInt3696 = 0;
 		Class339_Sub6.anInt8714 = 0;
-		Class302.anInt3784 = 0;
+		CacheArchive.anInt3784 = 0;
 		AbstractToolkit.anInt6224 = 0;
 		Class376.anInt4658 = 0;
 		Class320_Sub22.anInt8422 = 0;
@@ -3593,7 +3593,7 @@ public class Class320_Sub11 extends Class320 {
 		CacheNode_Sub2.anInt9433 = 0;
 		Class147.anInt1822 = 0;
 		Class290_Sub7.anInt8129 = 0;
-		Class302.anInt3789 = 0;
+		CacheArchive.anInt3789 = 0;
 		CacheNode_Sub16_Sub2.anInt11083 = 0;
 		Node_Sub38_Sub28.anInt10396 = 0;
 		Class181.anInt2151 = 0;
@@ -3659,7 +3659,7 @@ public class Class320_Sub11 extends Class320 {
 		Class189.anInt2314 = 0;
 		Class320_Sub22.anInt8420 = 0;
 		Class318.anInt4054 = 0;
-		Class302.anInt3790 = 0;
+		CacheArchive.anInt3790 = 0;
 		Class262_Sub22.anInt7871 = 0;
 		Node_Sub16.anInt7136 = 0;
 		Class237.anInt2903 = 0;
@@ -3722,7 +3722,7 @@ public class Class320_Sub11 extends Class320 {
 		Class134_Sub4.anInt9046 = 0;
 		Class370.anInt4566 = 0;
 		GLToolkit.anInt6436 = 0;
-		Class302.anInt3816 = 0;
+		CacheArchive.anInt3816 = 0;
 		AbstractToolkit.anInt6243 = 0;
 		Node_Sub25_Sub1.anInt9943 = 0;
 		Player.anInt11171 = 0;
@@ -3762,7 +3762,7 @@ public class Class320_Sub11 extends Class320 {
 		Class36.anInt547 = 0;
 		Player.anInt11143 = 0;
 		Node_Sub38_Sub1.anInt10080 = 0;
-		Class262_Sub10.anInt7767 = 0;
+		NPCUpdate.anInt7767 = 0;
 		Node_Sub38_Sub36.anInt10456 = 0;
 		Class71.anInt952 = 0;
 		Animable_Sub1_Sub1.anInt10590 = 0;
@@ -3909,14 +3909,14 @@ public class Class320_Sub11 extends Class320 {
 		Buffer.anInt6994 = 0;
 		Buffer.anInt7011 = 0;
 		Node.anInt2798 = 0;
-		Class302.anInt3782 = 0;
+		CacheArchive.anInt3782 = 0;
 		GLXToolkit.anInt9269 = 0;
 		NpcDefinition.anInt2869 = 0;
 		AbstractToolkit.anInt6182 = 0;
 		Node_Sub38_Sub24.anInt10355 = 0;
 		GLSprite_Sub1.anInt8874 = 0;
 		GLXToolkit.anInt9294 = 0;
-		Class302.anInt3788 = 0;
+		CacheArchive.anInt3788 = 0;
 		Class290_Sub2.anInt8073 = 0;
 		Class290_Sub4.anInt8097 = 0;
 		StandardPlane.anInt7984 = 0;
@@ -4374,9 +4374,9 @@ public class Class320_Sub11 extends Class320 {
 			Class270_Sub2.aPlayerArray8038[k] = null;
 		}
 
-		Node_Sub25_Sub3.anInt9987 = 0;
+		Node_Sub25_Sub3.NPC_UPDATE_INDEX = 0;
 		Node_Sub32.anInt7380 = 0;
-		Class12.aHashTable187.method1517(false);
+		Class12.NPC_MAP.method1517(false);
 		Class270.aClass312_3477.method3614(-601);
 		Class20_Sub1.aHashTable5508.method1517(false);
 		Class226.aClass103_2684.method1112((byte)-116);
@@ -4451,7 +4451,7 @@ public class Class320_Sub11 extends Class320 {
 		Class202.method2027(i ^ 0xc8);
 		Class117.aNode_Sub7_1472 = null;
 		Class359.aLong4466 = 0L;
-		Class4.aClass302_122.anInt3795 = 2;
+		Class4.aCacheArchive_122.anInt3795 = 2;
 	}
 
 	Class320_Sub11(int i, Node_Sub27 node_sub27) {

@@ -86,7 +86,7 @@ class Node_Sub38_Sub8 extends Node_Sub38
 			return true;
 		}
 		if ((anInt10173 ^ 0xffffffff) <= -1) {
-			Class383 class383 = Class230.anInt5209 >= 0 ? Class383.method4194(Class308.aClass302_3909, Class230.anInt5209, anInt10173) : Class383.method4191(Class308.aClass302_3909, anInt10173);
+			Class383 class383 = Class230.anInt5209 >= 0 ? Class383.method4194(Class308.aCacheArchive_3909, Class230.anInt5209, anInt10173) : Class383.method4191(Class308.aCacheArchive_3909, anInt10173);
 			class383.method4201();
 			anIntArray10165 = class383.method4195();
 			anInt10172 = class383.anInt4900;

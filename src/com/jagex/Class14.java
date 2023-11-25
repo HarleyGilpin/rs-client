@@ -9,7 +9,7 @@ public class Class14
 	protected int anInt216 = 128;
 	protected int anInt217;
 	protected int anInt218 = 128;
-	static Class302 aClass302_219;
+	static CacheArchive aCacheArchive_219;
 	protected int anInt220;
 	
 	final Class14 method214(byte b) {
@@ -27,14 +27,14 @@ public class Class14
 		anInt217 = class14_0_.anInt217;
 		anInt218 = class14_0_.anInt218;
 		if (bool != true) {
-			aClass302_219 = null;
+			aCacheArchive_219 = null;
 		}
 		anInt216 = class14_0_.anInt216;
 		anInt212 = class14_0_.anInt212;
 	}
 	
 	public static void method216(int i) {
-		aClass302_219 = null;
+		aCacheArchive_219 = null;
 		if (i != 20185) {
 			method216(-125);
 		}

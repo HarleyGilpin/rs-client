@@ -50,7 +50,7 @@ public class Class320_Sub2 extends Class320
 	static final void method3685(int i) {
 		Class307.aNode_Sub9_Sub1_3902.method2435(false);
 		anInt8219++;
-		Class93_Sub2.aClass302_6049 = null;
+		Class93_Sub2.aCacheArchive_6049 = null;
 		Class61.aNode_Sub9_Sub1_885 = null;
 		if (i > -65) {
 			aClass192_8221 = null;

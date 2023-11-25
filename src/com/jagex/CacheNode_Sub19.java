@@ -16,8 +16,8 @@ public class CacheNode_Sub19 extends CacheNode
 	static Class68 aClass68_9621 = new Class68(3);
 	static String[] aStringArray9622;
 	
-	final float[] method2400(byte b, int i, d var_d, Class302 class302, boolean bool, int i_0_) {
-		Class308.aClass302_3909 = class302;
+	final float[] method2400(byte b, int i, d var_d, CacheArchive cacheArchive, boolean bool, int i_0_) {
+		Class308.aCacheArchive_3909 = cacheArchive;
 		if (b >= -98) {
 			method2400((byte) -31, -48, null, null, true, -25);
 		}
@@ -80,17 +80,17 @@ public class CacheNode_Sub19 extends CacheNode
 		return fs;
 	}
 	
-	final boolean method2401(Class302 class302, d var_d, byte b) {
+	final boolean method2401(CacheArchive cacheArchive, d var_d, byte b) {
 		anInt9612++;
 		if ((Class230.anInt5209 ^ 0xffffffff) > -1) {
 			for (int i = 0; anIntArray9616.length > i; i++) {
-				if (!class302.method3510(anIntArray9616[i], (byte) 63)) {
+				if (!cacheArchive.method3510(anIntArray9616[i], (byte) 63)) {
 					return false;
 				}
 			}
 		} else {
 			for (int i = 0; i < anIntArray9616.length; i++) {
-				if (!class302.method3515(anIntArray9616[i], Class230.anInt5209, 0)) {
+				if (!cacheArchive.method3515(anIntArray9616[i], Class230.anInt5209, 0)) {
 					return false;
 				}
 			}
@@ -106,8 +106,8 @@ public class CacheNode_Sub19 extends CacheNode
 		return true;
 	}
 	
-	final int[] method2402(int i, double d, boolean bool, int i_13_, byte b, d var_d, Class302 class302) {
-		Class308.aClass302_3909 = class302;
+	final int[] method2402(int i, double d, boolean bool, int i_13_, byte b, d var_d, CacheArchive cacheArchive) {
+		Class308.aCacheArchive_3909 = cacheArchive;
 		Node_Sub38_Sub35.aD10455 = var_d;
 		anInt9615++;
 		for (int i_14_ = 0; (aNode_Sub38Array9618.length ^ 0xffffffff) < (i_14_ ^ 0xffffffff); i_14_++)
@@ -205,9 +205,9 @@ public class CacheNode_Sub19 extends CacheNode
 		return true;
 	}
 	
-	final int[] method2405(Class302 class302, double d, boolean bool, d var_d, boolean bool_33_, int i, int i_34_, int i_35_) {
+	final int[] method2405(CacheArchive cacheArchive, double d, boolean bool, d var_d, boolean bool_33_, int i, int i_34_, int i_35_) {
 		Node_Sub38_Sub35.aD10455 = var_d;
-		Class308.aClass302_3909 = class302;
+		Class308.aCacheArchive_3909 = cacheArchive;
 		anInt9620++;
 		for (int i_36_ = 0; aNode_Sub38Array9618.length > i_36_; i_36_++)
 			aNode_Sub38Array9618[i_36_].method2782(i, i_34_, false);

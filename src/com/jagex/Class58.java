@@ -10,7 +10,7 @@ public class Class58
 	static int anInt857;
 	static int anInt858;
 	static int anInt859;
-	private Class302 aClass302_860;
+	private CacheArchive aCacheArchive_860;
 	static Widget aWidget861 = null;
 	static int anInt862;
 	
@@ -24,8 +24,8 @@ public class Class58
 			return class236;
 		}
 		byte[] bs;
-		synchronized (aClass302_860) {
-			bs = aClass302_860.method3524(false, i_0_, 1);
+		synchronized (aCacheArchive_860) {
+			bs = aCacheArchive_860.method3524(false, i_0_, 1);
 		}
 		class236 = new Class236();
 		if (bs != null) {
@@ -93,7 +93,7 @@ public class Class58
 		}
 	}
 	
-	static final Class302 method576(boolean bool, int i, int i_5_, int i_6_) {
+	static final CacheArchive method576(boolean bool, int i, int i_5_, int i_6_) {
 		anInt857++;
 		Class6 class6 = null;
 		if (Class99.aSeekableFile1289 != null) {
@@ -104,7 +104,7 @@ public class Class58
 		if (i_6_ != 2) {
 			method575(null);
 		}
-		return new Class302(GraphicsToolkit.aClass34_Sub1Array1547[i], bool, i_5_);
+		return new CacheArchive(GraphicsToolkit.aClass34_Sub1Array1547[i], bool, i_5_);
 	}
 	
 	static final boolean method577(int i, int i_7_) {
@@ -135,9 +135,9 @@ public class Class58
 		}
 	}
 	
-	Class58(Class353 class353, int i, Class302 class302) {
-		aClass302_860 = class302;
-		aClass302_860.method3537(-2, 1);
+	Class58(Class353 class353, int i, CacheArchive cacheArchive) {
+		aCacheArchive_860 = cacheArchive;
+		aCacheArchive_860.method3537(-2, 1);
 	}
 	
 	final void method580(int i, int i_8_) {

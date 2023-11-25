@@ -2,7 +2,7 @@ package com.jagex;
 
 class Class20
 {
-	static Class302 aClass302_314;
+	static CacheArchive aCacheArchive_314;
 	static Class338 aClass338_315;
 	private static HashTable aHashTable316 = new HashTable(16);
 	static Interface17 anInterface17_317;
@@ -272,8 +272,8 @@ class Class20
 		}
 	}
 	
-	static final void method275(Class302 class302, Class71 class71, Class58 class58, Class112 class112, Class215 class215, Class338 class338, Interface17 interface17) {
-		aClass302_314 = class302;
+	static final void method275(CacheArchive cacheArchive, Class71 class71, Class58 class58, Class112 class112, Class215 class215, Class338 class338, Interface17 interface17) {
+		aCacheArchive_314 = cacheArchive;
 		aClass71_320 = class71;
 		aClass58_321 = class58;
 		aClass112_319 = class112;
@@ -281,11 +281,11 @@ class Class20
 		aClass338_315 = class338;
 		anInterface17_317 = interface17;
 		aHashTable316.method1517(false);
-		int i = aClass302_314.method3519("details", (byte) 93);
-		int[] is = aClass302_314.method3532(i, 0);
+		int i = aCacheArchive_314.method3519("details", (byte) 93);
+		int[] is = aCacheArchive_314.method3532(i, 0);
 		if (is != null) {
 			for (int i_63_ = 0; i_63_ < is.length; i_63_++) {
-				CacheNode_Sub11 cachenode_sub11 = Class274.method3323(aClass302_314, i, is[i_63_], 0);
+				CacheNode_Sub11 cachenode_sub11 = Class274.method3323(aCacheArchive_314, i, is[i_63_], 0);
 				aHashTable316.method1515((long) cachenode_sub11.anInt9546, cachenode_sub11, -123);
 			}
 		}
@@ -766,7 +766,7 @@ class Class20
 		aClass338_315 = null;
 		anInterface17_317 = null;
 		aCacheNode_Sub11_318 = null;
-		aClass302_314 = null;
+		aCacheArchive_314 = null;
 		aHashTable316 = null;
 		aByteArrayArrayArray332 = null;
 		aShortArray326 = null;
@@ -808,7 +808,7 @@ class Class20
 	}
 	
 	static final void method290(GraphicsToolkit graphicstoolkit, int i, int i_180_) {
-		Buffer buffer = new Buffer(aClass302_314.method3529(aCacheNode_Sub11_318.aString9537, "area", 1));
+		Buffer buffer = new Buffer(aCacheArchive_314.method3529(aCacheNode_Sub11_318.aString9537, "area", 1));
 		int i_181_ = buffer.method2233(255);
 		int[] is = new int[i_181_];
 		for (int i_182_ = 0; i_182_ < i_181_; i_182_++)

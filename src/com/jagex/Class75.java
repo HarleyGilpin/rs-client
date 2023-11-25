@@ -4,7 +4,7 @@ public class Class75
 {
 	private int[] anIntArray1001;
 	static boolean[][] aBooleanArrayArray1002;
-	static Class302 aClass302_1003;
+	static CacheArchive aCacheArchive_1003;
 	static int anInt1004;
 	static int[] anIntArray1005 = new int[32];
 	static int anInt1006;
@@ -23,7 +23,7 @@ public class Class75
 	}
 	
 	public static void method764(int i) {
-		aClass302_1003 = null;
+		aCacheArchive_1003 = null;
 		if (i != 0) {
 			method765(-40, (byte) 39, 114, null);
 		}

@@ -156,8 +156,8 @@ public class D3DToolkit extends AbstractToolkit
 		return false;
 	}
 
-	private D3DToolkit(int i, int i_12_, java.awt.Canvas canvas, ti var_ti, IDirect3D idirect3d, IDirect3DDevice idirect3ddevice, Class322 class322, D3DPRESENT_PARAMETERS d3dpresent_parameters, D3DCAPS d3dcaps, d var_d, Class302 class302, int i_13_) {
-		super(canvas, class322, var_d, class302, i_13_, 0);
+	private D3DToolkit(int i, int i_12_, java.awt.Canvas canvas, ti var_ti, IDirect3D idirect3d, IDirect3DDevice idirect3ddevice, Class322 class322, D3DPRESENT_PARAMETERS d3dpresent_parameters, D3DCAPS d3dcaps, d var_d, CacheArchive cacheArchive, int i_13_) {
+		super(canvas, class322, var_d, cacheArchive, i_13_, 0);
 		try {
 			aD3DCAPS9188 = d3dcaps;
 			anInt9182 = i_12_;
@@ -377,11 +377,11 @@ public class D3DToolkit extends AbstractToolkit
 							break while_25_;
 						}
 					} else {
-						return new Class290_Sub8(this, aClass302_6167);
+						return new Class290_Sub8(this, aCacheArchive_6167);
 					}
-					return new Class290_Sub9(this, aClass302_6167, aClass5_6247);
+					return new Class290_Sub9(this, aCacheArchive_6167, aClass5_6247);
 				} while (false);
-				return new Class290_Sub10(this, aClass302_6167, aClass5_6247);
+				return new Class290_Sub10(this, aCacheArchive_6167, aClass5_6247);
 			} while (false);
 		return super.method1311(-22838, i_36_);
 	}
@@ -424,7 +424,7 @@ public class D3DToolkit extends AbstractToolkit
 		anIDirect3DDevice9199.a(14, aBoolean6275 && aBoolean6313);
 	}
 
-	static final GraphicsToolkit createToolkit(java.awt.Canvas canvas, d var_d, Class302 class302, Integer integer) {
+	static final GraphicsToolkit createToolkit(java.awt.Canvas canvas, d var_d, CacheArchive cacheArchive, Integer integer) {
 		D3DToolkit d3dtoolkit = null;
 		D3DToolkit d3dtoolkit_39_;
 		try {
@@ -488,7 +488,7 @@ public class D3DToolkit extends AbstractToolkit
 				idirect3ddevice = idirect3d.a(i, i_40_, canvas, i_41_ | 0x20, d3dpresent_parameters);
 			}
 			Class322 class322 = new Class322(idirect3ddevice.b(0), idirect3ddevice.c());
-			d3dtoolkit = new D3DToolkit(i, i_40_, canvas, var_ti, idirect3d, idirect3ddevice, class322, d3dpresent_parameters, d3dcaps, var_d, class302, integer.intValue());
+			d3dtoolkit = new D3DToolkit(i, i_40_, canvas, var_ti, idirect3d, idirect3ddevice, class322, d3dpresent_parameters, d3dcaps, var_d, cacheArchive, integer.intValue());
 			d3dtoolkit.method1358(106);
 			d3dtoolkit_39_ = d3dtoolkit;
 		} catch (RuntimeException runtimeexception) {

@@ -130,13 +130,13 @@ public class Class290_Sub10 extends Class290
 		}
 	}
 	
-	Class290_Sub10(D3DToolkit d3dtoolkit, Class302 class302, Class5 class5) {
+	Class290_Sub10(D3DToolkit d3dtoolkit, CacheArchive cacheArchive, Class5 class5) {
 		super(d3dtoolkit);
 		aD3DToolkit8158 = d3dtoolkit;
 		aClass5_8156 = class5;
-		if (class302 != null && anAbstractToolkit3654.aBoolean6310 && anAbstractToolkit3654.aBoolean6366 && -258 >= (0xffff & aD3DToolkit8158.aD3DCAPS9188.VertexShaderVersion ^ 0xffffffff)) {
-			anIDirect3DVertexShader8157 = aD3DToolkit8158.anIDirect3DDevice9199.b(class302.method3529("dx", "environment_mapped_water_v", 1));
-			anIDirect3DPixelShader8154 = aD3DToolkit8158.anIDirect3DDevice9199.a(class302.method3529("dx", "environment_mapped_water_f", 1));
+		if (cacheArchive != null && anAbstractToolkit3654.aBoolean6310 && anAbstractToolkit3654.aBoolean6366 && -258 >= (0xffff & aD3DToolkit8158.aD3DCAPS9188.VertexShaderVersion ^ 0xffffffff)) {
+			anIDirect3DVertexShader8157 = aD3DToolkit8158.anIDirect3DDevice9199.b(cacheArchive.method3529("dx", "environment_mapped_water_v", 1));
+			anIDirect3DPixelShader8154 = aD3DToolkit8158.anIDirect3DDevice9199.a(cacheArchive.method3529("dx", "environment_mapped_water_f", 1));
 			aBoolean8153 = anIDirect3DVertexShader8157 != null && null != anIDirect3DPixelShader8154 && aClass5_8156.method172(10103);
 		} else {
 			aBoolean8153 = false;

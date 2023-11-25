@@ -63,8 +63,8 @@ public class Class363
 		anIntArray4505 = null;
 	}
 	
-	Class363(Class302 class302) {
-		byte[] bs = class302.method3518((byte) 57, 6);
+	Class363(CacheArchive cacheArchive) {
+		byte[] bs = cacheArchive.method3518((byte) 57, 6);
 		method4055(99, new Buffer(bs));
 		if (anIntArray4508 == null) {
 			throw new RuntimeException("");

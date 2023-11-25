@@ -5,10 +5,10 @@ public class Class373
 	static int anInt4601;
 	static int anInt4602 = 0;
 	static int anInt4603;
-	private Class302 aClass302_4604;
+	private CacheArchive aCacheArchive_4604;
 	private Class337 aClass337_4605;
 	static int anInt4606;
-	private Class302 aClass302_4607;
+	private CacheArchive aCacheArchive_4607;
 	static boolean aBoolean4608 = true;
 	static int anInt4609;
 	
@@ -28,43 +28,43 @@ public class Class373
 			return new Class260(method4107((byte) 120), (Class205) interface7);
 		}
 		if (class170 == Class262_Sub18.aClass170_7850) {
-			return new Class230(aClass302_4607, (Class235) interface7);
+			return new Class230(aCacheArchive_4607, (Class235) interface7);
 		}
 		if (Class350.aClass170_5391 == class170) {
-			return new Class230_Sub1(aClass302_4607, (Class235_Sub1) interface7);
+			return new Class230_Sub1(aCacheArchive_4607, (Class235_Sub1) interface7);
 		}
 		if (Class46.aClass170_680 == class170) {
-			return new Class66_Sub1(aClass302_4607, aClass302_4604, (Class150_Sub2) interface7);
+			return new Class66_Sub1(aCacheArchive_4607, aCacheArchive_4604, (Class150_Sub2) interface7);
 		}
 		if (Class169_Sub2.aClass170_8806 == class170) {
-			return new Class66_Sub3(aClass302_4607, aClass302_4604, (Class150_Sub1) interface7);
+			return new Class66_Sub3(aCacheArchive_4607, aCacheArchive_4604, (Class150_Sub1) interface7);
 		}
 		if (Class336_Sub3.aClass170_8613 == class170) {
-			return new Class66_Sub2(aClass302_4607, aClass302_4604, (Class150_Sub3) interface7);
+			return new Class66_Sub2(aCacheArchive_4607, aCacheArchive_4604, (Class150_Sub3) interface7);
 		}
 		if (class170 == Class106.aClass170_1357) {
-			return new Class105(aClass302_4607, aClass302_4604, (Class98) interface7);
+			return new Class105(aCacheArchive_4607, aCacheArchive_4604, (Class98) interface7);
 		}
 		if (class170 == Class356.aClass170_4425) {
-			return new Class83(aClass302_4607, (Class166) interface7);
+			return new Class83(aCacheArchive_4607, (Class166) interface7);
 		}
 		if (Class270.aClass170_3476 == class170) {
-			return new Class66_Sub2_Sub1(aClass302_4607, aClass302_4604, (Class150_Sub3_Sub1) interface7);
+			return new Class66_Sub2_Sub1(aCacheArchive_4607, aCacheArchive_4604, (Class150_Sub3_Sub1) interface7);
 		}
 		return null;
 	}
 	
-	static final void method4106(boolean bool, Class302 class302) {
+	static final void method4106(boolean bool, CacheArchive cacheArchive) {
 		anInt4606++;
 		if (bool == true) {
-			Node_Sub38_Sub19.aClass302_10286 = class302;
+			Node_Sub38_Sub19.aCacheArchive_10286 = cacheArchive;
 		}
 	}
 	
 	private final Class337 method4107(byte b) {
 		anInt4603++;
 		if (b < 112) {
-			aClass302_4604 = null;
+			aCacheArchive_4604 = null;
 		}
 		if (aClass337_4605 == null) {
 			aClass337_4605 = new Class337();
@@ -72,9 +72,9 @@ public class Class373
 		return aClass337_4605;
 	}
 	
-	Class373(Class302 class302, Class302 class302_0_) {
-		aClass302_4604 = class302_0_;
-		aClass302_4607 = class302;
+	Class373(CacheArchive cacheArchive, CacheArchive cacheArchive_0_) {
+		aCacheArchive_4604 = cacheArchive_0_;
+		aCacheArchive_4607 = cacheArchive;
 	}
 	
 	static final void method4108(EntityNode_Sub1 entitynode_sub1, int i) {

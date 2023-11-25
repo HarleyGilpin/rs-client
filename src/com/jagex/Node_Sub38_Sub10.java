@@ -6,7 +6,7 @@ public class Node_Sub38_Sub10 extends Node_Sub38
 	static int anInt10194;
 	private int anInt10195 = 32768;
 	static int anInt10196;
-	static Class302 aClass302_10197;
+	static CacheArchive aCacheArchive_10197;
 	static int anInt10198;
 	static int anInt10199;
 	
@@ -62,7 +62,7 @@ public class Node_Sub38_Sub10 extends Node_Sub38
 			aBoolean7463 = buffer.method2233(255) == 1;
 		} while (false);
 		if (bool != false) {
-			aClass302_10197 = null;
+			aCacheArchive_10197 = null;
 		}
 		anInt10193++;
 	}
@@ -103,8 +103,8 @@ public class Node_Sub38_Sub10 extends Node_Sub38
 	
 	public static void method2825(byte b) {
 		if (b > -60) {
-			aClass302_10197 = null;
+			aCacheArchive_10197 = null;
 		}
-		aClass302_10197 = null;
+		aCacheArchive_10197 = null;
 	}
 }

@@ -48,19 +48,19 @@ public class Class303
 		try {
 			if ((Class52.anInt800 ^ 0xffffffff) == -3) {
 				if (Player.aNode_Sub4_11155 == null) {
-					Player.aNode_Sub4_11155 = Node_Sub4.method2173(Class93_Sub2.aClass302_6049, CacheNode_Sub6.anInt9485, Class101.anInt1306);
+					Player.aNode_Sub4_11155 = Node_Sub4.method2173(Class93_Sub2.aCacheArchive_6049, CacheNode_Sub6.anInt9485, Class101.anInt1306);
 					if (Player.aNode_Sub4_11155 == null) {
 						return false;
 					}
 				}
 				if (Class10.aClass96_176 == null) {
-					Class10.aClass96_176 = new Class96(Class51.aClass302_5339, Class320_Sub12.aClass302_8326);
+					Class10.aClass96_176 = new Class96(Class51.aCacheArchive_5339, Class320_Sub12.aCacheArchive_8326);
 				}
 				Node_Sub9_Sub1 node_sub9_sub1 = Class307.aNode_Sub9_Sub1_3902;
 				if (Class61.aNode_Sub9_Sub1_885 != null) {
 					node_sub9_sub1 = Class61.aNode_Sub9_Sub1_885;
 				}
-				if (node_sub9_sub1.method2467(Class10.aClass96_176, Node_Sub38_Sub6.aClass302_10138, -127, 22050, Player.aNode_Sub4_11155)) {
+				if (node_sub9_sub1.method2467(Class10.aClass96_176, Node_Sub38_Sub6.aCacheArchive_10138, -127, 22050, Player.aNode_Sub4_11155)) {
 					Class307.aNode_Sub9_Sub1_3902 = node_sub9_sub1;
 					Class307.aNode_Sub9_Sub1_3902.method2456(-6762);
 					if (Class339_Sub8.anInt8733 <= 0) {
@@ -92,7 +92,7 @@ public class Class303
 					Class10.aClass96_176 = null;
 					Player.aNode_Sub4_11155 = null;
 					Class61.aNode_Sub9_Sub1_885 = null;
-					Class93_Sub2.aClass302_6049 = null;
+					Class93_Sub2.aCacheArchive_6049 = null;
 					return true;
 				}
 			}
@@ -104,7 +104,7 @@ public class Class303
 			Class307.aNode_Sub9_Sub1_3902.method2435(false);
 			Class10.aClass96_176 = null;
 			Class61.aNode_Sub9_Sub1_885 = null;
-			Class93_Sub2.aClass302_6049 = null;
+			Class93_Sub2.aCacheArchive_6049 = null;
 			Player.aNode_Sub4_11155 = null;
 			Class52.anInt800 = 0;
 		}

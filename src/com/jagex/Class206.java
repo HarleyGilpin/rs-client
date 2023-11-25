@@ -57,7 +57,7 @@ public class Class206
 			aBoolean2472 = true;
 			if (anInt2462 >= 0) {
 				aNpc2469 = new Npc(25);
-				aNpc2469.anInt10880 = Class174.anInt2092;
+				aNpc2469.lastUpdate = Class174.anInt2092;
 				aNpc2469.anInt10858 = anInt2471;
 				aNpc2469.method879(Class366.aClass279_4526.method3376(anInt2462, (byte) 107), true);
 				aNpc2469.method861(b ^ ~0x3a4, aNpc2469.aNpcDefinition11122.anInt2811);
@@ -66,7 +66,7 @@ public class Class206
 			} else {
 				aPlayer2468 = new Player(25);
 				aPlayer2468.method889(Mobile.aBuffer9128, 0);
-				aPlayer2468.anInt10880 = Class174.anInt2092;
+				aPlayer2468.lastUpdate = Class174.anInt2092;
 				aPlayer2468.anInt10857 = Class246.anInt3108++;
 				aPlayer2468.anInt10858 = anInt2471;
 			}

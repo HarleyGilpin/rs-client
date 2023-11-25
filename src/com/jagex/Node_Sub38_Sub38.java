@@ -3,7 +3,7 @@ package com.jagex;
 public class Node_Sub38_Sub38 extends Node_Sub38
 {
 	private boolean aBoolean10483;
-	static Class302 aClass302_10484;
+	static CacheArchive aCacheArchive_10484;
 	static int anInt10485;
 	private boolean aBoolean10486 = true;
 	static int anInt10487;
@@ -91,7 +91,7 @@ public class Node_Sub38_Sub38 extends Node_Sub38
 	}
 	
 	public static void method2915(int i) {
-		aClass302_10484 = null;
+		aCacheArchive_10484 = null;
 		if (i != -1) {
 			method2915(7);
 		}

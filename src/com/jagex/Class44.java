@@ -18,10 +18,10 @@ public class Class44
 		aGraphicsToolkit668 = null;
 	}
 	
-	static final Class357 method461(int i, int i_0_, int i_1_, Class302 class302) {
+	static final Class357 method461(int i, int i_0_, int i_1_, CacheArchive cacheArchive) {
 		anInt666++;
 		int i_2_ = -66 / ((i_0_ - 70) / 45);
-		byte[] bs = class302.method3524(false, i, i_1_);
+		byte[] bs = cacheArchive.method3524(false, i, i_1_);
 		if (bs == null) {
 			return null;
 		}

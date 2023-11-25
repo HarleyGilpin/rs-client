@@ -12,10 +12,10 @@ public class Node_Sub36_Sub3 extends Node_Sub36
 	static int anInt10061 = -1;
 	static Class179 aClass179_10062;
 	
-	static final void method2762(boolean bool, Class302 class302) {
+	static final void method2762(boolean bool, CacheArchive cacheArchive) {
 		anInt10057++;
 		if (bool == false) {
-			Class165.aClass302_2029 = class302;
+			Class165.aCacheArchive_2029 = cacheArchive;
 		}
 	}
 	

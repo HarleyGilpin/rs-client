@@ -15,7 +15,7 @@ public class Class43
 			if ((class184.anInt2188 ^ 0xffffffff) != 0) {
 				GLSprite glsprite = (GLSprite) CacheNode_Sub12.aClass61_9556.method607((long) class184.anInt2188, i + -4923);
 				if (glsprite == null) {
-					Class383 class383 = Class383.method4194(Node_Sub38_Sub39.aClass302_10500, class184.anInt2188, 0);
+					Class383 class383 = Class383.method4194(Node_Sub38_Sub39.aCacheArchive_10500, class184.anInt2188, 0);
 					if (class383 != null) {
 						glsprite = Class93.aGraphicsToolkit1241.a(class383, true);
 						CacheNode_Sub12.aClass61_9556.method601(glsprite, i ^ 0x70e5, (long) class184.anInt2188);

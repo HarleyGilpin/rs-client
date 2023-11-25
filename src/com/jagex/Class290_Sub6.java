@@ -77,32 +77,32 @@ public class Class290_Sub6 extends Class290
 		}
 		if (Class118.anInt5405 == 1) {
 			GLToolkit.aClass298Array6403 = Class298.method3481(-125);
-			Class298.aClass298_3712.method3484(new Class108(Class176.aClass302_2102), i + -13627);
+			Class298.aClass298_3712.method3484(new Class108(Class176.aCacheArchive_2102), i + -13627);
 			Class298.aClass298_3715.method3484(new Class45("jaggl"), 1000);
 			Class298.aClass298_3716.method3484(new Class45("jagdx"), i + -13627);
 			Class298.aClass298_3717.method3484(new Class45("jagmisc"), 1000);
 			Class298.aClass298_3718.method3484(new Class45("sw3d"), 1000);
 			Class298.aClass298_3719.method3484(new Class45("hw3d"), 1000);
 			Class298.aClass298_3720.method3484(new Class45("jagtheora"), 1000);
-			Class298.aClass298_3721.method3484(new Class108(Class262_Sub2.aClass302_7707), i + -13627);
-			Class298.aClass298_3722.method3484(new Class108(Node_Sub38_Sub10.aClass302_10197), 1000);
-			Class298.aClass298_3723.method3484(new Class108(Class4.aClass302_122), i ^ 0x3acb);
-			Class298.aClass298_3724.method3484(new Class108(Class247.aClass302_3143), 1000);
-			Class298.aClass298_3725.method3484(new Class108(Class14.aClass302_219), i + -13627);
-			Class298.aClass298_3726.method3484(new Class108(Class174.aClass302_2093), 1000);
-			Class298.aClass298_3727.method3484(new Class108(Class205.aClass302_5104), i ^ 0x3acb);
-			Class298.aClass298_3728.method3484(new Class108(Class262_Sub23.aClass302_7886), i + -13627);
-			Class298.aClass298_3729.method3484(new Class108(Node_Sub15_Sub5.aClass302_9805), 1000);
-			Class298.aClass298_3730.method3484(new Class108(Class127.aClass302_1646), 1000);
-			Class298.aClass298_3731.method3484(new Class108(Node_Sub38_Sub4.aClass302_10116), 1000);
-			Class298.aClass298_3732.method3484(new Class108(Node_Sub18.aClass302_7150), 1000);
-			Class298.aClass298_3733.method3484(new Class108(CacheNode_Sub5.aClass302_9477), 1000);
-			Class298.aClass298_3734.method3484(new Class108(Class262_Sub3.aClass302_7715), 1000);
-			Class298.aClass298_3735.method3484(new Class258(Class250.aClass302_3179, "huffman"), 1000);
-			Class298.aClass298_3736.method3484(new Class108(Class293.aClass302_3681), 1000);
-			Class298.aClass298_3737.method3484(new Class108(Class21.aClass302_357), 1000);
-			Class298.aClass298_3738.method3484(new Class108(AnimableAnimator_Sub1.aClass302_9091), i + -13627);
-			Class298.aClass298_3739.method3484(new Class88(r_Sub1.aClass302_11047, "details"), 1000);
+			Class298.aClass298_3721.method3484(new Class108(Class262_Sub2.aCacheArchive_7707), i + -13627);
+			Class298.aClass298_3722.method3484(new Class108(Node_Sub38_Sub10.aCacheArchive_10197), 1000);
+			Class298.aClass298_3723.method3484(new Class108(Class4.aCacheArchive_122), i ^ 0x3acb);
+			Class298.aClass298_3724.method3484(new Class108(Class247.aCacheArchive_3143), 1000);
+			Class298.aClass298_3725.method3484(new Class108(Class14.aCacheArchive_219), i + -13627);
+			Class298.aClass298_3726.method3484(new Class108(Class174.aCacheArchive_2093), 1000);
+			Class298.aClass298_3727.method3484(new Class108(Class205.aCacheArchive_5104), i ^ 0x3acb);
+			Class298.aClass298_3728.method3484(new Class108(Class262_Sub23.aCacheArchive_7886), i + -13627);
+			Class298.aClass298_3729.method3484(new Class108(Node_Sub15_Sub5.aCacheArchive_9805), 1000);
+			Class298.aClass298_3730.method3484(new Class108(Class127.aCacheArchive_1646), 1000);
+			Class298.aClass298_3731.method3484(new Class108(Node_Sub38_Sub4.aCacheArchive_10116), 1000);
+			Class298.aClass298_3732.method3484(new Class108(Node_Sub18.aCacheArchive_7150), 1000);
+			Class298.aClass298_3733.method3484(new Class108(CacheNode_Sub5.aCacheArchive_9477), 1000);
+			Class298.aClass298_3734.method3484(new Class108(Class262_Sub3.aCacheArchive_7715), 1000);
+			Class298.aClass298_3735.method3484(new Class258(Class250.aCacheArchive_3179, "huffman"), 1000);
+			Class298.aClass298_3736.method3484(new Class108(Class293.aCacheArchive_3681), 1000);
+			Class298.aClass298_3737.method3484(new Class108(Class21.aCacheArchive_357), 1000);
+			Class298.aClass298_3738.method3484(new Class108(AnimableAnimator_Sub1.aCacheArchive_9091), i + -13627);
+			Class298.aClass298_3739.method3484(new Class88(r_Sub1.aCacheArchive_11047, "details"), 1000);
 			for (int i_2_ = 0; GLToolkit.aClass298Array6403.length > i_2_; i_2_++) {
 				if (GLToolkit.aClass298Array6403[i_2_].method3483((byte) -99) == null) {
 					throw new RuntimeException();

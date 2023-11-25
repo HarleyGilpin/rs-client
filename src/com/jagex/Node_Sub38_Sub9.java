@@ -153,8 +153,8 @@ public class Node_Sub38_Sub9 extends Node_Sub38
 		Class9.method184(-113);
 		for (int i = 0; i < 2048; i++)
 			Class270_Sub2.aPlayerArray8038[i] = null;
-		Node_Sub25_Sub3.anInt9987 = 0;
-		Class12.aHashTable187.method1517(false);
+		Node_Sub25_Sub3.NPC_UPDATE_INDEX = 0;
+		Class12.NPC_MAP.method1517(false);
 		Node_Sub32.anInt7380 = 0;
 		Class266.aHashTable3380.method1517(false);
 		Class368.method4080((byte) 125);
@@ -176,7 +176,7 @@ public class Node_Sub38_Sub9 extends Node_Sub38
 		aClass318_10184 = null;
 	}
 	
-	static final void method2822(Class302 class302, int i) {
+	static final void method2822(CacheArchive cacheArchive, int i) {
 		anInt10189++;
 		Packet.anInt9386 = i;
 		Animable_Sub3_Sub1.anInt11012 = 0;
@@ -185,8 +185,8 @@ public class Node_Sub38_Sub9 extends Node_Sub38
 		Class48.anEntityNode_Sub4Array694 = new EntityNode_Sub4[1 + Class107.anIntArray1359[Node_Sub39.anInt7498]];
 		Node_Sub28.anInt7327 = 0;
 		Class158.anInt1994 = 0;
-		Class373.method4106(true, class302);
-		Node_Sub36_Sub3.method2762(false, class302);
+		Class373.method4106(true, cacheArchive);
+		Node_Sub36_Sub3.method2762(false, cacheArchive);
 	}
 	
 	private final void method2823(int i, byte b, int i_13_, int i_14_) {
