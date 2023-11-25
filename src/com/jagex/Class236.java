@@ -1,5 +1,7 @@
 package com.jagex;
 
+import java.util.Calendar;
+
 public class Class236
 {
 	static int anInt2887;
@@ -42,7 +44,7 @@ public class Class236
 		anInt2900++;
 		if ((~i) == -2) {
 			anInt2893 = buffer.method2220(1819759595);
-			method3015(anInt2893, 127);
+			updateColorComponents(anInt2893, 127);
 		} else if ((~i) == -3) {
 			anInt2891 = buffer.method2219(-130546744);
 			if (anInt2891 == 65535) {
@@ -80,69 +82,92 @@ public class Class236
 		aBoolean2896 = true;
 	}
 	
-	private final void method3015(int i, int i_5_) {
+	private void updateColorComponents(int color, int threshold) {
 		anInt2889++;
-		double d = (double) ((0xffab7a & i) >> 16) / 256.0;
-		double d_6_ = (double) ((i & 0xff74) >> 8) / 256.0;
-		double d_7_ = (double) (0xff & i) / 256.0;
-		double d_8_ = d;
-		if (d_8_ > d_6_) {
-			d_8_ = d_6_;
+
+		double redComponent = extractColorComponent(color, 16);
+		double greenComponent = extractColorComponent(color, 8);
+		double blueComponent = extractColorComponent(color, 0);
+
+		double minComponent = Math.min(redComponent, Math.min(greenComponent, blueComponent));
+		double maxComponent = Math.max(redComponent, Math.max(greenComponent, blueComponent));
+
+		double hue = 0.0;
+		double saturation = 0.0;
+		double lightness = (minComponent + maxComponent) / 2.0;
+
+		if (minComponent != maxComponent) {
+			saturation = calculateSaturation(minComponent, maxComponent, lightness);
+			hue = calculateHue(redComponent, greenComponent, blueComponent, minComponent, maxComponent);
 		}
-		if (d_8_ > d_7_) {
-			d_8_ = d_7_;
+
+		anInt2897 = (int) (256.0 * saturation);
+		anInt2901 = (int) (lightness * 256.0);
+		anInt2890 = calculateAnInt2890(lightness, saturation);
+
+		if (isWinter()) {
+			anInt2901 = 255;
+			anInt2897 = 255;
 		}
-		double d_9_ = d;
-		if (d_6_ > d_9_) {
-			d_9_ = d_6_;
+
+		anInt2888 = (int) (hue * anInt2890);
+
+	}
+
+	private int calculateAnInt2890(double lightness, double saturation) {
+		if (lightness <= 0.5) {
+			return (int) (512.0 * (lightness * saturation));
+		} else {
+			return (int) (512.0 * ((1.0 - lightness) * saturation));
 		}
-		if (d_7_ > d_9_) {
-			d_9_ = d_7_;
+	}
+
+	private int clampTo255(int value) {
+		if (value < 0) {
+			return 0;
+		} else if (value > 255) {
+			return 255;
+		} else {
+			return value;
 		}
-		double d_10_ = 0.0;
-		double d_11_ = 0.0;
-		double d_12_ = (d_8_ + d_9_) / 2.0;
-		if (d_8_ != d_9_) {
-			if (d_12_ < 0.5) {
-				d_11_ = (d_9_ - d_8_) / (d_8_ + d_9_);
+	}
+
+	private boolean isWinter() {
+		Calendar calendar = Calendar.getInstance();
+		int month = calendar.get(Calendar.MONTH); // January = 0, December = 11
+		return month == Calendar.NOVEMBER || month == Calendar.DECEMBER;
+	}
+
+	private double calculateHue(double redComponent, double greenComponent, double blueComponent, double minComponent, double maxComponent) {
+		double hue = 0.0;
+		double delta = maxComponent - minComponent;
+
+		if (delta == 0) {
+			hue = 0; // achromatic
+		} else {
+			if (maxComponent == redComponent) {
+				hue = (greenComponent - blueComponent) / delta + (greenComponent < blueComponent ? 6 : 0);
+			} else if (maxComponent == greenComponent) {
+				hue = (blueComponent - redComponent) / delta + 2;
+			} else if (maxComponent == blueComponent) {
+				hue = (redComponent - greenComponent) / delta + 4;
 			}
-			if (d == d_9_) {
-				d_10_ = (-d_7_ + d_6_) / (-d_8_ + d_9_);
-			} else if (d_9_ != d_6_) {
-				if (d_9_ == d_7_) {
-					d_10_ = 4.0 + (d - d_6_) / (-d_8_ + d_9_);
-				}
-			} else {
-				d_10_ = (-d + d_7_) / (d_9_ - d_8_) + 2.0;
-			}
-			if (d_12_ >= 0.5) {
-				d_11_ = (-d_8_ + d_9_) / (2.0 - d_9_ - d_8_);
-			}
+			hue /= 6;
 		}
-		anInt2897 = (int) (256.0 * d_11_);
-		if (i_5_ >= 126) {
-			anInt2901 = (int) (d_12_ * 256.0);
-			d_10_ /= 6.0;
-			if (!(d_12_ > 0.5)) {
-				anInt2890 = (int) (512.0 * (d_12_ * d_11_));
-			} else {
-				anInt2890 = (int) (512.0 * ((1.0 - d_12_) * d_11_));
-			}
-			// TODO: ACTUAL: to remove snow, replace both -255 with regular 255 (remove - operator)
-			if ((~anInt2901) > -1) {
-				anInt2901 = 0;
-			} else if ((~anInt2901) > -255) {
-				anInt2901 = 255;
-			}
-			if ((~anInt2897) > -1) {
-				anInt2897 = 0;
-			} else if (anInt2897 > -255) {
-				anInt2897 = 255;
-			}
-			if ((~anInt2890) > -2) {
-				anInt2890 = 1;
-			}
-			anInt2888 = (int) (d_10_ * (double) anInt2890);
+		return hue;
+	}
+
+	private double extractColorComponent(int color, int shift) {
+		return ((color >> shift) & 0xff) / 256.0;
+	}
+
+	private double calculateSaturation(double minComponent, double maxComponent, double lightness) {
+		if (lightness < 0.5) {
+			return (maxComponent - minComponent) / (minComponent + maxComponent);
+		} else {
+			return (maxComponent - minComponent) / (2.0 - maxComponent - minComponent);
 		}
 	}
 }
+
+
