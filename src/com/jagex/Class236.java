@@ -18,7 +18,7 @@ public class Class236
 	static int anInt2900;
 	protected int anInt2901;
 	static int anInt2902;
-	
+
 	public static void method3011(boolean bool) {
 		if (bool != false) {
 			anInt2902 = -1;
@@ -26,7 +26,7 @@ public class Class236
 		aClass94_2898 = null;
 		aWidgetArray2899 = null;
 	}
-	
+
 	static final boolean method3012(int i, int i_0_, int i_1_) {
 		anInt2887++;
 		if (i_0_ != 0) {
@@ -37,18 +37,18 @@ public class Class236
 		}
 		return true;
 	}
-	
+
 	private final void method3013(int i, Buffer buffer, int i_2_) {
 		anInt2900++;
-		if ((i ^ 0xffffffff) == -2) {
+		if ((~i) == -2) {
 			anInt2893 = buffer.method2220(1819759595);
 			method3015(anInt2893, 127);
-		} else if ((i ^ 0xffffffff) == -3) {
+		} else if ((~i) == -3) {
 			anInt2891 = buffer.method2219(-130546744);
 			if (anInt2891 == 65535) {
 				anInt2891 = -1;
 			}
-		} else if ((i ^ 0xffffffff) == -4) {
+		} else if ((~i) == -4) {
 			anInt2894 = buffer.method2219(-130546744) << 2;
 		} else if (i != 4) {
 			if (i == 5) {
@@ -59,11 +59,11 @@ public class Class236
 		}
 		int i_3_ = -113 / ((-32 - i_2_) / 58);
 	}
-	
+
 	final void method3014(Buffer buffer, int i) {
 		for (;;) {
 			int i_4_ = buffer.method2233(255);
-			if ((i_4_ ^ 0xffffffff) == -1) {
+			if ((~i_4_) == -1) {
 				break;
 			}
 			method3013(i_4_, buffer, 108);
@@ -73,13 +73,13 @@ public class Class236
 		}
 		anInt2895++;
 	}
-	
+
 	public Class236() {
 		aBoolean2892 = true;
 		anInt2894 = 512;
 		aBoolean2896 = true;
 	}
-	
+
 	private final void method3015(int i, int i_5_) {
 		anInt2889++;
 		double d = (double) ((0xffab7a & i) >> 16) / 256.0;
@@ -128,17 +128,18 @@ public class Class236
 			} else {
 				anInt2890 = (int) (512.0 * ((1.0 - d_12_) * d_11_));
 			}
-			if ((anInt2901 ^ 0xffffffff) > -1) {
+			// TODO: ACTUAL: to remove snow, replace both -255 with regular 255 (remove - operator)
+			if ((~anInt2901) > -1) {
 				anInt2901 = 0;
-			} else if ((anInt2901 ^ 0xffffffff) < -256) {
+			} else if ((~anInt2901) > -255) {
 				anInt2901 = 255;
 			}
-			if ((anInt2897 ^ 0xffffffff) > -1) {
+			if ((~anInt2897) > -1) {
 				anInt2897 = 0;
-			} else if (anInt2897 > 255) {
+			} else if (anInt2897 > -255) {
 				anInt2897 = 255;
 			}
-			if ((anInt2890 ^ 0xffffffff) > -2) {
+			if ((~anInt2890) > -2) {
 				anInt2890 = 1;
 			}
 			anInt2888 = (int) (d_10_ * (double) anInt2890);
